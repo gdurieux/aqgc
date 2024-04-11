@@ -1,0 +1,207 @@
+
+M$GaugeGroups = {
+  U1Y  == { 
+    Abelian          -> True,  
+    CouplingConstant -> g1, 
+    GaugeBoson       -> B, 
+    Charge           -> Y
+  },
+  SU2L == { 
+    Abelian           -> False, 
+    CouplingConstant  -> gw, 
+    GaugeBoson        -> Wi, 
+    StructureConstant -> Eps, 
+    Representations   -> {Ta,SU2D}, 
+    Definitions       -> {Ta[a_,b_,c_]->PauliSigma[a,b,c]/2, FSU2L[i_,j_,k_]:> I Eps[i,j,k]}
+  },
+  SU3C == { 
+    Abelian           -> False, 
+    CouplingConstant  -> gs, 
+    GaugeBoson        -> G,
+    StructureConstant -> f, 
+    Representations   -> {T,Colour}, 
+    SymmetricTensor   -> dSUN
+  } 
+};
+
+
+(* ************************** *)
+(* *****    Indices     ***** *)
+(* ************************** *)
+
+IndexRange[Index[SU2W      ]] = Unfold[Range[3]]; 
+IndexRange[Index[SU2D      ]] = Unfold[Range[2]];
+IndexRange[Index[Gluon     ]] = NoUnfold[Range[8]];
+IndexRange[Index[Colour    ]] = NoUnfold[Range[3]]; 
+IndexRange[Index[Generation]] = Range[3];
+
+IndexStyle[SU2W,       j];
+IndexStyle[SU2D,       k];
+IndexStyle[Gluon,      a];
+IndexStyle[Colour,     m];
+IndexStyle[Generation, f];
+
+
+(* ************************** *)
+(* *** Interaction orders *** *)
+(* ***  (as used by mg5)  *** *)
+(* ************************** *)
+
+M$InteractionOrderHierarchy = {
+  {QCD, 1},
+  {QED, 2}
+};
+
+
+(* ************************** *)
+(* **** Particle classes **** *)
+(* ************************** *)
+M$ClassesDescription = {
+
+  V[4] == {
+    ClassName        -> G,
+    SelfConjugate    -> True,
+    Indices          -> {Index[Gluon]},
+    Mass             -> 0,
+    Width            -> 0,
+    ParticleName     -> "g", 
+    PDG              -> 21,
+    PropagatorLabel  -> "G",
+    PropagatorType   -> C,
+    PropagatorArrow  -> None,
+    FullName         -> "G"
+  },
+
+(* Gauge bosons: unphysical vector fields *)
+  V[11] == { 
+    ClassName     -> B, 
+    Unphysical    -> False, 
+    SelfConjugate -> True,
+	Mass -> 0,
+	Width -> 0,
+	PDG -> 23
+  },
+  V[12] == { 
+    ClassName     -> Wi,
+    Unphysical    -> False,
+    SelfConjugate -> True, 
+    Indices       -> {Index[SU2W]},
+    FlavorIndex   -> SU2W,
+	Mass -> 0,
+	Width -> 0,
+	PDG -> 24
+  },
+
+(* Fermions: unphysical fields *)
+  F[11] == { 
+    ClassName      -> LL, 
+    Unphysical     -> False, 
+    Indices        -> {Index[SU2D], Index[Generation]},
+    FlavorIndex    -> SU2D,
+    SelfConjugate  -> False,
+    QuantumNumbers -> {Y -> -1/2},
+	Mass -> 0,
+	Width -> 0,
+	PDG -> 11
+  },
+  F[12] == { 
+    ClassName      -> lR, 
+    Unphysical     -> False, 
+    Indices        -> {Index[Generation]},
+    FlavorIndex    -> Generation,
+    SelfConjugate  -> False,
+    QuantumNumbers -> {Y -> -1},
+	Mass -> 0,
+	Width -> 0,
+	PDG -> 12
+  },
+  F[13] == { 
+    ClassName      -> QL, 
+    Unphysical     -> False, 
+    Indices        -> {Index[SU2D], Index[Generation], Index[Colour]},
+    FlavorIndex    -> SU2D,
+    SelfConjugate  -> False,
+    QuantumNumbers -> {Y -> 1/6},
+	Mass -> 0,
+	Width -> 0,
+	PDG -> 1
+  },
+  F[14] == { 
+    ClassName      -> uR, 
+    Unphysical     -> False, 
+    Indices        -> {Index[Generation], Index[Colour]},
+    FlavorIndex    -> Generation,
+    SelfConjugate  -> False,
+    QuantumNumbers -> {Y -> 2/3},
+	Mass -> 0,
+	Width -> 0,
+	PDG -> 2
+  },
+  F[15] == { 
+    ClassName      -> dR, 
+    Unphysical     -> False, 
+    Indices        -> {Index[Generation], Index[Colour]},
+    FlavorIndex    -> Generation,
+    SelfConjugate  -> False,
+    QuantumNumbers -> {Y -> -1/3},
+	Mass -> 0,
+	Width -> 0,
+	PDG -> 3
+  },
+
+(* Higgs: unphysical scalars  *)
+  S[11] == { 
+    ClassName      -> Phi, 
+    Unphysical     -> False, 
+    Indices        -> {Index[SU2D]},
+    FlavorIndex    -> SU2D,
+    SelfConjugate  -> False,
+    QuantumNumbers -> {Y -> 1/2},
+	Mass -> 0,
+	Width -> 0,
+	PDG -> 25
+	}
+};
+
+
+M$Parameters = {
+  gw == { 
+    ParameterType    -> Internal, 
+    Definitions      -> {gw->ee/sw}, 
+    InteractionOrder -> {QED,1},  
+    TeX              -> Subscript[g,w], 
+    Description      -> "Weak coupling constant at the Z pole"
+  },
+  g1 == { 
+    ParameterType    -> Internal, 
+    Definitions      -> {g1->ee/cw}, 
+    InteractionOrder -> {QED,1},  
+    TeX              -> Subscript[g,1], 
+    Description      -> "U(1)Y coupling constant at the Z pole"
+  },
+  gs == { 
+    ParameterType    -> Internal, 
+    Value            -> Sqrt[4 Pi aS],
+    InteractionOrder -> {QCD,1},  
+    TeX              -> Subscript[g,s], 
+    ParameterName    -> G,
+    Description      -> "Strong coupling constant at the Z pole"
+  },
+
+(************************** SU(2) structures ****************************)
+	tau == { 
+	ParameterType -> External,
+	BlockName -> su2,
+	Indices       -> {Index[SU2W], Index[SU2D], Index[SU2D]},
+	TeX         -> tau,
+	InteractionOrder -> {},
+	Description -> "pauli matrix"},
+
+	eps == { 
+	ParameterType -> External,
+	BlockName -> su2,
+	Indices       -> {Index[SU2W], Index[SU2W], Index[SU2W]},
+	TeX         -> eps,
+	InteractionOrder -> {},
+	Description -> "eps tensor"}
+}

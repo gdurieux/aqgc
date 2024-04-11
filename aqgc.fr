@@ -1,0 +1,403 @@
+(****************************)
+(******  Information   ******)
+(****************************)
+M$ModelName = "aQGC";
+
+M$Information = {
+	Authors      -> {"G. Durieux"},
+	Version      -> DateString[],
+	Date         -> DateString[],
+	Institutions -> {"UCLouvain"},
+	Emails       -> {"gauthier.durieux@uclo...in.be"},
+	URLs         -> {"https://github.com/gdurieux/aqgc"}
+};
+
+
+(************************************************************)
+(****************** AQGC couplings **************************)
+(************************************************************)
+M$Parameters = {
+
+(*bash:
+ODD="odd" ; M="M"; for i in `seq 10`; do echo "c$M$i$ODD == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},"; done
+*)
+
+	(***********************)
+	(*** S-type, CP-even ***)
+	(***********************)
+	cS1 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cS2 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cS3 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	
+	(***********************)
+	(*** M-type, CP-even ***)
+	(***********************)
+	cM1 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cM2 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cM3 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cM4 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cM5 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cM6 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cM7 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cM8 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cM9 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	
+
+	(***********************)
+	(*** T-type, CP-even ***)
+	(***********************)
+	cT1 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT2 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT3 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT4 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT5 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT6 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT7 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT8 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT9 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT10 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+		
+	(**********************)
+	(*** M-type, CP-odd ***)
+	(**********************)
+	cM1odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cM2odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cM3odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cM4odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cM5odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cM6odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+
+	(**********************)
+	(*** T-type, CP-odd ***)
+	(**********************)
+	cT1odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT2odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT3odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT4odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT5odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+	cT6odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 1.0},
+
+
+
+(*bash:
+M="S"; for i in `seq 0 10`; do echo "e$M$i == { ParameterType -> External, BlockName -> aqgce, TeX -> e$M$i, InteractionOrder -> {NPE, 1}, Value -> 0., Description -> \"e$M$i\"},"; done
+*)
+
+	(********************)
+	(*** Eboli et al. ***)
+	(********************)
+	eS0 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eS1 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eS2 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	
+	eM0 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eM1 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eM2 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eM3 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eM4 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eM5 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eM6 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eM7 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	
+	eT0 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eT1 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eT2 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eT3 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eT4 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eT5 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eT6 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eT7 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eT8 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0},
+	eT9 == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NPE, 1}, Value -> 0.0}
+
+};
+
+
+LagAQGC := Block[{mu,nu,rh,si,al,be,ga,de,aa,bb,cc,ii,jj,kk},{
+(*************************)
+(**** S type, CP-even ****)
+(*************************)
+(*** H⁴D⁴ ***)
+	cS1 *
+	DC[Phibar[aa],mu] DC[Phi[aa],nu] *
+	DC[Phibar[bb],nu] DC[Phi[bb],mu]
+,
+	cS2 *
+	DC[Phibar[aa],mu] DC[Phi[aa],nu] *
+	DC[Phibar[bb],mu] DC[Phi[bb],nu]
+,
+	cS3 *
+	DC[Phibar[aa],mu] DC[Phi[aa],mu] *
+	DC[Phibar[bb],nu] DC[Phi[bb],nu]
++
+(*************************)
+(**** M type, CP-even ****)
+(*************************)
+(*** B²H²D² ***)
+	cM1 *
+	DC[Phibar[aa],mu] DC[Phi[aa],nu] *
+	FS[B,mu,rh] FS[B,nu,rh]
+,
+	cM2 *
+	DC[Phibar[aa],mu] DC[Phi[aa],mu] *
+	FS[B,nu,rh] FS[B,nu,rh]
+,
+(*** WBH²D² ***)
+	cM3 *
+	DC[Phibar[aa],mu] DC[Phi[bb],mu] *
+	FS[B,nu,rh] FS[Wi,nu,rh,ii] *
+	tau[ii,aa,bb]
+,
+	cM4 *
+	I *
+	DC[Phibar[aa],mu] DC[Phi[bb],nu] *
+	( FS[B,mu,rh] * 1/2 Eps[nu,rh,al,be] FS[Wi,al,be,ii]
+	- FS[B,nu,rh] * 1/2 Eps[mu,rh,al,be] FS[Wi,al,be,ii] ) *
+	tau[ii,aa,bb]
+,
+	cM5 *
+	DC[Phibar[aa],mu] DC[Phi[bb],nu] *
+	( FS[B,mu,rh] FS[Wi,nu,rh,ii]
+	+ FS[B,nu,rh] FS[Wi,mu,rh,ii]
+	) * tau[ii,aa,bb]
++
+(*** W²H²D² ***)
+	cM6 *
+	DC[Phibar[aa],mu] DC[Phi[aa],nu] *
+	FS[Wi,mu,rh,ii] FS[Wi,nu,rh,ii]
+,
+	cM7 *
+	DC[Phibar[aa],mu] DC[Phi[aa],mu] *
+	FS[Wi,nu,rh,ii] FS[Wi,nu,rh,ii]
+,
+	cM8 *
+	I *
+	eps[ii,jj,kk] *
+	DC[Phibar[aa],mu] DC[Phi[bb],nu] *
+	FS[Wi,mu,rh,jj] FS[Wi,nu,rh,kk] *
+	tau[ii,aa,bb]
+,
+	cM9  *
+	eps[ii,jj,kk] *
+	DC[Phibar[aa],mu] DC[Phi[bb],nu] *
+	( FS[Wi,mu,rh,jj] * 1/2 Eps[nu,rh,al,be] FS[Wi,al,be,kk]
+	- 1/2 Eps[mu,rh,al,be] FS[Wi,al,be,jj] * FS[Wi,nu,rh,kk] ) *
+	tau[ii,aa,bb]
+,
+(*************************)
+(**** T type, CP-even ****)
+(*************************)
+(*** B⁴ ***)
+	cT1 *
+	FS[B,mu,nu] FS[B,mu,nu] *
+	FS[B,rh,si] FS[B,rh,si]
+,
+	cT2 *
+	FS[B,mu,nu] * 1/2 Eps[mu,nu,al,be] FS[B,al,be] *
+	FS[B,rh,si] * 1/2 Eps[rh,si,ga,de] FS[B,ga,de]
+,
+(*** B²W² ***)
+	cT3 *
+	FS[B,mu,nu] FS[B,mu,nu] *
+	FS[Wi,rh,si,ii] FS[Wi,rh,si,ii]
+,
+	cT4 *
+	FS[B,mu,nu] * 1/2 Eps[mu,nu,al,be] FS[B,al,be] *
+	FS[Wi,rh,si,ii] * 1/2 Eps[rh,si,ga,de] FS[Wi,ga,de,ii]
+,
+	cT5 *
+	FS[B,mu,nu] FS[Wi,mu,nu,ii] *
+	FS[B,rh,si] FS[Wi,rh,si,ii]
+,
+	cT6 *
+	FS[B,mu,nu] * 1/2 Eps[mu,nu,al,be] FS[Wi,al,be,ii] *
+	FS[B,rh,si] * 1/2 Eps[rh,si,ga,de] FS[Wi,ga,de,ii]
++
+(*** W⁴ ***)
+	cT7 *
+	FS[Wi,mu,nu,ii] FS[Wi,mu,nu,ii] *
+	FS[Wi,rh,si,jj] FS[Wi,rh,si,jj]
+,
+	cT8 *
+	FS[Wi,mu,nu,ii] * 1/2 Eps[mu,nu,al,be] FS[Wi,al,be,ii] *
+	FS[Wi,rh,si,jj] * 1/2 Eps[rh,si,ga,de] FS[Wi,ga,de,jj]
+,
+	cT9 *
+	FS[Wi,mu,nu,ii] FS[Wi,mu,nu,jj] *
+	FS[Wi,rh,si,ii] FS[Wi,rh,si,jj]
+,
+	cT10 *
+	FS[Wi,mu,nu,ii] * 1/2 Eps[mu,nu,al,be] FS[Wi,al,be,jj] *
+	FS[Wi,rh,si,ii] * 1/2 Eps[rh,si,ga,de] FS[Wi,ga,de,jj]
++
+(************************)
+(**** M type, CP-odd ****)
+(************************)
+(*** B²H²D² ***)
+	cM1odd *
+	DC[Phibar[aa],mu] DC[Phi[aa],mu] *
+	( FS[B,nu,rh] * 1/2 Eps[nu,rh,al,be] FS[B,al,be] )
+,
+(*** WBH²D² ***)
+	cM2odd * 
+	DC[Phibar[aa],mu] DC[Phi[bb],mu] *
+	( FS[B,nu,rh] * 1/2 Eps[nu,rh,al,be] FS[Wi,al,be,ii] ) *
+	tau[ii,aa,bb]
+,
+	cM3odd *
+	I *
+	DC[Phibar[aa],mu] DC[Phi[bb],nu] *
+	( FS[B,mu,rh] FS[Wi,nu,rh,ii]
+	- FS[B,nu,rh] FS[Wi,mu,rh,ii]
+	) * tau[ii,aa,bb]
+,
+	cM4odd * 
+	DC[Phibar[aa],mu] DC[Phi[bb],nu] *
+	( FS[B,mu,rh] * 1/2 Eps[nu,rh,al,be] FS[Wi,al,be,ii]
+	+ FS[B,nu,rh] * 1/2 Eps[mu,rh,al,be] FS[Wi,al,be,ii]
+	) * tau[ii,aa,bb]
+,
+(*** W²H²D² ***)
+	cM5odd * 
+	DC[Phibar[aa],mu] DC[Phi[aa],mu] *
+	( FS[Wi,nu,rh,ii] * 1/2 Eps[nu,rh,al,be] FS[Wi,al,be,ii] )
+,
+	cM6odd *
+	I *
+	eps[ii,jj,kk] *
+	DC[Phibar[aa],mu] DC[Phi[bb],nu] *
+	( FS[Wi,mu,rh,jj] * 1/2 Eps[nu,rh,al,be] FS[Wi,al,be,kk]
+	+ 1/2 Eps[mu,rh,al,be] FS[Wi,al,be,jj] * FS[Wi,nu,rh,kk] ) *
+	tau[ii,aa,bb]
+,
+(************************)
+(**** T type, CP-odd ****)
+(************************)
+(*** B⁴ ***)
+	cT1odd *
+	FS[B,mu,nu] FS[B,mu,nu] *
+	FS[B,rh,si] * 1/2 Eps[rh,si,al,be] FS[B,al,be]
+,
+(*** B²W² ***)
+	cT2odd *
+	FS[B,mu,nu] * 1/2 Eps[mu,nu,al,be] FS[B,al,be] *
+	FS[Wi,rh,si,ii] FS[Wi,rh,si,ii]
+,
+	cT3odd *
+	FS[B,mu,nu] * FS[B,mu,nu] *
+	FS[Wi,rh,si,ii] * 1/2 Eps[rh,si,al,be] FS[Wi,al,be,ii]
+,
+	cT4odd *
+	FS[B,mu,nu] * FS[Wi,mu,nu,ii] *
+	FS[B,rh,si] * 1/2 Eps[rh,si,al,be] FS[Wi,al,be,ii]
+,
+(*** W⁴ ***)
+	cT5odd *
+	FS[Wi,mu,nu,ii] FS[Wi,mu,nu,ii] *
+	FS[Wi,rh,si,jj] * 1/2 Eps[rh,si,al,be] FS[Wi,al,be,jj]
+,
+	cT6odd *
+	FS[Wi,mu,nu,ii] FS[Wi,mu,nu,jj] *
+	FS[Wi,rh,si,ii] * 1/2 Eps[rh,si,al,be] FS[Wi,al,be,jj]
+}];
+
+
+
+
+(********************)
+(*** Eboli et al. ***)
+(********************)
+
+LagAQGCEboliEtAl := Block[{mu,nu,rh,si,al,be,ga,de,aa,bb,cc,ii,jj,kk},{
+(*** H⁴D⁴ ***)
+	eS0 *
+	DC[Phibar[aa],mu] DC[Phi[aa],nu] *
+	DC[Phibar[bb],mu] DC[Phi[bb],nu]
+,
+	eS1 *
+	DC[Phibar[aa],mu] DC[Phi[aa],mu] *
+	DC[Phibar[bb],nu] DC[Phi[bb],nu]
+,
+	eS2 *
+	DC[Phibar[aa],mu] DC[Phi[aa],nu] *
+	DC[Phibar[bb],nu] DC[Phi[bb],mu]
+,
+(*** W²H²D² ***)
+	eM0 *
+	DC[Phibar[aa],be] DC[Phi[aa],be] *
+	FS[Wi,mu,nu,ii] FS[Wi,mu,nu,ii] /2
+,
+	eM1 *
+	DC[Phibar[aa],be] DC[Phi[aa],mu] *
+	FS[Wi,mu,nu,ii] FS[Wi,nu,be,ii] /2
+,
+	eM7 *
+	DC[Phibar[aa],mu] DC[Phi[cc],nu] *
+	FS[Wi,be,nu,ii] FS[Wi,be,mu,jj] *
+	tau[ii,aa,bb] * tau[jj,bb,cc]
++
+(*** B²H²D² ***)
+	eM2 *
+	DC[Phibar[aa],be] DC[Phi[aa],be] *
+	FS[B,mu,nu] FS[B,mu,nu]
+,
+	eM3 *
+	DC[Phibar[aa],be] DC[Phi[aa],mu] *
+	FS[B,mu,nu] FS[B,nu,be]
+,
+(*** WBH²D² ***)
+	eM4 *
+	DC[Phibar[aa],mu] DC[Phi[bb],mu] *
+	FS[B,be,nu] FS[Wi,be,nu,ii] *
+	tau[ii,aa,bb]
+,
+	eM5 *
+	DC[Phibar[aa],mu] DC[Phi[bb],nu] *
+	( FS[B,be,mu] FS[Wi,be,nu,ii]
+	+ FS[B,be,nu] FS[Wi,be,mu,ii]
+	) * tau[ii,aa,bb]
+,
+(*** W⁴ ***)
+	eT0 *
+	FS[Wi,mu,nu,ii] FS[Wi,mu,nu,ii] /2 *
+	FS[Wi,al,be,jj] FS[Wi,al,be,jj] /2
+,
+	eT1 *
+	FS[Wi,al,nu,ii] FS[Wi,mu,be,ii] /2 *
+	FS[Wi,mu,be,jj] FS[Wi,al,nu,jj] /2
+,
+	eT2 *
+	FS[Wi,al,mu,ii] FS[Wi,mu,be,ii] /2 *
+	FS[Wi,be,nu,jj] FS[Wi,nu,al,jj] /2
+,
+	eT3 *
+	FS[Wi,mu,nu,ii] FS[Wi,al,be,ii] /2 *
+	FS[Wi,al,nu,jj] FS[Wi,mu,be,jj] /2
+,
+(*** B²W² ***)
+	eT4 *
+	FS[Wi,mu,nu,ii] FS[Wi,al,be,ii] /2 *
+	FS[B,al,nu] FS[B,mu,be]
+,
+	eT5 *
+	FS[Wi,mu,nu,ii] FS[Wi,mu,nu,ii] /2 *
+	FS[B,al,be] FS[B,al,be]
+,
+	eT6 *
+	FS[Wi,al,nu,ii] FS[Wi,mu,be,ii] /2 *
+	FS[B,mu,be] FS[B,al,nu]
+,
+	eT7 *
+	FS[Wi,al,mu,ii] FS[Wi,mu,be,ii] /2 *
+	FS[B,be,nu] FS[B,nu,al]
+,
+(*** B⁴ ***)
+	eT8 *
+	FS[B,mu,nu] FS[B,mu,nu] *
+	FS[B,al,be] FS[B,al,be]
+,
+	eT9 *
+	FS[B,al,mu] FS[B,mu,be] *
+	FS[B,be,nu] FS[B,nu,al]
+}];
+

@@ -1,0 +1,16 @@
+
+M$Parameters = {
+
+(************************** SU(2) structures ****************************)
+	tau == { 
+	ParameterType	-> Internal,
+	Indices	-> {Index[SU2W], Index[SU2D], Index[SU2D]},
+	Definitions	-> {tau[ii_,aa_,bb_] :> PauliSigma[ii,aa,bb]/2},
+	Description	-> "pauli matrix"},
+
+	eps == { 
+	ParameterType	-> Internal,
+	Indices	-> {Index[SU2W], Index[SU2W], Index[SU2W]},
+	Definitions	-> {eps[ii_,jj_,kk_] :> Eps[ii,jj,kk]},
+	Description	-> "eps tensor"}
+}
