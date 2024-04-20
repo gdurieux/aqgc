@@ -33,7 +33,7 @@ LoadRestriction[ToFileName[$FeynRulesPath,"Models/SM/Massless.rst"]]
 
 (** SM vertices **)
 Print["--- SM vertices" ];
-filename = ToFileName[mydir,"vertices","sm_vertices.txt"];
+filename = mydir<>"/vertices/sm_vertices.txt";
 If[	FileExistsQ[filename],
 	Print["--- Feynman rules already stored for the SM"];,
 	smvertices = FeynmanRules[
@@ -53,7 +53,7 @@ Print["--- " <> ToString[n] <> " operators in the Lagrangian"]
 
 
 (** n-point **)
-ptmax = 5;
+ptmax = 8;
 For[ pt = 4, pt<=ptmax, pt++,
 Print["--- Including " <> ToString[pt] <> " point vertices"]; 
 suffix = "_" <> ToString[pt] <> "pt";
@@ -61,7 +61,7 @@ suffix = "_" <> ToString[pt] <> "pt";
 (** compute and save Feynman rules, if not already stored **)
 vertices = {};
 For[i = 1, i <= n, i++,
-	filename = ToFileName[mydir,"vertices","aqgc_vertices_"<>ToString[i]<>suffix<>".txt"];
+	filename = mydir<>"/vertices/aqgc_vertices_"<>ToString[i]<>suffix<>".txt";
 	If[	FileExistsQ[filename],
 		Print["--- Feynman rules already stored for operator number " <> ToString[i]];
 		Continue[];
@@ -84,7 +84,7 @@ vertices = smvertices;
 For[ pt = 4, pt<=ptmax, pt++, 
 suffix = "_" <> ToString[pt] <> "pt";
 For[i = 1, i <= n, i++,
-	filename = ToFileName[mydir,"vertices","aqgc_vertices_"<>ToString[i]<>suffix<>".txt"];
+	filename = mydir<>"/vertices/aqgc_vertices_"<>ToString[i]<>suffix<>".txt";
 	vertex = ReadList[ filename ] ;
 	vertices = Join[vertices,vertex];
 ];

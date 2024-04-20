@@ -1,7 +1,7 @@
 from __future__ import absolute_import
 # This file was automatically created by FeynRules 2.3.49
 # Mathematica version: 13.2.0 for Linux x86 (64-bit) (November 18, 2022)
-# Date: Thu 11 Apr 2024 09:37:34
+# Date: Fri 19 Apr 2024 15:40:24
 
 
 from .object_library import all_orders, CouplingOrder
