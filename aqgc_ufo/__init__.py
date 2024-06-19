@@ -1,15 +1,14 @@
-from __future__ import absolute_import
 
-from . import particles
-from . import couplings
-from . import lorentz
-from . import parameters
-from . import vertices
-from . import coupling_orders
+import particles
+import couplings
+import lorentz
+import parameters
+import vertices
+import coupling_orders
 #import write_param_card
-from . import propagators
-from . import object_library
-from . import function_library
+import propagators
+import object_library
+import function_library
 
 
 all_particles = particles.all_particles
@@ -47,5 +46,5 @@ gauge = [0]
 
 
 __author__ = "G. Durieux"
-__date__ = "Fri 19 Apr 2024 15:06:22"
-__version__= "Fri 19 Apr 2024 15:06:22"
+__date__ = "Tue 18 Jun 2024 21:01:36"
+__version__= "Tue 18 Jun 2024 21:01:36"

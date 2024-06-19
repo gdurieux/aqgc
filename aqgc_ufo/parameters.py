@@ -1,14 +1,13 @@
-from __future__ import absolute_import
 # This file was automatically created by FeynRules 2.3.49
-# Mathematica version: 13.2.0 for Linux x86 (64-bit) (November 18, 2022)
-# Date: Fri 19 Apr 2024 15:40:09
+# Mathematica version: 12.1.0 for Linux x86 (64-bit) (March 18, 2020)
+# Date: Wed 19 Jun 2024 14:43:33
 
 
 
-from .object_library import all_parameters, Parameter
+from object_library import all_parameters, Parameter
 
 
-from .function_library import complexconjugate, re, im, csc, sec, acsc, asec, cot
+from function_library import complexconjugate, re, im, csc, sec, acsc, asec, cot
 
 # This is a default parameter object representing 0.
 ZERO = Parameter(name = 'ZERO',
@@ -18,445 +17,277 @@ ZERO = Parameter(name = 'ZERO',
                  texname = '0')
 
 # User-defined parameters.
-cS1 = Parameter(name = 'cS1',
+FS0 = Parameter(name = 'FS0',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cS1}',
+                value = 0.,
+                texname = '\\text{FS0}',
                 lhablock = 'aqgc',
                 lhacode = [ 1 ])
 
-cS2 = Parameter(name = 'cS2',
+FS1 = Parameter(name = 'FS1',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cS2}',
+                value = 0.,
+                texname = '\\text{FS1}',
                 lhablock = 'aqgc',
                 lhacode = [ 2 ])
 
-cS3 = Parameter(name = 'cS3',
+FS2 = Parameter(name = 'FS2',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cS3}',
+                value = 0.,
+                texname = '\\text{FS2}',
                 lhablock = 'aqgc',
                 lhacode = [ 3 ])
 
-cM1 = Parameter(name = 'cM1',
+FM0 = Parameter(name = 'FM0',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cM1}',
+                value = 0.,
+                texname = '\\text{FM0}',
                 lhablock = 'aqgc',
                 lhacode = [ 4 ])
 
-cM2 = Parameter(name = 'cM2',
+FM1 = Parameter(name = 'FM1',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cM2}',
+                value = 0.,
+                texname = '\\text{FM1}',
                 lhablock = 'aqgc',
                 lhacode = [ 5 ])
 
-cM3 = Parameter(name = 'cM3',
+FM2 = Parameter(name = 'FM2',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cM3}',
+                value = 0.,
+                texname = '\\text{FM2}',
                 lhablock = 'aqgc',
                 lhacode = [ 6 ])
 
-cM4 = Parameter(name = 'cM4',
+FM3 = Parameter(name = 'FM3',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cM4}',
+                value = 0.,
+                texname = '\\text{FM3}',
                 lhablock = 'aqgc',
                 lhacode = [ 7 ])
 
-cM5 = Parameter(name = 'cM5',
+FM4 = Parameter(name = 'FM4',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cM5}',
+                value = 0.,
+                texname = '\\text{FM4}',
                 lhablock = 'aqgc',
                 lhacode = [ 8 ])
 
-cM6 = Parameter(name = 'cM6',
+FM5 = Parameter(name = 'FM5',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cM6}',
+                value = 0.,
+                texname = '\\text{FM5}',
                 lhablock = 'aqgc',
                 lhacode = [ 9 ])
 
-cM7 = Parameter(name = 'cM7',
+FM7 = Parameter(name = 'FM7',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cM7}',
+                value = 0.,
+                texname = '\\text{FM7}',
                 lhablock = 'aqgc',
                 lhacode = [ 10 ])
 
-cM8 = Parameter(name = 'cM8',
+FM8 = Parameter(name = 'FM8',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cM8}',
+                value = 0.,
+                texname = '\\text{FM8}',
                 lhablock = 'aqgc',
                 lhacode = [ 11 ])
 
-cM9 = Parameter(name = 'cM9',
+FM9 = Parameter(name = 'FM9',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cM9}',
+                value = 0.,
+                texname = '\\text{FM9}',
                 lhablock = 'aqgc',
                 lhacode = [ 12 ])
 
-cT1 = Parameter(name = 'cT1',
+FT0 = Parameter(name = 'FT0',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cT1}',
+                value = 0.,
+                texname = '\\text{FT0}',
                 lhablock = 'aqgc',
                 lhacode = [ 13 ])
 
-cT2 = Parameter(name = 'cT2',
+FT1 = Parameter(name = 'FT1',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cT2}',
+                value = 0.,
+                texname = '\\text{FT1}',
                 lhablock = 'aqgc',
                 lhacode = [ 14 ])
 
-cT3 = Parameter(name = 'cT3',
+FT2 = Parameter(name = 'FT2',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cT3}',
+                value = 0.,
+                texname = '\\text{FT2}',
                 lhablock = 'aqgc',
                 lhacode = [ 15 ])
 
-cT4 = Parameter(name = 'cT4',
+FT3 = Parameter(name = 'FT3',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cT4}',
+                value = 0.,
+                texname = '\\text{FT3}',
                 lhablock = 'aqgc',
                 lhacode = [ 16 ])
 
-cT5 = Parameter(name = 'cT5',
+FT4 = Parameter(name = 'FT4',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cT5}',
+                value = 0.,
+                texname = '\\text{FT4}',
                 lhablock = 'aqgc',
                 lhacode = [ 17 ])
 
-cT6 = Parameter(name = 'cT6',
+FT5 = Parameter(name = 'FT5',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cT6}',
+                value = 0.,
+                texname = '\\text{FT5}',
                 lhablock = 'aqgc',
                 lhacode = [ 18 ])
 
-cT7 = Parameter(name = 'cT7',
+FT6 = Parameter(name = 'FT6',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cT7}',
+                value = 0.,
+                texname = '\\text{FT6}',
                 lhablock = 'aqgc',
                 lhacode = [ 19 ])
 
-cT8 = Parameter(name = 'cT8',
+FT7 = Parameter(name = 'FT7',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cT8}',
+                value = 0.,
+                texname = '\\text{FT7}',
                 lhablock = 'aqgc',
                 lhacode = [ 20 ])
 
-cT9 = Parameter(name = 'cT9',
+FT8 = Parameter(name = 'FT8',
                 nature = 'external',
                 type = 'real',
-                value = 1.,
-                texname = '\\text{cT9}',
+                value = 0.,
+                texname = '\\text{FT8}',
                 lhablock = 'aqgc',
                 lhacode = [ 21 ])
 
-cT10 = Parameter(name = 'cT10',
-                 nature = 'external',
-                 type = 'real',
-                 value = 1.,
-                 texname = '\\text{cT10}',
-                 lhablock = 'aqgc',
-                 lhacode = [ 22 ])
+FT9 = Parameter(name = 'FT9',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{FT9}',
+                lhablock = 'aqgc',
+                lhacode = [ 22 ])
 
-cM1odd = Parameter(name = 'cM1odd',
+FM1odd = Parameter(name = 'FM1odd',
                    nature = 'external',
                    type = 'real',
-                   value = 1.,
-                   texname = '\\text{cM1odd}',
+                   value = 0.,
+                   texname = '\\text{FM1odd}',
                    lhablock = 'aqgc',
                    lhacode = [ 23 ])
 
-cM2odd = Parameter(name = 'cM2odd',
+FM2odd = Parameter(name = 'FM2odd',
                    nature = 'external',
                    type = 'real',
-                   value = 1.,
-                   texname = '\\text{cM2odd}',
+                   value = 0.,
+                   texname = '\\text{FM2odd}',
                    lhablock = 'aqgc',
                    lhacode = [ 24 ])
 
-cM3odd = Parameter(name = 'cM3odd',
+FM3odd = Parameter(name = 'FM3odd',
                    nature = 'external',
                    type = 'real',
-                   value = 1.,
-                   texname = '\\text{cM3odd}',
+                   value = 0.,
+                   texname = '\\text{FM3odd}',
                    lhablock = 'aqgc',
                    lhacode = [ 25 ])
 
-cM4odd = Parameter(name = 'cM4odd',
+FM4odd = Parameter(name = 'FM4odd',
                    nature = 'external',
                    type = 'real',
-                   value = 1.,
-                   texname = '\\text{cM4odd}',
+                   value = 0.,
+                   texname = '\\text{FM4odd}',
                    lhablock = 'aqgc',
                    lhacode = [ 26 ])
 
-cM5odd = Parameter(name = 'cM5odd',
+FM5odd = Parameter(name = 'FM5odd',
                    nature = 'external',
                    type = 'real',
-                   value = 1.,
-                   texname = '\\text{cM5odd}',
+                   value = 0.,
+                   texname = '\\text{FM5odd}',
                    lhablock = 'aqgc',
                    lhacode = [ 27 ])
 
-cM6odd = Parameter(name = 'cM6odd',
+FM6odd = Parameter(name = 'FM6odd',
                    nature = 'external',
                    type = 'real',
-                   value = 1.,
-                   texname = '\\text{cM6odd}',
+                   value = 0.,
+                   texname = '\\text{FM6odd}',
                    lhablock = 'aqgc',
                    lhacode = [ 28 ])
 
-cT1odd = Parameter(name = 'cT1odd',
+FT1odd = Parameter(name = 'FT1odd',
                    nature = 'external',
                    type = 'real',
-                   value = 1.,
-                   texname = '\\text{cT1odd}',
+                   value = 0.,
+                   texname = '\\text{FT1odd}',
                    lhablock = 'aqgc',
                    lhacode = [ 29 ])
 
-cT2odd = Parameter(name = 'cT2odd',
+FT2odd = Parameter(name = 'FT2odd',
                    nature = 'external',
                    type = 'real',
-                   value = 1.,
-                   texname = '\\text{cT2odd}',
+                   value = 0.,
+                   texname = '\\text{FT2odd}',
                    lhablock = 'aqgc',
                    lhacode = [ 30 ])
 
-cT3odd = Parameter(name = 'cT3odd',
+FT3odd = Parameter(name = 'FT3odd',
                    nature = 'external',
                    type = 'real',
-                   value = 1.,
-                   texname = '\\text{cT3odd}',
+                   value = 0.,
+                   texname = '\\text{FT3odd}',
                    lhablock = 'aqgc',
                    lhacode = [ 31 ])
 
-cT4odd = Parameter(name = 'cT4odd',
+FT4odd = Parameter(name = 'FT4odd',
                    nature = 'external',
                    type = 'real',
-                   value = 1.,
-                   texname = '\\text{cT4odd}',
+                   value = 0.,
+                   texname = '\\text{FT4odd}',
                    lhablock = 'aqgc',
                    lhacode = [ 32 ])
 
-cT5odd = Parameter(name = 'cT5odd',
+FT5odd = Parameter(name = 'FT5odd',
                    nature = 'external',
                    type = 'real',
-                   value = 1.,
-                   texname = '\\text{cT5odd}',
+                   value = 0.,
+                   texname = '\\text{FT5odd}',
                    lhablock = 'aqgc',
                    lhacode = [ 33 ])
 
-cT6odd = Parameter(name = 'cT6odd',
+FT6odd = Parameter(name = 'FT6odd',
                    nature = 'external',
                    type = 'real',
-                   value = 1.,
-                   texname = '\\text{cT6odd}',
+                   value = 0.,
+                   texname = '\\text{FT6odd}',
                    lhablock = 'aqgc',
                    lhacode = [ 34 ])
-
-eS0 = Parameter(name = 'eS0',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eS0}',
-                lhablock = 'aqgce',
-                lhacode = [ 1 ])
-
-eS1 = Parameter(name = 'eS1',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eS1}',
-                lhablock = 'aqgce',
-                lhacode = [ 2 ])
-
-eS2 = Parameter(name = 'eS2',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eS2}',
-                lhablock = 'aqgce',
-                lhacode = [ 3 ])
-
-eM0 = Parameter(name = 'eM0',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eM0}',
-                lhablock = 'aqgce',
-                lhacode = [ 4 ])
-
-eM1 = Parameter(name = 'eM1',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eM1}',
-                lhablock = 'aqgce',
-                lhacode = [ 5 ])
-
-eM2 = Parameter(name = 'eM2',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eM2}',
-                lhablock = 'aqgce',
-                lhacode = [ 6 ])
-
-eM3 = Parameter(name = 'eM3',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eM3}',
-                lhablock = 'aqgce',
-                lhacode = [ 7 ])
-
-eM4 = Parameter(name = 'eM4',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eM4}',
-                lhablock = 'aqgce',
-                lhacode = [ 8 ])
-
-eM5 = Parameter(name = 'eM5',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eM5}',
-                lhablock = 'aqgce',
-                lhacode = [ 9 ])
-
-eM6 = Parameter(name = 'eM6',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eM6}',
-                lhablock = 'aqgce',
-                lhacode = [ 10 ])
-
-eM7 = Parameter(name = 'eM7',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eM7}',
-                lhablock = 'aqgce',
-                lhacode = [ 11 ])
-
-eT0 = Parameter(name = 'eT0',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eT0}',
-                lhablock = 'aqgce',
-                lhacode = [ 12 ])
-
-eT1 = Parameter(name = 'eT1',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eT1}',
-                lhablock = 'aqgce',
-                lhacode = [ 13 ])
-
-eT2 = Parameter(name = 'eT2',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eT2}',
-                lhablock = 'aqgce',
-                lhacode = [ 14 ])
-
-eT3 = Parameter(name = 'eT3',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eT3}',
-                lhablock = 'aqgce',
-                lhacode = [ 15 ])
-
-eT4 = Parameter(name = 'eT4',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eT4}',
-                lhablock = 'aqgce',
-                lhacode = [ 16 ])
-
-eT5 = Parameter(name = 'eT5',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eT5}',
-                lhablock = 'aqgce',
-                lhacode = [ 17 ])
-
-eT6 = Parameter(name = 'eT6',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eT6}',
-                lhablock = 'aqgce',
-                lhacode = [ 18 ])
-
-eT7 = Parameter(name = 'eT7',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eT7}',
-                lhablock = 'aqgce',
-                lhacode = [ 19 ])
-
-eT8 = Parameter(name = 'eT8',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eT8}',
-                lhablock = 'aqgce',
-                lhacode = [ 20 ])
-
-eT9 = Parameter(name = 'eT9',
-                nature = 'external',
-                type = 'real',
-                value = 0.,
-                texname = '\\text{eT9}',
-                lhablock = 'aqgce',
-                lhacode = [ 21 ])
 
 aEWM1 = Parameter(name = 'aEWM1',
                   nature = 'external',
@@ -505,6 +336,182 @@ ymtau = Parameter(name = 'ymtau',
                   texname = '\\text{ymtau}',
                   lhablock = 'YUKAWA',
                   lhacode = [ 15 ])
+
+cS1 = Parameter(name = 'cS1',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cS1}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 1 ])
+
+cS2 = Parameter(name = 'cS2',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cS2}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 2 ])
+
+cS3 = Parameter(name = 'cS3',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cS3}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 3 ])
+
+cM1 = Parameter(name = 'cM1',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cM1}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 4 ])
+
+cM2 = Parameter(name = 'cM2',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cM2}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 5 ])
+
+cM3 = Parameter(name = 'cM3',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cM3}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 6 ])
+
+cM4 = Parameter(name = 'cM4',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cM4}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 7 ])
+
+cM5 = Parameter(name = 'cM5',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cM5}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 8 ])
+
+cM6 = Parameter(name = 'cM6',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cM6}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 9 ])
+
+cM7 = Parameter(name = 'cM7',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cM7}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 10 ])
+
+cM8 = Parameter(name = 'cM8',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cM8}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 11 ])
+
+cM9 = Parameter(name = 'cM9',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cM9}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 12 ])
+
+cT1 = Parameter(name = 'cT1',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cT1}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 13 ])
+
+cT2 = Parameter(name = 'cT2',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cT2}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 14 ])
+
+cT3 = Parameter(name = 'cT3',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cT3}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 15 ])
+
+cT4 = Parameter(name = 'cT4',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cT4}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 16 ])
+
+cT5 = Parameter(name = 'cT5',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cT5}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 17 ])
+
+cT6 = Parameter(name = 'cT6',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cT6}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 18 ])
+
+cT7 = Parameter(name = 'cT7',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cT7}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 19 ])
+
+cT8 = Parameter(name = 'cT8',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cT8}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 20 ])
+
+cT9 = Parameter(name = 'cT9',
+                nature = 'external',
+                type = 'real',
+                value = 0.,
+                texname = '\\text{cT9}',
+                lhablock = 'aqgc_bis',
+                lhacode = [ 21 ])
+
+cT10 = Parameter(name = 'cT10',
+                 nature = 'external',
+                 type = 'real',
+                 value = 0.,
+                 texname = '\\text{cT10}',
+                 lhablock = 'aqgc_bis',
+                 lhacode = [ 22 ])
 
 MZ = Parameter(name = 'MZ',
                nature = 'external',
