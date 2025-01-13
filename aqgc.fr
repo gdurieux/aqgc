@@ -19,40 +19,40 @@ M$Information = {
 M$Parameters = {
 
 (*bash:
-M="S"; for i in `seq 0 10`; do echo "F$M$i == { ParameterType -> External, BlockName -> aqgce, InteractionOrder -> {NP, 1}, Value -> 0.},"; done
+M="S"; for i in `seq 0 10`; do echo "F$M$i == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{F$M$i,1}}, Value -> 0.0},"; done
 *)
 
 
 (****************)
 (*** CP-even  ***)
 (****************)
-	FS0 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FS1 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FS2 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
+	FS0 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FS0,1}}, Value -> 0.0},
+	FS1 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FS1,1}}, Value -> 0.0},
+	FS2 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FS2,1}}, Value -> 0.0},
 	
-	FM0 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FM1 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FM2 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FM3 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FM4 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FM5 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FM7 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FM8 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FM9 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
+	FM0 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FM0,1}}, Value -> 0.0},
+	FM1 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FM1,1}}, Value -> 0.0},
+	FM2 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FM2,1}}, Value -> 0.0},
+	FM3 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FM3,1}}, Value -> 0.0},
+	FM4 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FM4,1}}, Value -> 0.0},
+	FM5 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FM5,1}}, Value -> 0.0},
+	FM7 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FM7,1}}, Value -> 0.0},
+	FM8 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FM8,1}}, Value -> 0.0},
+	FM9 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FM9,1}}, Value -> 0.0},
 	
-	FT0 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT1 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT2 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT3 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT4 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT5 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT6 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT7 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT8 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT9 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
+	FT0 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FT0,1}}, Value -> 0.0},
+	FT1 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FT1,1}}, Value -> 0.0},
+	FT2 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FT2,1}}, Value -> 0.0},
+	FT3 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FT3,1}}, Value -> 0.0},
+	FT4 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FT4,1}}, Value -> 0.0},
+	FT5 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FT5,1}}, Value -> 0.0},
+	FT6 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FT6,1}}, Value -> 0.0},
+	FT7 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FT7,1}}, Value -> 0.0},
+	FT8 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FT8,1}}, Value -> 0.0},
+	FT9 == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NP, 1},{FT9,1}}, Value -> 0.0},
 
 (*bash:
-ODD="odd" ; M="M"; for i in `seq 10`; do echo "c$M$i$ODD == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},"; done
+ODD="" ; M="S"; for i in `seq 10`; do echo "c$M$i$ODD == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{c$M$i$ODD,1}}, Value -> 0.0},"; done
 *)
 
 (**************************)
@@ -63,39 +63,42 @@ ODD="odd" ; M="M"; for i in `seq 10`; do echo "c$M$i$ODD == { ParameterType -> E
 	(***********************)
 	(*** S-type, CP-even ***)
 	(***********************)
-	cS1 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cS2 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cS3 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	
+	cS1 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cS1,1}}, Value -> 0.0},
+	cS2 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cS2,1}}, Value -> 0.0},
+	cS3 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cS3,1}}, Value -> 0.0},
+
+
 	(***********************)
 	(*** M-type, CP-even ***)
 	(***********************)
-	cM1 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cM2 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cM3 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cM4 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cM5 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cM6 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cM7 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cM8 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cM9 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
+	cM1 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cM1,1}}, Value -> 0.0},
+	cM2 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cM2,1}}, Value -> 0.0},
+	cM3 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cM3,1}}, Value -> 0.0},
+	cM4 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cM4,1}}, Value -> 0.0},
+	cM5 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cM5,1}}, Value -> 0.0},
+	cM6 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cM6,1}}, Value -> 0.0},
+	cM7 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cM7,1}}, Value -> 0.0},
+	cM8 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cM8,1}}, Value -> 0.0},
+	cM9 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cM9,1}}, Value -> 0.0},
 	
 
 	(***********************)
 	(*** T-type, CP-even ***)
 	(***********************)
-	cT1 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cT2 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cT3 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cT4 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cT5 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cT6 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cT7 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cT8 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cT9 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
-	cT10 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {NPBIS, 1}, Value -> 0.0},
+	cT1 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cT1,1}}, Value -> 0.0},
+	cT2 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cT2,1}}, Value -> 0.0},
+	cT3 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cT3,1}}, Value -> 0.0},
+	cT4 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cT4,1}}, Value -> 0.0},
+	cT5 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cT5,1}}, Value -> 0.0},
+	cT6 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cT6,1}}, Value -> 0.0},
+	cT7 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cT7,1}}, Value -> 0.0},
+	cT8 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cT8,1}}, Value -> 0.0},
+	cT9 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cT9,1}}, Value -> 0.0},
+	cT10 == { ParameterType -> External, BlockName -> aqgc_bis, InteractionOrder -> {{NPBIS, 1},{cT10,1}}, Value -> 0.0},
 
-
+(*bash
+ODD="odd" ; M="M"; for i in `seq 6`; do echo "F$M$i$ODD == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NPBIS, 1},{F$M$i$ODD,1}}, Value -> 0.0},"; done
+*)
 
 (****************)
 (*** CP-even  ***)
@@ -105,22 +108,22 @@ ODD="odd" ; M="M"; for i in `seq 10`; do echo "c$M$i$ODD == { ParameterType -> E
 	(**********************)
 	(*** M-type, CP-odd ***)
 	(**********************)
-	FM1odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FM2odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FM3odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FM4odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FM5odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FM6odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
+	FM1odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NPBIS, 1},{FM1odd,1}}, Value -> 0.0},
+	FM2odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NPBIS, 1},{FM2odd,1}}, Value -> 0.0},
+	FM3odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NPBIS, 1},{FM3odd,1}}, Value -> 0.0},
+	FM4odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NPBIS, 1},{FM4odd,1}}, Value -> 0.0},
+	FM5odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NPBIS, 1},{FM5odd,1}}, Value -> 0.0},
+	FM6odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NPBIS, 1},{FM6odd,1}}, Value -> 0.0},
 
 	(**********************)
 	(*** T-type, CP-odd ***)
 	(**********************)
-	FT1odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT2odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT3odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT4odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT5odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0},
-	FT6odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {NP, 1}, Value -> 0.0}
+	FT1odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NPBIS, 1},{FT1odd,1}}, Value -> 0.0},
+	FT2odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NPBIS, 1},{FT2odd,1}}, Value -> 0.0},
+	FT3odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NPBIS, 1},{FT3odd,1}}, Value -> 0.0},
+	FT4odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NPBIS, 1},{FT4odd,1}}, Value -> 0.0},
+	FT5odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NPBIS, 1},{FT5odd,1}}, Value -> 0.0},
+	FT6odd == { ParameterType -> External, BlockName -> aqgc, InteractionOrder -> {{NPBIS, 1},{FT6odd,1}}, Value -> 0.0}
 
 
 
