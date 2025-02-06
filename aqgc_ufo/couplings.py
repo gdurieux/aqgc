@@ -1139,11 +1139,11 @@ GC_282 = Coupling(name = 'GC_282',
 
 GC_283 = Coupling(name = 'GC_283',
                   value = '2*cw**2*FM1odd*complex(0,1)',
-                  order = {'FM1odd':1,'NPBIS':1})
+                  order = {'FM1odd':1,'NP':1})
 
 GC_284 = Coupling(name = 'GC_284',
                   value = '-(ee**2*FM1odd*complex(0,1))',
-                  order = {'FM1odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM1odd':1,'NP':1,'QED':2})
 
 GC_285 = Coupling(name = 'GC_285',
                   value = '-4*cw**2*FM2*complex(0,1)',
@@ -1155,127 +1155,127 @@ GC_286 = Coupling(name = 'GC_286',
 
 GC_287 = Coupling(name = 'GC_287',
                   value = '-(cw*FM2odd)',
-                  order = {'FM2odd':1,'NPBIS':1})
+                  order = {'FM2odd':1,'NP':1})
 
 GC_288 = Coupling(name = 'GC_288',
                   value = '-(cw*FM2odd*complex(0,1))',
-                  order = {'FM2odd':1,'NPBIS':1})
+                  order = {'FM2odd':1,'NP':1})
 
 GC_289 = Coupling(name = 'GC_289',
                   value = 'cw*FM2odd',
-                  order = {'FM2odd':1,'NPBIS':1})
+                  order = {'FM2odd':1,'NP':1})
 
 GC_290 = Coupling(name = 'GC_290',
                   value = '-(cw**2*FM2odd*complex(0,1))',
-                  order = {'FM2odd':1,'NPBIS':1})
+                  order = {'FM2odd':1,'NP':1})
 
 GC_291 = Coupling(name = 'GC_291',
                   value = 'cw**2*FM2odd*complex(0,1)',
-                  order = {'FM2odd':1,'NPBIS':1})
+                  order = {'FM2odd':1,'NP':1})
 
 GC_292 = Coupling(name = 'GC_292',
                   value = '-0.5*(ee*FM2odd)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_293 = Coupling(name = 'GC_293',
                   value = '-0.5*(ee*FM2odd*complex(0,1))',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_294 = Coupling(name = 'GC_294',
                   value = 'ee*FM2odd*complex(0,1)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_295 = Coupling(name = 'GC_295',
                   value = '-0.5*(cw*ee*FM2odd)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_296 = Coupling(name = 'GC_296',
                   value = '-0.5*(cw*ee*FM2odd*complex(0,1))',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_297 = Coupling(name = 'GC_297',
                   value = '(cw*ee*FM2odd*complex(0,1))/2.',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_298 = Coupling(name = 'GC_298',
                   value = '-(cw*ee*FM2odd*complex(0,1))',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_299 = Coupling(name = 'GC_299',
                   value = 'cw*ee*FM2odd*complex(0,1)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_300 = Coupling(name = 'GC_300',
                   value = '(cw*ee*FM2odd)/2.',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_301 = Coupling(name = 'GC_301',
                   value = 'cw**2*ee*FM2odd*complex(0,1)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_302 = Coupling(name = 'GC_302',
                   value = '(ee**2*FM2odd*complex(0,1))/2.',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_303 = Coupling(name = 'GC_303',
                   value = 'ee**2*FM2odd*complex(0,1)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_304 = Coupling(name = 'GC_304',
                   value = '(ee**2*FM2odd)/2.',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_305 = Coupling(name = 'GC_305',
                   value = '-(cw*ee**2*FM2odd)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_306 = Coupling(name = 'GC_306',
                   value = '-0.5*(cw*ee**2*FM2odd)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_307 = Coupling(name = 'GC_307',
                   value = '-(cw*ee**2*FM2odd*complex(0,1))',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_308 = Coupling(name = 'GC_308',
                   value = 'cw*ee**2*FM2odd*complex(0,1)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_309 = Coupling(name = 'GC_309',
                   value = '(cw*ee**2*FM2odd)/2.',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_310 = Coupling(name = 'GC_310',
                   value = 'cw*ee**2*FM2odd',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_311 = Coupling(name = 'GC_311',
                   value = 'cw**2*ee**2*FM2odd*complex(0,1)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_312 = Coupling(name = 'GC_312',
                   value = '-2*cw**2*ee**2*FM2odd*complex(0,1)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_313 = Coupling(name = 'GC_313',
                   value = '-0.5*(ee**3*FM2odd*complex(0,1))',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_314 = Coupling(name = 'GC_314',
                   value = '-2*ee**3*FM2odd*complex(0,1)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_315 = Coupling(name = 'GC_315',
                   value = '-0.5*(cw*ee**3*FM2odd)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_316 = Coupling(name = 'GC_316',
                   value = '-0.5*(cw*ee**3*FM2odd*complex(0,1))',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_317 = Coupling(name = 'GC_317',
                   value = '(cw*ee**3*FM2odd*complex(0,1))/2.',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_318 = Coupling(name = 'GC_318',
                   value = '-(cw**2*FM3*complex(0,1))',
@@ -1327,115 +1327,115 @@ GC_329 = Coupling(name = 'GC_329',
 
 GC_330 = Coupling(name = 'GC_330',
                   value = '-0.5*(cw*FM3odd)',
-                  order = {'FM3odd':1,'NPBIS':1})
+                  order = {'FM3odd':1,'NP':1})
 
 GC_331 = Coupling(name = 'GC_331',
                   value = '(cw*FM3odd*complex(0,1))/2.',
-                  order = {'FM3odd':1,'NPBIS':1})
+                  order = {'FM3odd':1,'NP':1})
 
 GC_332 = Coupling(name = 'GC_332',
                   value = '(cw*FM3odd)/2.',
-                  order = {'FM3odd':1,'NPBIS':1})
+                  order = {'FM3odd':1,'NP':1})
 
 GC_333 = Coupling(name = 'GC_333',
                   value = '-0.5*(ee*FM3odd)',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_334 = Coupling(name = 'GC_334',
                   value = '-0.25*(ee*FM3odd)',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_335 = Coupling(name = 'GC_335',
                   value = '-0.25*(ee*FM3odd*complex(0,1))',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_336 = Coupling(name = 'GC_336',
                   value = '-0.25*(cw*ee*FM3odd*complex(0,1))',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_337 = Coupling(name = 'GC_337',
                   value = '(cw*ee*FM3odd*complex(0,1))/4.',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_338 = Coupling(name = 'GC_338',
                   value = '-0.5*(cw*ee*FM3odd*complex(0,1))',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_339 = Coupling(name = 'GC_339',
                   value = '(cw*ee*FM3odd*complex(0,1))/2.',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_340 = Coupling(name = 'GC_340',
                   value = '(cw*ee*FM3odd)/4.',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_341 = Coupling(name = 'GC_341',
                   value = '(cw*ee*FM3odd)/2.',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_342 = Coupling(name = 'GC_342',
                   value = '-0.25*(ee**2*FM3odd)',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_343 = Coupling(name = 'GC_343',
                   value = '-0.25*(ee**2*FM3odd*complex(0,1))',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_344 = Coupling(name = 'GC_344',
                   value = '(ee**2*FM3odd)/4.',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_345 = Coupling(name = 'GC_345',
                   value = '-0.5*(cw*ee**2*FM3odd)',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_346 = Coupling(name = 'GC_346',
                   value = '-0.25*(cw*ee**2*FM3odd)',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_347 = Coupling(name = 'GC_347',
                   value = '-0.25*(cw*ee**2*FM3odd*complex(0,1))',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_348 = Coupling(name = 'GC_348',
                   value = '-0.5*(cw*ee**2*FM3odd*complex(0,1))',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_349 = Coupling(name = 'GC_349',
                   value = '(cw*ee**2*FM3odd)/4.',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_350 = Coupling(name = 'GC_350',
                   value = '(cw*ee**2*FM3odd)/2.',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_351 = Coupling(name = 'GC_351',
                   value = '-0.25*(ee**3*FM3odd)/cw',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_352 = Coupling(name = 'GC_352',
                   value = '(ee**3*FM3odd*complex(0,1))/(4.*cw)',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_353 = Coupling(name = 'GC_353',
                   value = '(ee**3*FM3odd*complex(0,1))/(2.*cw)',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_354 = Coupling(name = 'GC_354',
                   value = '(ee**3*FM3odd)/(2.*cw)',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_355 = Coupling(name = 'GC_355',
                   value = '-0.25*(cw*ee**3*FM3odd*complex(0,1))',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_356 = Coupling(name = 'GC_356',
                   value = '(cw*ee**3*FM3odd*complex(0,1))/4.',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_357 = Coupling(name = 'GC_357',
                   value = '(cw*ee**3*FM3odd)/4.',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_358 = Coupling(name = 'GC_358',
                   value = '-(cw*FM4)',
@@ -1527,91 +1527,91 @@ GC_379 = Coupling(name = 'GC_379',
 
 GC_380 = Coupling(name = 'GC_380',
                   value = '-0.5*(cw*FM4odd)',
-                  order = {'FM4odd':1,'NPBIS':1})
+                  order = {'FM4odd':1,'NP':1})
 
 GC_381 = Coupling(name = 'GC_381',
                   value = '(cw*FM4odd*complex(0,1))/2.',
-                  order = {'FM4odd':1,'NPBIS':1})
+                  order = {'FM4odd':1,'NP':1})
 
 GC_382 = Coupling(name = 'GC_382',
                   value = '(cw*FM4odd)/2.',
-                  order = {'FM4odd':1,'NPBIS':1})
+                  order = {'FM4odd':1,'NP':1})
 
 GC_383 = Coupling(name = 'GC_383',
                   value = '-0.5*(cw**2*FM4odd*complex(0,1))',
-                  order = {'FM4odd':1,'NPBIS':1})
+                  order = {'FM4odd':1,'NP':1})
 
 GC_384 = Coupling(name = 'GC_384',
                   value = '(cw**2*FM4odd*complex(0,1))/2.',
-                  order = {'FM4odd':1,'NPBIS':1})
+                  order = {'FM4odd':1,'NP':1})
 
 GC_385 = Coupling(name = 'GC_385',
                   value = '-0.25*(ee*FM4odd)',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_386 = Coupling(name = 'GC_386',
                   value = '-0.25*(ee*FM4odd*complex(0,1))',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_387 = Coupling(name = 'GC_387',
                   value = '(ee*FM4odd*complex(0,1))/2.',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_388 = Coupling(name = 'GC_388',
                   value = '-0.25*(cw*ee*FM4odd)',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_389 = Coupling(name = 'GC_389',
                   value = '-0.25*(cw*ee*FM4odd*complex(0,1))',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_390 = Coupling(name = 'GC_390',
                   value = '(cw*ee*FM4odd*complex(0,1))/4.',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_391 = Coupling(name = 'GC_391',
                   value = '(cw*ee*FM4odd)/4.',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_392 = Coupling(name = 'GC_392',
                   value = '(cw**2*ee*FM4odd*complex(0,1))/4.',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_393 = Coupling(name = 'GC_393',
                   value = '(ee**2*FM4odd*complex(0,1))/4.',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_394 = Coupling(name = 'GC_394',
                   value = '(ee**2*FM4odd)/4.',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_395 = Coupling(name = 'GC_395',
                   value = '-0.25*(cw*ee**2*FM4odd)',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_396 = Coupling(name = 'GC_396',
                   value = '-0.25*(cw*ee**2*FM4odd*complex(0,1))',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_397 = Coupling(name = 'GC_397',
                   value = '(cw*ee**2*FM4odd*complex(0,1))/4.',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_398 = Coupling(name = 'GC_398',
                   value = '(cw*ee**2*FM4odd)/4.',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_399 = Coupling(name = 'GC_399',
                   value = '-0.5*(cw**2*ee**2*FM4odd*complex(0,1))',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_400 = Coupling(name = 'GC_400',
                   value = '(cw**2*ee**2*FM4odd*complex(0,1))/2.',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_401 = Coupling(name = 'GC_401',
                   value = '(ee**3*FM4odd*complex(0,1))/2.',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_402 = Coupling(name = 'GC_402',
                   value = '-0.5*(cw*FM5)',
@@ -1715,203 +1715,203 @@ GC_426 = Coupling(name = 'GC_426',
 
 GC_427 = Coupling(name = 'GC_427',
                   value = '2*FM5odd*complex(0,1)',
-                  order = {'FM5odd':1,'NPBIS':1})
+                  order = {'FM5odd':1,'NP':1})
 
 GC_428 = Coupling(name = 'GC_428',
                   value = '2*cw**2*FM5odd*complex(0,1)',
-                  order = {'FM5odd':1,'NPBIS':1})
+                  order = {'FM5odd':1,'NP':1})
 
 GC_429 = Coupling(name = 'GC_429',
                   value = '2*ee*FM5odd*complex(0,1)',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_430 = Coupling(name = 'GC_430',
                   value = '-4*ee*FM5odd*complex(0,1)',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_431 = Coupling(name = 'GC_431',
                   value = '-(cw*ee*FM5odd*complex(0,1))',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_432 = Coupling(name = 'GC_432',
                   value = 'cw*ee*FM5odd*complex(0,1)',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_433 = Coupling(name = 'GC_433',
                   value = 'cw*ee*FM5odd',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_434 = Coupling(name = 'GC_434',
                   value = '2*cw**2*ee*FM5odd*complex(0,1)',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_435 = Coupling(name = 'GC_435',
                   value = '-(ee**2*FM5odd*complex(0,1))',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_436 = Coupling(name = 'GC_436',
                   value = '2*ee**2*FM5odd*complex(0,1)',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_437 = Coupling(name = 'GC_437',
                   value = '-4*ee**2*FM5odd*complex(0,1)',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_438 = Coupling(name = 'GC_438',
                   value = '-((ee**2*FM5odd)/cw)',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_439 = Coupling(name = 'GC_439',
                   value = '-((ee**2*FM5odd*complex(0,1))/cw)',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_440 = Coupling(name = 'GC_440',
                   value = '(ee**2*FM5odd)/cw',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_441 = Coupling(name = 'GC_441',
                   value = '-(cw*ee**2*FM5odd)',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_442 = Coupling(name = 'GC_442',
                   value = '-(cw*ee**2*FM5odd*complex(0,1))',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_443 = Coupling(name = 'GC_443',
                   value = 'cw*ee**2*FM5odd*complex(0,1)',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_444 = Coupling(name = 'GC_444',
                   value = 'cw*ee**2*FM5odd',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_445 = Coupling(name = 'GC_445',
                   value = '-4*cw**2*ee**2*FM5odd*complex(0,1)',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_446 = Coupling(name = 'GC_446',
                   value = '-4*ee**3*FM5odd*complex(0,1)',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_447 = Coupling(name = 'GC_447',
                   value = '8*ee**3*FM5odd*complex(0,1)',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_448 = Coupling(name = 'GC_448',
                   value = '(-2*ee**3*FM5odd)/cw',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_449 = Coupling(name = 'GC_449',
                   value = '(2*ee**3*FM5odd*complex(0,1))/cw',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_450 = Coupling(name = 'GC_450',
                   value = '(2*ee**3*FM5odd)/cw',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_451 = Coupling(name = 'GC_451',
                   value = '(FM6odd*complex(0,1))/2.',
-                  order = {'FM6odd':1,'NPBIS':1})
+                  order = {'FM6odd':1,'NP':1})
 
 GC_452 = Coupling(name = 'GC_452',
                   value = 'FM6odd/2.',
-                  order = {'FM6odd':1,'NPBIS':1})
+                  order = {'FM6odd':1,'NP':1})
 
 GC_453 = Coupling(name = 'GC_453',
                   value = '-0.5*(cw*FM6odd)',
-                  order = {'FM6odd':1,'NPBIS':1})
+                  order = {'FM6odd':1,'NP':1})
 
 GC_454 = Coupling(name = 'GC_454',
                   value = '(cw*FM6odd*complex(0,1))/2.',
-                  order = {'FM6odd':1,'NPBIS':1})
+                  order = {'FM6odd':1,'NP':1})
 
 GC_455 = Coupling(name = 'GC_455',
                   value = '(cw*FM6odd)/2.',
-                  order = {'FM6odd':1,'NPBIS':1})
+                  order = {'FM6odd':1,'NP':1})
 
 GC_456 = Coupling(name = 'GC_456',
                   value = '-0.25*(ee*FM6odd)',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_457 = Coupling(name = 'GC_457',
                   value = '(ee*FM6odd*complex(0,1))/4.',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_458 = Coupling(name = 'GC_458',
                   value = '-0.5*(ee*FM6odd*complex(0,1))',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_459 = Coupling(name = 'GC_459',
                   value = '-0.25*(cw*ee*FM6odd*complex(0,1))',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_460 = Coupling(name = 'GC_460',
                   value = '(cw*ee*FM6odd*complex(0,1))/4.',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_461 = Coupling(name = 'GC_461',
                   value = '(cw*ee*FM6odd)/4.',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                  order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_462 = Coupling(name = 'GC_462',
                   value = '-0.25*(ee**2*FM6odd)',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_463 = Coupling(name = 'GC_463',
                   value = '-0.25*(ee**2*FM6odd*complex(0,1))',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_464 = Coupling(name = 'GC_464',
                   value = '(ee**2*FM6odd*complex(0,1))/4.',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_465 = Coupling(name = 'GC_465',
                   value = '-0.5*(ee**2*FM6odd*complex(0,1))',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_466 = Coupling(name = 'GC_466',
                   value = '-0.25*(ee**2*FM6odd*complex(0,1))/cw',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_467 = Coupling(name = 'GC_467',
                   value = '(ee**2*FM6odd*complex(0,1))/(4.*cw)',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_468 = Coupling(name = 'GC_468',
                   value = '(ee**2*FM6odd)/(4.*cw)',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_469 = Coupling(name = 'GC_469',
                   value = '-0.25*(cw*ee**2*FM6odd)',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_470 = Coupling(name = 'GC_470',
                   value = '-0.25*(cw*ee**2*FM6odd*complex(0,1))',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_471 = Coupling(name = 'GC_471',
                   value = '(cw*ee**2*FM6odd)/4.',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_472 = Coupling(name = 'GC_472',
                   value = '(ee**3*FM6odd*complex(0,1))/2.',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_473 = Coupling(name = 'GC_473',
                   value = '-(ee**3*FM6odd*complex(0,1))',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_474 = Coupling(name = 'GC_474',
                   value = '-0.25*(ee**3*FM6odd*complex(0,1))/cw',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_475 = Coupling(name = 'GC_475',
                   value = '(ee**3*FM6odd*complex(0,1))/(4.*cw)',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_476 = Coupling(name = 'GC_476',
                   value = '(ee**3*FM6odd)/(4.*cw)',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_477 = Coupling(name = 'GC_477',
                   value = '(FM7*complex(0,1))/4.',
@@ -2399,7 +2399,7 @@ GC_597 = Coupling(name = 'GC_597',
 
 GC_598 = Coupling(name = 'GC_598',
                   value = '-8*cw**4*complex(0,1)*FT1odd',
-                  order = {'FT1odd':1,'NPBIS':1})
+                  order = {'FT1odd':1,'NP':1})
 
 GC_599 = Coupling(name = 'GC_599',
                   value = '2*complex(0,1)*FT2',
@@ -2439,31 +2439,31 @@ GC_607 = Coupling(name = 'GC_607',
 
 GC_608 = Coupling(name = 'GC_608',
                   value = '-8*cw**2*complex(0,1)*FT2odd',
-                  order = {'FT2odd':1,'NPBIS':1})
+                  order = {'FT2odd':1,'NP':1})
 
 GC_609 = Coupling(name = 'GC_609',
                   value = '-8*cw**4*complex(0,1)*FT2odd',
-                  order = {'FT2odd':1,'NPBIS':1})
+                  order = {'FT2odd':1,'NP':1})
 
 GC_610 = Coupling(name = 'GC_610',
                   value = '-8*cw**2*ee*complex(0,1)*FT2odd',
-                  order = {'FT2odd':1,'NPBIS':1,'QED':1})
+                  order = {'FT2odd':1,'NP':1,'QED':1})
 
 GC_611 = Coupling(name = 'GC_611',
                   value = '8*cw**2*ee*complex(0,1)*FT2odd',
-                  order = {'FT2odd':1,'NPBIS':1,'QED':1})
+                  order = {'FT2odd':1,'NP':1,'QED':1})
 
 GC_612 = Coupling(name = 'GC_612',
                   value = '-8*ee**2*complex(0,1)*FT2odd',
-                  order = {'FT2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FT2odd':1,'NP':1,'QED':2})
 
 GC_613 = Coupling(name = 'GC_613',
                   value = '8*cw**2*ee**2*complex(0,1)*FT2odd',
-                  order = {'FT2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FT2odd':1,'NP':1,'QED':2})
 
 GC_614 = Coupling(name = 'GC_614',
                   value = '16*cw**2*ee**2*complex(0,1)*FT2odd',
-                  order = {'FT2odd':1,'NPBIS':1,'QED':2})
+                  order = {'FT2odd':1,'NP':1,'QED':2})
 
 GC_615 = Coupling(name = 'GC_615',
                   value = '2*complex(0,1)*FT3',
@@ -2503,19 +2503,19 @@ GC_623 = Coupling(name = 'GC_623',
 
 GC_624 = Coupling(name = 'GC_624',
                   value = '-8*cw**2*complex(0,1)*FT3odd',
-                  order = {'FT3odd':1,'NPBIS':1})
+                  order = {'FT3odd':1,'NP':1})
 
 GC_625 = Coupling(name = 'GC_625',
                   value = '-8*cw**4*complex(0,1)*FT3odd',
-                  order = {'FT3odd':1,'NPBIS':1})
+                  order = {'FT3odd':1,'NP':1})
 
 GC_626 = Coupling(name = 'GC_626',
                   value = '-16*cw**2*ee*complex(0,1)*FT3odd',
-                  order = {'FT3odd':1,'NPBIS':1,'QED':1})
+                  order = {'FT3odd':1,'NP':1,'QED':1})
 
 GC_627 = Coupling(name = 'GC_627',
                   value = '16*cw**2*ee*complex(0,1)*FT3odd',
-                  order = {'FT3odd':1,'NPBIS':1,'QED':1})
+                  order = {'FT3odd':1,'NP':1,'QED':1})
 
 GC_628 = Coupling(name = 'GC_628',
                   value = '2*cw**2*complex(0,1)*FT4',
@@ -2539,31 +2539,31 @@ GC_632 = Coupling(name = 'GC_632',
 
 GC_633 = Coupling(name = 'GC_633',
                   value = '-4*cw**2*complex(0,1)*FT4odd',
-                  order = {'FT4odd':1,'NPBIS':1})
+                  order = {'FT4odd':1,'NP':1})
 
 GC_634 = Coupling(name = 'GC_634',
                   value = '-4*cw**4*complex(0,1)*FT4odd',
-                  order = {'FT4odd':1,'NPBIS':1})
+                  order = {'FT4odd':1,'NP':1})
 
 GC_635 = Coupling(name = 'GC_635',
                   value = '4*cw**2*ee*complex(0,1)*FT4odd',
-                  order = {'FT4odd':1,'NPBIS':1,'QED':1})
+                  order = {'FT4odd':1,'NP':1,'QED':1})
 
 GC_636 = Coupling(name = 'GC_636',
                   value = '8*cw**2*ee*complex(0,1)*FT4odd',
-                  order = {'FT4odd':1,'NPBIS':1,'QED':1})
+                  order = {'FT4odd':1,'NP':1,'QED':1})
 
 GC_637 = Coupling(name = 'GC_637',
                   value = '-4*ee**2*complex(0,1)*FT4odd',
-                  order = {'FT4odd':1,'NPBIS':1,'QED':2})
+                  order = {'FT4odd':1,'NP':1,'QED':2})
 
 GC_638 = Coupling(name = 'GC_638',
                   value = '-4*cw**2*ee**2*complex(0,1)*FT4odd',
-                  order = {'FT4odd':1,'NPBIS':1,'QED':2})
+                  order = {'FT4odd':1,'NP':1,'QED':2})
 
 GC_639 = Coupling(name = 'GC_639',
                   value = '4*cw**2*ee**2*complex(0,1)*FT4odd',
-                  order = {'FT4odd':1,'NPBIS':1,'QED':2})
+                  order = {'FT4odd':1,'NP':1,'QED':2})
 
 GC_640 = Coupling(name = 'GC_640',
                   value = '8*cw**2*complex(0,1)*FT5',
@@ -2591,35 +2591,35 @@ GC_645 = Coupling(name = 'GC_645',
 
 GC_646 = Coupling(name = 'GC_646',
                   value = '-8*complex(0,1)*FT5odd',
-                  order = {'FT5odd':1,'NPBIS':1})
+                  order = {'FT5odd':1,'NP':1})
 
 GC_647 = Coupling(name = 'GC_647',
                   value = '-8*cw**2*complex(0,1)*FT5odd',
-                  order = {'FT5odd':1,'NPBIS':1})
+                  order = {'FT5odd':1,'NP':1})
 
 GC_648 = Coupling(name = 'GC_648',
                   value = '-8*cw**4*complex(0,1)*FT5odd',
-                  order = {'FT5odd':1,'NPBIS':1})
+                  order = {'FT5odd':1,'NP':1})
 
 GC_649 = Coupling(name = 'GC_649',
                   value = '16*ee*complex(0,1)*FT5odd',
-                  order = {'FT5odd':1,'NPBIS':1,'QED':1})
+                  order = {'FT5odd':1,'NP':1,'QED':1})
 
 GC_650 = Coupling(name = 'GC_650',
                   value = '16*cw**2*ee*complex(0,1)*FT5odd',
-                  order = {'FT5odd':1,'NPBIS':1,'QED':1})
+                  order = {'FT5odd':1,'NP':1,'QED':1})
 
 GC_651 = Coupling(name = 'GC_651',
                   value = '-16*ee**2*complex(0,1)*FT5odd',
-                  order = {'FT5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FT5odd':1,'NP':1,'QED':2})
 
 GC_652 = Coupling(name = 'GC_652',
                   value = '8*cw**2*ee**2*complex(0,1)*FT5odd',
-                  order = {'FT5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FT5odd':1,'NP':1,'QED':2})
 
 GC_653 = Coupling(name = 'GC_653',
                   value = '-16*ee**3*complex(0,1)*FT5odd',
-                  order = {'FT5odd':1,'NPBIS':1,'QED':3})
+                  order = {'FT5odd':1,'NP':1,'QED':3})
 
 GC_654 = Coupling(name = 'GC_654',
                   value = '4*cw**2*complex(0,1)*FT6',
@@ -2643,35 +2643,35 @@ GC_658 = Coupling(name = 'GC_658',
 
 GC_659 = Coupling(name = 'GC_659',
                   value = '-8*complex(0,1)*FT6odd',
-                  order = {'FT6odd':1,'NPBIS':1})
+                  order = {'FT6odd':1,'NP':1})
 
 GC_660 = Coupling(name = 'GC_660',
                   value = '-4*cw**2*complex(0,1)*FT6odd',
-                  order = {'FT6odd':1,'NPBIS':1})
+                  order = {'FT6odd':1,'NP':1})
 
 GC_661 = Coupling(name = 'GC_661',
                   value = '-8*cw**4*complex(0,1)*FT6odd',
-                  order = {'FT6odd':1,'NPBIS':1})
+                  order = {'FT6odd':1,'NP':1})
 
 GC_662 = Coupling(name = 'GC_662',
                   value = '-8*ee*complex(0,1)*FT6odd',
-                  order = {'FT6odd':1,'NPBIS':1,'QED':1})
+                  order = {'FT6odd':1,'NP':1,'QED':1})
 
 GC_663 = Coupling(name = 'GC_663',
                   value = '-8*cw**2*ee*complex(0,1)*FT6odd',
-                  order = {'FT6odd':1,'NPBIS':1,'QED':1})
+                  order = {'FT6odd':1,'NP':1,'QED':1})
 
 GC_664 = Coupling(name = 'GC_664',
                   value = '8*ee**2*complex(0,1)*FT6odd',
-                  order = {'FT6odd':1,'NPBIS':1,'QED':2})
+                  order = {'FT6odd':1,'NP':1,'QED':2})
 
 GC_665 = Coupling(name = 'GC_665',
                   value = '8*cw**2*ee**2*complex(0,1)*FT6odd',
-                  order = {'FT6odd':1,'NPBIS':1,'QED':2})
+                  order = {'FT6odd':1,'NP':1,'QED':2})
 
 GC_666 = Coupling(name = 'GC_666',
                   value = '16*ee**3*complex(0,1)*FT6odd',
-                  order = {'FT6odd':1,'NPBIS':1,'QED':3})
+                  order = {'FT6odd':1,'NP':1,'QED':3})
 
 GC_667 = Coupling(name = 'GC_667',
                   value = 'cw**2*complex(0,1)*FT7',
@@ -2911,15 +2911,15 @@ GC_725 = Coupling(name = 'GC_725',
 
 GC_726 = Coupling(name = 'GC_726',
                   value = '(ee**3*FM2odd*complex(0,1))/2. + (cw**2*ee**3*FM2odd*complex(0,1))/(2.*sw**2)',
-                  order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_727 = Coupling(name = 'GC_727',
                   value = '-0.25*(ee**3*FM3odd) - (cw**2*ee**3*FM3odd)/(4.*sw**2)',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_728 = Coupling(name = 'GC_728',
                   value = '(ee**3*FM3odd)/4. + (cw**2*ee**3*FM3odd)/(4.*sw**2)',
-                  order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_729 = Coupling(name = 'GC_729',
                   value = '-0.5*(ee**3*FM4*complex(0,1)) - (cw**2*ee**3*FM4*complex(0,1))/(2.*sw**2)',
@@ -2927,7 +2927,7 @@ GC_729 = Coupling(name = 'GC_729',
 
 GC_730 = Coupling(name = 'GC_730',
                   value = '-0.25*(ee**3*FM4odd*complex(0,1)) - (cw**2*ee**3*FM4odd*complex(0,1))/(4.*sw**2)',
-                  order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_731 = Coupling(name = 'GC_731',
                   value = '(ee**3*FM5*complex(0,1))/4. + (cw**2*ee**3*FM5*complex(0,1))/(4.*sw**2)',
@@ -2935,23 +2935,23 @@ GC_731 = Coupling(name = 'GC_731',
 
 GC_732 = Coupling(name = 'GC_732',
                   value = '-2*ee**2*FM5odd - (2*cw**2*ee**2*FM5odd)/sw**2',
-                  order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                  order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_733 = Coupling(name = 'GC_733',
                   value = '-0.5*(ee**3*FM6odd*complex(0,1)) - (cw**2*ee**3*FM6odd*complex(0,1))/(2.*sw**2)',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_734 = Coupling(name = 'GC_734',
                   value = '-0.25*(cw*ee**3*FM6odd) - (cw**3*ee**3*FM6odd)/(4.*sw**2)',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_735 = Coupling(name = 'GC_735',
                   value = '-0.25*(cw*ee**3*FM6odd*complex(0,1)) - (cw**3*ee**3*FM6odd*complex(0,1))/(4.*sw**2)',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_736 = Coupling(name = 'GC_736',
                   value = '(cw*ee**3*FM6odd*complex(0,1))/4. + (cw**3*ee**3*FM6odd*complex(0,1))/(4.*sw**2)',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_737 = Coupling(name = 'GC_737',
                   value = '-0.25*(ee**4*FM7*complex(0,1)) - (cw**4*ee**4*FM7*complex(0,1))/(4.*sw**4) - (cw**2*ee**4*FM7*complex(0,1))/(2.*sw**2)',
@@ -3147,11 +3147,11 @@ GC_784 = Coupling(name = 'GC_784',
 
 GC_785 = Coupling(name = 'GC_785',
                   value = '-0.5*(cw**3*ee**3*FM6odd*complex(0,1))/sw**3 - (cw*ee**3*FM6odd*complex(0,1))/(2.*sw)',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_786 = Coupling(name = 'GC_786',
                   value = '-0.5*(cw**3*ee**3*FM6odd*complex(0,1))/sw**3 + (cw*ee**3*FM6odd*complex(0,1))/(2.*sw)',
-                  order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                  order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_787 = Coupling(name = 'GC_787',
                   value = '-((cw*ee**4*FM9)/sw**3) - (ee**4*FM9)/(cw*sw)',
@@ -4279,43 +4279,43 @@ GC_1067 = Coupling(name = 'GC_1067',
 
 GC_1068 = Coupling(name = 'GC_1068',
                    value = '-0.5*(cw*ee**3*FM2odd*complex(0,1))/sw**3',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1069 = Coupling(name = 'GC_1069',
                    value = '(cw*ee**3*FM2odd*complex(0,1))/(2.*sw**3)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1070 = Coupling(name = 'GC_1070',
                    value = '-((cw**2*ee**3*FM2odd)/sw**3)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1071 = Coupling(name = 'GC_1071',
                    value = '-((cw**2*ee**3*FM2odd*complex(0,1))/sw**3)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1072 = Coupling(name = 'GC_1072',
                    value = '(cw**2*ee**3*FM2odd*complex(0,1))/sw**3',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1073 = Coupling(name = 'GC_1073',
                    value = '-0.5*(cw**3*ee**3*FM2odd*complex(0,1))/sw**3',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1074 = Coupling(name = 'GC_1074',
                    value = '(cw**3*ee**3*FM2odd*complex(0,1))/(2.*sw**3)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1075 = Coupling(name = 'GC_1075',
                    value = '-0.5*(cw**4*ee**3*FM2odd)/sw**3',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1076 = Coupling(name = 'GC_1076',
                    value = '-0.5*(cw**4*ee**3*FM2odd*complex(0,1))/sw**3',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1077 = Coupling(name = 'GC_1077',
                    value = '(cw**4*ee**3*FM2odd*complex(0,1))/(2.*sw**3)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1078 = Coupling(name = 'GC_1078',
                    value = '-0.5*(cw*ee**3*FM4*complex(0,1))/sw**3',
@@ -4359,23 +4359,23 @@ GC_1087 = Coupling(name = 'GC_1087',
 
 GC_1088 = Coupling(name = 'GC_1088',
                    value = '(-3*cw**2*ee**3*FM4odd)/(4.*sw**3)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_1089 = Coupling(name = 'GC_1089',
                    value = '(3*cw**2*ee**3*FM4odd*complex(0,1))/(4.*sw**3)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_1090 = Coupling(name = 'GC_1090',
                    value = '(3*cw**2*ee**3*FM4odd)/(4.*sw**3)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_1091 = Coupling(name = 'GC_1091',
                    value = '(-3*cw**3*ee**3*FM4odd*complex(0,1))/(4.*sw**3)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_1092 = Coupling(name = 'GC_1092',
                    value = '(3*cw**3*ee**3*FM4odd*complex(0,1))/(4.*sw**3)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_1093 = Coupling(name = 'GC_1093',
                    value = '-0.5*(cw*ee**3*FM5*complex(0,1))/sw**3',
@@ -4423,11 +4423,11 @@ GC_1103 = Coupling(name = 'GC_1103',
 
 GC_1104 = Coupling(name = 'GC_1104',
                    value = '(2*cw*ee**3*FM5odd*complex(0,1))/sw**3',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_1105 = Coupling(name = 'GC_1105',
                    value = '-0.5*(cw*ee**3*FM6odd*complex(0,1))/sw**3',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_1106 = Coupling(name = 'GC_1106',
                    value = '(cw*ee**3*FM7*complex(0,1))/(8.*sw**3)',
@@ -4919,19 +4919,19 @@ GC_1227 = Coupling(name = 'GC_1227',
 
 GC_1228 = Coupling(name = 'GC_1228',
                    value = '(16*cw*ee**3*complex(0,1)*FT5odd)/sw**3',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FT5odd':1,'NP':1,'QED':3})
 
 GC_1229 = Coupling(name = 'GC_1229',
                    value = '(-16*cw**3*ee**3*complex(0,1)*FT5odd)/sw**3',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FT5odd':1,'NP':1,'QED':3})
 
 GC_1230 = Coupling(name = 'GC_1230',
                    value = '(16*cw*ee**3*complex(0,1)*FT6odd)/sw**3',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FT6odd':1,'NP':1,'QED':3})
 
 GC_1231 = Coupling(name = 'GC_1231',
                    value = '(8*cw**3*ee**3*complex(0,1)*FT6odd)/sw**3',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FT6odd':1,'NP':1,'QED':3})
 
 GC_1232 = Coupling(name = 'GC_1232',
                    value = '(ee**2*complex(0,1))/(2.*sw**2)',
@@ -5871,7 +5871,7 @@ GC_1465 = Coupling(name = 'GC_1465',
 
 GC_1466 = Coupling(name = 'GC_1466',
                    value = '-((cw**2*ee**2*FM1odd*complex(0,1))/sw**2)',
-                   order = {'FM1odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM1odd':1,'NP':1,'QED':2})
 
 GC_1467 = Coupling(name = 'GC_1467',
                    value = '(2*cw**2*ee**2*FM2*complex(0,1))/sw**2',
@@ -5879,103 +5879,103 @@ GC_1467 = Coupling(name = 'GC_1467',
 
 GC_1468 = Coupling(name = 'GC_1468',
                    value = '-0.5*(cw*ee**2*FM2odd)/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_1469 = Coupling(name = 'GC_1469',
                    value = '-0.5*(cw*ee**2*FM2odd*complex(0,1))/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_1470 = Coupling(name = 'GC_1470',
                    value = '(cw*ee**2*FM2odd*complex(0,1))/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_1471 = Coupling(name = 'GC_1471',
                    value = '(cw**2*ee**2*FM2odd*complex(0,1))/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_1472 = Coupling(name = 'GC_1472',
                    value = '-((cw**2*ee**2*FM2odd*complex(0,1))/sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_1473 = Coupling(name = 'GC_1473',
                    value = '(cw**2*ee**2*FM2odd)/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_1474 = Coupling(name = 'GC_1474',
                    value = '-0.5*(cw**3*ee**2*FM2odd)/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_1475 = Coupling(name = 'GC_1475',
                    value = '-0.5*(cw**3*ee**2*FM2odd*complex(0,1))/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_1476 = Coupling(name = 'GC_1476',
                    value = '(cw**3*ee**2*FM2odd)/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_1477 = Coupling(name = 'GC_1477',
                    value = '-0.5*(cw**4*ee**2*FM2odd*complex(0,1))/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_1478 = Coupling(name = 'GC_1478',
                    value = '(cw**4*ee**2*FM2odd*complex(0,1))/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_1479 = Coupling(name = 'GC_1479',
                    value = '-0.5*(ee**3*FM2odd*complex(0,1))/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1480 = Coupling(name = 'GC_1480',
                    value = '(ee**3*FM2odd*complex(0,1))/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1481 = Coupling(name = 'GC_1481',
                    value = '-((cw*ee**3*FM2odd)/sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1482 = Coupling(name = 'GC_1482',
                    value = '-0.5*(cw*ee**3*FM2odd)/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1483 = Coupling(name = 'GC_1483',
                    value = '-0.5*(cw*ee**3*FM2odd*complex(0,1))/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1484 = Coupling(name = 'GC_1484',
                    value = '-((cw*ee**3*FM2odd*complex(0,1))/sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1485 = Coupling(name = 'GC_1485',
                    value = '(cw*ee**3*FM2odd*complex(0,1))/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1486 = Coupling(name = 'GC_1486',
                    value = '(cw*ee**3*FM2odd)/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1487 = Coupling(name = 'GC_1487',
                    value = '-0.5*(cw**2*ee**3*FM2odd*complex(0,1))/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1488 = Coupling(name = 'GC_1488',
                    value = '(cw**2*ee**3*FM2odd*complex(0,1))/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1489 = Coupling(name = 'GC_1489',
                    value = '(cw**2*ee**3*FM2odd*complex(0,1))/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1490 = Coupling(name = 'GC_1490',
                    value = '-0.5*(cw**3*ee**3*FM2odd)/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1491 = Coupling(name = 'GC_1491',
                    value = '-0.5*(cw**3*ee**3*FM2odd*complex(0,1))/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1492 = Coupling(name = 'GC_1492',
                    value = '(cw**3*ee**3*FM2odd*complex(0,1))/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_1493 = Coupling(name = 'GC_1493',
                    value = '(cw**2*ee**2*FM3*complex(0,1))/(2.*sw**2)',
@@ -5987,59 +5987,59 @@ GC_1494 = Coupling(name = 'GC_1494',
 
 GC_1495 = Coupling(name = 'GC_1495',
                    value = '-0.25*(cw*ee**2*FM3odd)/sw**2',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_1496 = Coupling(name = 'GC_1496',
                    value = '-0.25*(cw*ee**2*FM3odd*complex(0,1))/sw**2',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_1497 = Coupling(name = 'GC_1497',
                    value = '(cw*ee**2*FM3odd*complex(0,1))/(4.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_1498 = Coupling(name = 'GC_1498',
                    value = '(cw**2*ee**2*FM3odd*complex(0,1))/(4.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_1499 = Coupling(name = 'GC_1499',
                    value = '(cw**2*ee**2*FM3odd)/(4.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_1500 = Coupling(name = 'GC_1500',
                    value = '-0.25*(cw**3*ee**2*FM3odd)/sw**2',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_1501 = Coupling(name = 'GC_1501',
                    value = '-0.25*(cw**3*ee**2*FM3odd*complex(0,1))/sw**2',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_1502 = Coupling(name = 'GC_1502',
                    value = '(cw**3*ee**2*FM3odd)/(4.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_1503 = Coupling(name = 'GC_1503',
                    value = '-0.25*(cw*ee**3*FM3odd)/sw**2',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_1504 = Coupling(name = 'GC_1504',
                    value = '-0.25*(cw*ee**3*FM3odd*complex(0,1))/sw**2',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_1505 = Coupling(name = 'GC_1505',
                    value = '(cw*ee**3*FM3odd)/(4.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_1506 = Coupling(name = 'GC_1506',
                    value = '-0.25*(cw**3*ee**3*FM3odd*complex(0,1))/sw**2',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_1507 = Coupling(name = 'GC_1507',
                    value = '(cw**3*ee**3*FM3odd*complex(0,1))/(4.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_1508 = Coupling(name = 'GC_1508',
                    value = '(cw**3*ee**3*FM3odd)/(4.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_1509 = Coupling(name = 'GC_1509',
                    value = '-0.5*(cw*ee**2*FM4*complex(0,1))/sw**2',
@@ -6135,67 +6135,67 @@ GC_1531 = Coupling(name = 'GC_1531',
 
 GC_1532 = Coupling(name = 'GC_1532',
                    value = '-0.5*(cw*ee**2*FM4odd)/sw**2',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_1533 = Coupling(name = 'GC_1533',
                    value = '-0.5*(cw*ee**2*FM4odd*complex(0,1))/sw**2',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_1534 = Coupling(name = 'GC_1534',
                    value = '(cw*ee**2*FM4odd*complex(0,1))/(2.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_1535 = Coupling(name = 'GC_1535',
                    value = '-0.25*(cw**2*ee**2*FM4odd*complex(0,1))/sw**2',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_1536 = Coupling(name = 'GC_1536',
                    value = '(cw**2*ee**2*FM4odd*complex(0,1))/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_1537 = Coupling(name = 'GC_1537',
                    value = '(cw**2*ee**2*FM4odd)/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_1538 = Coupling(name = 'GC_1538',
                    value = '-0.25*(cw**3*ee**2*FM4odd)/sw**2',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_1539 = Coupling(name = 'GC_1539',
                    value = '-0.25*(cw**3*ee**2*FM4odd*complex(0,1))/sw**2',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_1540 = Coupling(name = 'GC_1540',
                    value = '(cw**3*ee**2*FM4odd)/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_1541 = Coupling(name = 'GC_1541',
                    value = '-0.25*(cw**4*ee**2*FM4odd*complex(0,1))/sw**2',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_1542 = Coupling(name = 'GC_1542',
                    value = '(cw**4*ee**2*FM4odd*complex(0,1))/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_1543 = Coupling(name = 'GC_1543',
                    value = '(-3*cw*ee**3*FM4odd)/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_1544 = Coupling(name = 'GC_1544',
                    value = '(-3*cw*ee**3*FM4odd*complex(0,1))/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_1545 = Coupling(name = 'GC_1545',
                    value = '(3*cw*ee**3*FM4odd*complex(0,1))/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_1546 = Coupling(name = 'GC_1546',
                    value = '(3*cw*ee**3*FM4odd)/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_1547 = Coupling(name = 'GC_1547',
                    value = '(-3*cw**2*ee**3*FM4odd*complex(0,1))/(2.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_1548 = Coupling(name = 'GC_1548',
                    value = '-0.5*(cw*ee**2*FM5)/sw**2',
@@ -6295,115 +6295,115 @@ GC_1571 = Coupling(name = 'GC_1571',
 
 GC_1572 = Coupling(name = 'GC_1572',
                    value = '-((ee**2*FM5odd*complex(0,1))/sw**2)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_1573 = Coupling(name = 'GC_1573',
                    value = '(-2*cw*ee**2*FM5odd)/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_1574 = Coupling(name = 'GC_1574',
                    value = '(-2*cw*ee**2*FM5odd*complex(0,1))/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_1575 = Coupling(name = 'GC_1575',
                    value = '(2*cw*ee**2*FM5odd*complex(0,1))/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_1576 = Coupling(name = 'GC_1576',
                    value = '-((cw**2*ee**2*FM5odd*complex(0,1))/sw**2)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_1577 = Coupling(name = 'GC_1577',
                    value = '(-2*cw**2*ee**2*FM5odd*complex(0,1))/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_1578 = Coupling(name = 'GC_1578',
                    value = '(2*ee**3*FM5odd*complex(0,1))/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_1579 = Coupling(name = 'GC_1579',
                    value = '(-2*cw*ee**3*FM5odd)/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_1580 = Coupling(name = 'GC_1580',
                    value = '(-2*cw*ee**3*FM5odd*complex(0,1))/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_1581 = Coupling(name = 'GC_1581',
                    value = '(2*cw*ee**3*FM5odd)/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_1582 = Coupling(name = 'GC_1582',
                    value = '(4*cw**2*ee**3*FM5odd*complex(0,1))/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_1583 = Coupling(name = 'GC_1583',
                    value = '-0.25*(ee**2*FM6odd)/sw**2',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_1584 = Coupling(name = 'GC_1584',
                    value = '(ee**2*FM6odd*complex(0,1))/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_1585 = Coupling(name = 'GC_1585',
                    value = '-0.25*(cw*ee**2*FM6odd)/sw**2',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_1586 = Coupling(name = 'GC_1586',
                    value = '-0.25*(cw*ee**2*FM6odd*complex(0,1))/sw**2',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_1587 = Coupling(name = 'GC_1587',
                    value = '(cw*ee**2*FM6odd)/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_1588 = Coupling(name = 'GC_1588',
                    value = '-0.25*(cw**2*ee**2*FM6odd)/sw**2',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_1589 = Coupling(name = 'GC_1589',
                    value = '-0.25*(cw**2*ee**2*FM6odd*complex(0,1))/sw**2',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_1590 = Coupling(name = 'GC_1590',
                    value = '-0.25*(cw**3*ee**2*FM6odd)/sw**2',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_1591 = Coupling(name = 'GC_1591',
                    value = '(cw**3*ee**2*FM6odd*complex(0,1))/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_1592 = Coupling(name = 'GC_1592',
                    value = '(cw**3*ee**2*FM6odd)/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_1593 = Coupling(name = 'GC_1593',
                    value = '(ee**3*FM6odd*complex(0,1))/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_1594 = Coupling(name = 'GC_1594',
                    value = '(3*ee**3*FM6odd*complex(0,1))/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_1595 = Coupling(name = 'GC_1595',
                    value = '-0.25*(cw*ee**3*FM6odd*complex(0,1))/sw**2',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_1596 = Coupling(name = 'GC_1596',
                    value = '(cw*ee**3*FM6odd*complex(0,1))/(2.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_1597 = Coupling(name = 'GC_1597',
                    value = '(cw*ee**3*FM6odd)/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_1598 = Coupling(name = 'GC_1598',
                    value = '(cw*ee**3*FM6odd)/(2.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_1599 = Coupling(name = 'GC_1599',
                    value = '-0.5*(cw**2*ee**3*FM6odd*complex(0,1))/sw**2',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_1600 = Coupling(name = 'GC_1600',
                    value = '(ee**2*FM7*complex(0,1))/(4.*sw**2)',
@@ -7035,11 +7035,11 @@ GC_1756 = Coupling(name = 'GC_1756',
 
 GC_1757 = Coupling(name = 'GC_1757',
                    value = '(-8*cw**2*ee**2*complex(0,1)*FT2odd)/sw**2',
-                   order = {'FT2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT2odd':1,'NP':1,'QED':2})
 
 GC_1758 = Coupling(name = 'GC_1758',
                    value = '(8*cw**4*ee**2*complex(0,1)*FT2odd)/sw**2',
-                   order = {'FT2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT2odd':1,'NP':1,'QED':2})
 
 GC_1759 = Coupling(name = 'GC_1759',
                    value = '(2*ee**2*complex(0,1)*FT3)/sw**2',
@@ -7079,11 +7079,11 @@ GC_1767 = Coupling(name = 'GC_1767',
 
 GC_1768 = Coupling(name = 'GC_1768',
                    value = '(-4*cw**2*ee**2*complex(0,1)*FT4odd)/sw**2',
-                   order = {'FT4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT4odd':1,'NP':1,'QED':2})
 
 GC_1769 = Coupling(name = 'GC_1769',
                    value = '(4*cw**4*ee**2*complex(0,1)*FT4odd)/sw**2',
-                   order = {'FT4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT4odd':1,'NP':1,'QED':2})
 
 GC_1770 = Coupling(name = 'GC_1770',
                    value = '(8*cw**2*ee**2*complex(0,1)*FT5)/sw**2',
@@ -7095,23 +7095,23 @@ GC_1771 = Coupling(name = 'GC_1771',
 
 GC_1772 = Coupling(name = 'GC_1772',
                    value = '(-8*ee**2*complex(0,1)*FT5odd)/sw**2',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT5odd':1,'NP':1,'QED':2})
 
 GC_1773 = Coupling(name = 'GC_1773',
                    value = '(-16*cw**2*ee**2*complex(0,1)*FT5odd)/sw**2',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT5odd':1,'NP':1,'QED':2})
 
 GC_1774 = Coupling(name = 'GC_1774',
                    value = '(8*cw**4*ee**2*complex(0,1)*FT5odd)/sw**2',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT5odd':1,'NP':1,'QED':2})
 
 GC_1775 = Coupling(name = 'GC_1775',
                    value = '(16*ee**3*complex(0,1)*FT5odd)/sw**2',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FT5odd':1,'NP':1,'QED':3})
 
 GC_1776 = Coupling(name = 'GC_1776',
                    value = '(32*cw**2*ee**3*complex(0,1)*FT5odd)/sw**2',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FT5odd':1,'NP':1,'QED':3})
 
 GC_1777 = Coupling(name = 'GC_1777',
                    value = '(4*cw**2*ee**2*complex(0,1)*FT6)/sw**2',
@@ -7123,23 +7123,23 @@ GC_1778 = Coupling(name = 'GC_1778',
 
 GC_1779 = Coupling(name = 'GC_1779',
                    value = '(8*ee**2*complex(0,1)*FT6odd)/sw**2',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT6odd':1,'NP':1,'QED':2})
 
 GC_1780 = Coupling(name = 'GC_1780',
                    value = '(16*cw**2*ee**2*complex(0,1)*FT6odd)/sw**2',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT6odd':1,'NP':1,'QED':2})
 
 GC_1781 = Coupling(name = 'GC_1781',
                    value = '(-8*cw**4*ee**2*complex(0,1)*FT6odd)/sw**2',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT6odd':1,'NP':1,'QED':2})
 
 GC_1782 = Coupling(name = 'GC_1782',
                    value = '(-16*ee**3*complex(0,1)*FT6odd)/sw**2',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FT6odd':1,'NP':1,'QED':3})
 
 GC_1783 = Coupling(name = 'GC_1783',
                    value = '(-16*cw**2*ee**3*complex(0,1)*FT6odd)/sw**2',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FT6odd':1,'NP':1,'QED':3})
 
 GC_1784 = Coupling(name = 'GC_1784',
                    value = '(2*cw**2*ee**2*complex(0,1)*FT7)/sw**2',
@@ -8331,7 +8331,7 @@ GC_2080 = Coupling(name = 'GC_2080',
 
 GC_2081 = Coupling(name = 'GC_2081',
                    value = '(cw*ee**2*FM1odd*complex(0,1))/sw',
-                   order = {'FM1odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM1odd':1,'NP':1,'QED':2})
 
 GC_2082 = Coupling(name = 'GC_2082',
                    value = '(-2*cw*ee**2*FM2*complex(0,1))/sw',
@@ -8339,123 +8339,123 @@ GC_2082 = Coupling(name = 'GC_2082',
 
 GC_2083 = Coupling(name = 'GC_2083',
                    value = '-0.5*(cw*ee*FM2odd)/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2084 = Coupling(name = 'GC_2084',
                    value = '-0.5*(cw*ee*FM2odd*complex(0,1))/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2085 = Coupling(name = 'GC_2085',
                    value = '(cw*ee*FM2odd*complex(0,1))/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2086 = Coupling(name = 'GC_2086',
                    value = '-0.5*(cw**2*ee*FM2odd*complex(0,1))/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2087 = Coupling(name = 'GC_2087',
                    value = '(cw**2*ee*FM2odd*complex(0,1))/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2088 = Coupling(name = 'GC_2088',
                    value = '(cw**2*ee*FM2odd)/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2089 = Coupling(name = 'GC_2089',
                    value = '-0.5*(cw**3*ee*FM2odd)/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2090 = Coupling(name = 'GC_2090',
                    value = '(cw**3*ee*FM2odd*complex(0,1))/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2091 = Coupling(name = 'GC_2091',
                    value = '-0.5*(ee**2*FM2odd*complex(0,1))/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2092 = Coupling(name = 'GC_2092',
                    value = '(ee**2*FM2odd*complex(0,1))/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2093 = Coupling(name = 'GC_2093',
                    value = '(ee**2*FM2odd)/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2094 = Coupling(name = 'GC_2094',
                    value = '-0.5*(cw*ee**2*FM2odd)/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2095 = Coupling(name = 'GC_2095',
                    value = '-0.5*(cw*ee**2*FM2odd*complex(0,1))/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2096 = Coupling(name = 'GC_2096',
                    value = '(cw*ee**2*FM2odd*complex(0,1))/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2097 = Coupling(name = 'GC_2097',
                    value = '-((cw*ee**2*FM2odd*complex(0,1))/sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2098 = Coupling(name = 'GC_2098',
                    value = '(cw*ee**2*FM2odd)/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2099 = Coupling(name = 'GC_2099',
                    value = '-0.5*(cw**2*ee**2*FM2odd)/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2100 = Coupling(name = 'GC_2100',
                    value = '-0.5*(cw**2*ee**2*FM2odd*complex(0,1))/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2101 = Coupling(name = 'GC_2101',
                    value = '-((cw**2*ee**2*FM2odd*complex(0,1))/sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2102 = Coupling(name = 'GC_2102',
                    value = '(cw**2*ee**2*FM2odd)/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2103 = Coupling(name = 'GC_2103',
                    value = '-((cw**3*ee**2*FM2odd*complex(0,1))/sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2104 = Coupling(name = 'GC_2104',
                    value = '-0.5*(ee**3*FM2odd)/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2105 = Coupling(name = 'GC_2105',
                    value = '(ee**3*FM2odd*complex(0,1))/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2106 = Coupling(name = 'GC_2106',
                    value = '(ee**3*FM2odd)/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2107 = Coupling(name = 'GC_2107',
                    value = '-0.5*(cw*ee**3*FM2odd*complex(0,1))/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2108 = Coupling(name = 'GC_2108',
                    value = '(cw*ee**3*FM2odd*complex(0,1))/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2109 = Coupling(name = 'GC_2109',
                    value = '(2*cw*ee**3*FM2odd*complex(0,1))/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2110 = Coupling(name = 'GC_2110',
                    value = '-0.5*(cw**2*ee**3*FM2odd)/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2111 = Coupling(name = 'GC_2111',
                    value = '-0.5*(cw**2*ee**3*FM2odd*complex(0,1))/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2112 = Coupling(name = 'GC_2112',
                    value = '(cw**2*ee**3*FM2odd*complex(0,1))/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2113 = Coupling(name = 'GC_2113',
                    value = '-0.5*(cw**2*ee*FM3*complex(0,1))/sw',
@@ -8499,91 +8499,91 @@ GC_2122 = Coupling(name = 'GC_2122',
 
 GC_2123 = Coupling(name = 'GC_2123',
                    value = '-0.5*(cw*ee*FM3odd)/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_2124 = Coupling(name = 'GC_2124',
                    value = '-0.25*(cw*ee*FM3odd)/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_2125 = Coupling(name = 'GC_2125',
                    value = '-0.25*(cw*ee*FM3odd*complex(0,1))/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_2126 = Coupling(name = 'GC_2126',
                    value = '-0.25*(cw**2*ee*FM3odd*complex(0,1))/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_2127 = Coupling(name = 'GC_2127',
                    value = '(cw**2*ee*FM3odd*complex(0,1))/(4.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_2128 = Coupling(name = 'GC_2128',
                    value = '(cw**2*ee*FM3odd)/(4.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_2129 = Coupling(name = 'GC_2129',
                    value = '-0.5*(ee**2*FM3odd)/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2130 = Coupling(name = 'GC_2130',
                    value = '-0.25*(ee**2*FM3odd)/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2131 = Coupling(name = 'GC_2131',
                    value = '(ee**2*FM3odd*complex(0,1))/(4.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2132 = Coupling(name = 'GC_2132',
                    value = '-0.5*(ee**2*FM3odd*complex(0,1))/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2133 = Coupling(name = 'GC_2133',
                    value = '-0.5*(cw*ee**2*FM3odd)/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2134 = Coupling(name = 'GC_2134',
                    value = '-0.25*(cw*ee**2*FM3odd)/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2135 = Coupling(name = 'GC_2135',
                    value = '-0.25*(cw*ee**2*FM3odd*complex(0,1))/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2136 = Coupling(name = 'GC_2136',
                    value = '(cw*ee**2*FM3odd*complex(0,1))/(2.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2137 = Coupling(name = 'GC_2137',
                    value = '(cw*ee**2*FM3odd)/(4.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2138 = Coupling(name = 'GC_2138',
                    value = '-0.25*(cw**2*ee**2*FM3odd)/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2139 = Coupling(name = 'GC_2139',
                    value = '(cw**2*ee**2*FM3odd*complex(0,1))/(4.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2140 = Coupling(name = 'GC_2140',
                    value = '(cw**2*ee**2*FM3odd)/(4.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2141 = Coupling(name = 'GC_2141',
                    value = '-0.5*(ee**3*FM3odd)/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_2142 = Coupling(name = 'GC_2142',
                    value = '(ee**3*FM3odd*complex(0,1))/(4.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_2143 = Coupling(name = 'GC_2143',
                    value = '(ee**3*FM3odd*complex(0,1))/(2.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_2144 = Coupling(name = 'GC_2144',
                    value = '(ee**3*FM3odd)/(4.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_2145 = Coupling(name = 'GC_2145',
                    value = '(cw*ee*FM4*complex(0,1))/(2.*sw)',
@@ -8707,103 +8707,103 @@ GC_2174 = Coupling(name = 'GC_2174',
 
 GC_2175 = Coupling(name = 'GC_2175',
                    value = '-0.25*(cw*ee*FM4odd)/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2176 = Coupling(name = 'GC_2176',
                    value = '(cw*ee*FM4odd*complex(0,1))/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2177 = Coupling(name = 'GC_2177',
                    value = '(cw*ee*FM4odd*complex(0,1))/(2.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2178 = Coupling(name = 'GC_2178',
                    value = '-0.25*(cw**2*ee*FM4odd)/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2179 = Coupling(name = 'GC_2179',
                    value = '-0.25*(cw**2*ee*FM4odd*complex(0,1))/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2180 = Coupling(name = 'GC_2180',
                    value = '(cw**2*ee*FM4odd*complex(0,1))/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2181 = Coupling(name = 'GC_2181',
                    value = '-0.25*(cw**3*ee*FM4odd)/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2182 = Coupling(name = 'GC_2182',
                    value = '(cw**3*ee*FM4odd*complex(0,1))/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2183 = Coupling(name = 'GC_2183',
                    value = '-0.5*(ee**2*FM4odd*complex(0,1))/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2184 = Coupling(name = 'GC_2184',
                    value = '(ee**2*FM4odd*complex(0,1))/(2.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2185 = Coupling(name = 'GC_2185',
                    value = '(ee**2*FM4odd)/(2.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2186 = Coupling(name = 'GC_2186',
                    value = '-0.25*(cw*ee**2*FM4odd)/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2187 = Coupling(name = 'GC_2187',
                    value = '-0.25*(cw*ee**2*FM4odd*complex(0,1))/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2188 = Coupling(name = 'GC_2188',
                    value = '(cw*ee**2*FM4odd*complex(0,1))/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2189 = Coupling(name = 'GC_2189',
                    value = '(cw*ee**2*FM4odd)/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2190 = Coupling(name = 'GC_2190',
                    value = '-0.25*(cw**2*ee**2*FM4odd)/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2191 = Coupling(name = 'GC_2191',
                    value = '-0.25*(cw**2*ee**2*FM4odd*complex(0,1))/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2192 = Coupling(name = 'GC_2192',
                    value = '(cw**2*ee**2*FM4odd*complex(0,1))/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2193 = Coupling(name = 'GC_2193',
                    value = '(cw**2*ee**2*FM4odd)/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2194 = Coupling(name = 'GC_2194',
                    value = '-0.25*(cw**3*ee**2*FM4odd*complex(0,1))/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2195 = Coupling(name = 'GC_2195',
                    value = '(-3*ee**3*FM4odd)/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_2196 = Coupling(name = 'GC_2196',
                    value = '(3*ee**3*FM4odd*complex(0,1))/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_2197 = Coupling(name = 'GC_2197',
                    value = '(3*ee**3*FM4odd)/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_2198 = Coupling(name = 'GC_2198',
                    value = '(cw*ee**3*FM4odd*complex(0,1))/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_2199 = Coupling(name = 'GC_2199',
                    value = '(-2*cw*ee**3*FM4odd*complex(0,1))/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_2200 = Coupling(name = 'GC_2200',
                    value = '-0.25*(cw*ee*FM5*complex(0,1))/sw',
@@ -8927,179 +8927,179 @@ GC_2229 = Coupling(name = 'GC_2229',
 
 GC_2230 = Coupling(name = 'GC_2230',
                    value = '-((ee*FM5odd*complex(0,1))/sw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_2231 = Coupling(name = 'GC_2231',
                    value = '(ee*FM5odd*complex(0,1))/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_2232 = Coupling(name = 'GC_2232',
                    value = '(ee*FM5odd)/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_2233 = Coupling(name = 'GC_2233',
                    value = '(cw*ee*FM5odd*complex(0,1))/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_2234 = Coupling(name = 'GC_2234',
                    value = '(-4*cw*ee*FM5odd*complex(0,1))/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_2235 = Coupling(name = 'GC_2235',
                    value = '-((cw**2*ee*FM5odd*complex(0,1))/sw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_2236 = Coupling(name = 'GC_2236',
                    value = '(cw**2*ee*FM5odd*complex(0,1))/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_2237 = Coupling(name = 'GC_2237',
                    value = '(cw**2*ee*FM5odd)/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_2238 = Coupling(name = 'GC_2238',
                    value = '(-2*ee**2*FM5odd)/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2239 = Coupling(name = 'GC_2239',
                    value = '(-2*ee**2*FM5odd*complex(0,1))/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2240 = Coupling(name = 'GC_2240',
                    value = '(2*ee**2*FM5odd*complex(0,1))/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2241 = Coupling(name = 'GC_2241',
                    value = '-((cw*ee**2*FM5odd*complex(0,1))/sw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2242 = Coupling(name = 'GC_2242',
                    value = '(-4*cw*ee**2*FM5odd*complex(0,1))/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2243 = Coupling(name = 'GC_2243',
                    value = '-((cw**2*ee**2*FM5odd)/sw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2244 = Coupling(name = 'GC_2244',
                    value = '(cw**2*ee**2*FM5odd*complex(0,1))/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2245 = Coupling(name = 'GC_2245',
                    value = '(cw**2*ee**2*FM5odd)/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2246 = Coupling(name = 'GC_2246',
                    value = '(-2*cw**3*ee**2*FM5odd*complex(0,1))/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2247 = Coupling(name = 'GC_2247',
                    value = '(-2*ee**3*FM5odd)/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_2248 = Coupling(name = 'GC_2248',
                    value = '(-2*ee**3*FM5odd*complex(0,1))/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_2249 = Coupling(name = 'GC_2249',
                    value = '(2*ee**3*FM5odd*complex(0,1))/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_2250 = Coupling(name = 'GC_2250',
                    value = '(2*ee**3*FM5odd)/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_2251 = Coupling(name = 'GC_2251',
                    value = '(8*cw*ee**3*FM5odd*complex(0,1))/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_2252 = Coupling(name = 'GC_2252',
                    value = '-0.25*(ee*FM6odd)/sw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2253 = Coupling(name = 'GC_2253',
                    value = '(ee*FM6odd*complex(0,1))/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2254 = Coupling(name = 'GC_2254',
                    value = '(ee*FM6odd)/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2255 = Coupling(name = 'GC_2255',
                    value = '(cw*ee*FM6odd*complex(0,1))/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2256 = Coupling(name = 'GC_2256',
                    value = '(cw*ee*FM6odd)/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2257 = Coupling(name = 'GC_2257',
                    value = '-0.25*(cw**2*ee*FM6odd)/sw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2258 = Coupling(name = 'GC_2258',
                    value = '-0.25*(cw**2*ee*FM6odd*complex(0,1))/sw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2259 = Coupling(name = 'GC_2259',
                    value = '(cw**2*ee*FM6odd*complex(0,1))/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2260 = Coupling(name = 'GC_2260',
                    value = '-0.25*(ee**2*FM6odd)/sw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2261 = Coupling(name = 'GC_2261',
                    value = '-0.25*(ee**2*FM6odd*complex(0,1))/sw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2262 = Coupling(name = 'GC_2262',
                    value = '(ee**2*FM6odd)/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2263 = Coupling(name = 'GC_2263',
                    value = '(cw*ee**2*FM6odd*complex(0,1))/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2264 = Coupling(name = 'GC_2264',
                    value = '(cw*ee**2*FM6odd)/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2265 = Coupling(name = 'GC_2265',
                    value = '-0.25*(cw**2*ee**2*FM6odd)/sw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2266 = Coupling(name = 'GC_2266',
                    value = '(cw**2*ee**2*FM6odd*complex(0,1))/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2267 = Coupling(name = 'GC_2267',
                    value = '(cw**2*ee**2*FM6odd)/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2268 = Coupling(name = 'GC_2268',
                    value = '-0.25*(ee**3*FM6odd)/sw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_2269 = Coupling(name = 'GC_2269',
                    value = '-0.25*(ee**3*FM6odd*complex(0,1))/sw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_2270 = Coupling(name = 'GC_2270',
                    value = '(ee**3*FM6odd*complex(0,1))/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_2271 = Coupling(name = 'GC_2271',
                    value = '-0.25*(ee**3*FM6odd*complex(0,1))/(cw*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_2272 = Coupling(name = 'GC_2272',
                    value = '(ee**3*FM6odd*complex(0,1))/(4.*cw*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_2273 = Coupling(name = 'GC_2273',
                    value = '-((cw*ee**3*FM6odd*complex(0,1))/sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_2274 = Coupling(name = 'GC_2274',
                    value = '-0.125*(cw*ee*FM7*complex(0,1))/sw',
@@ -9711,19 +9711,19 @@ GC_2425 = Coupling(name = 'GC_2425',
 
 GC_2426 = Coupling(name = 'GC_2426',
                    value = '(8*cw**3*ee*complex(0,1)*FT2odd)/sw',
-                   order = {'FT2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT2odd':1,'NP':1,'QED':1})
 
 GC_2427 = Coupling(name = 'GC_2427',
                    value = '(8*cw*ee**2*complex(0,1)*FT2odd)/sw',
-                   order = {'FT2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT2odd':1,'NP':1,'QED':2})
 
 GC_2428 = Coupling(name = 'GC_2428',
                    value = '(-8*cw**3*ee**2*complex(0,1)*FT2odd)/sw',
-                   order = {'FT2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT2odd':1,'NP':1,'QED':2})
 
 GC_2429 = Coupling(name = 'GC_2429',
                    value = '(-16*cw**3*ee**2*complex(0,1)*FT2odd)/sw',
-                   order = {'FT2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT2odd':1,'NP':1,'QED':2})
 
 GC_2430 = Coupling(name = 'GC_2430',
                    value = '(-2*cw*ee*complex(0,1)*FT3)/sw',
@@ -9751,7 +9751,7 @@ GC_2435 = Coupling(name = 'GC_2435',
 
 GC_2436 = Coupling(name = 'GC_2436',
                    value = '(16*cw**3*ee*complex(0,1)*FT3odd)/sw',
-                   order = {'FT3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT3odd':1,'NP':1,'QED':1})
 
 GC_2437 = Coupling(name = 'GC_2437',
                    value = '(-2*cw**3*ee*complex(0,1)*FT4)/sw',
@@ -9767,19 +9767,19 @@ GC_2439 = Coupling(name = 'GC_2439',
 
 GC_2440 = Coupling(name = 'GC_2440',
                    value = '(4*cw**3*ee*complex(0,1)*FT4odd)/sw',
-                   order = {'FT4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT4odd':1,'NP':1,'QED':1})
 
 GC_2441 = Coupling(name = 'GC_2441',
                    value = '(4*cw*ee**2*complex(0,1)*FT4odd)/sw',
-                   order = {'FT4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT4odd':1,'NP':1,'QED':2})
 
 GC_2442 = Coupling(name = 'GC_2442',
                    value = '(-4*cw**3*ee**2*complex(0,1)*FT4odd)/sw',
-                   order = {'FT4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT4odd':1,'NP':1,'QED':2})
 
 GC_2443 = Coupling(name = 'GC_2443',
                    value = '(4*cw**3*ee**2*complex(0,1)*FT4odd)/sw',
-                   order = {'FT4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT4odd':1,'NP':1,'QED':2})
 
 GC_2444 = Coupling(name = 'GC_2444',
                    value = '(-8*cw**3*ee*complex(0,1)*FT5)/sw',
@@ -9799,23 +9799,23 @@ GC_2447 = Coupling(name = 'GC_2447',
 
 GC_2448 = Coupling(name = 'GC_2448',
                    value = '(16*cw*ee*complex(0,1)*FT5odd)/sw',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT5odd':1,'NP':1,'QED':1})
 
 GC_2449 = Coupling(name = 'GC_2449',
                    value = '(16*cw**3*ee*complex(0,1)*FT5odd)/sw',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT5odd':1,'NP':1,'QED':1})
 
 GC_2450 = Coupling(name = 'GC_2450',
                    value = '(-16*cw*ee**2*complex(0,1)*FT5odd)/sw',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT5odd':1,'NP':1,'QED':2})
 
 GC_2451 = Coupling(name = 'GC_2451',
                    value = '(-16*cw**3*ee**2*complex(0,1)*FT5odd)/sw',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT5odd':1,'NP':1,'QED':2})
 
 GC_2452 = Coupling(name = 'GC_2452',
                    value = '(-16*cw*ee**3*complex(0,1)*FT5odd)/sw',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FT5odd':1,'NP':1,'QED':3})
 
 GC_2453 = Coupling(name = 'GC_2453',
                    value = '(4*cw**3*ee*complex(0,1)*FT6)/sw',
@@ -9831,23 +9831,23 @@ GC_2455 = Coupling(name = 'GC_2455',
 
 GC_2456 = Coupling(name = 'GC_2456',
                    value = '(16*cw*ee*complex(0,1)*FT6odd)/sw',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT6odd':1,'NP':1,'QED':1})
 
 GC_2457 = Coupling(name = 'GC_2457',
                    value = '(-8*cw**3*ee*complex(0,1)*FT6odd)/sw',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT6odd':1,'NP':1,'QED':1})
 
 GC_2458 = Coupling(name = 'GC_2458',
                    value = '(8*cw*ee**2*complex(0,1)*FT6odd)/sw',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT6odd':1,'NP':1,'QED':2})
 
 GC_2459 = Coupling(name = 'GC_2459',
                    value = '(-8*cw**3*ee**2*complex(0,1)*FT6odd)/sw',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT6odd':1,'NP':1,'QED':2})
 
 GC_2460 = Coupling(name = 'GC_2460',
                    value = '(16*cw*ee**3*complex(0,1)*FT6odd)/sw',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FT6odd':1,'NP':1,'QED':3})
 
 GC_2461 = Coupling(name = 'GC_2461',
                    value = '-((cw**3*ee*complex(0,1)*FT7)/sw)',
@@ -10571,7 +10571,7 @@ GC_2640 = Coupling(name = 'GC_2640',
 
 GC_2641 = Coupling(name = 'GC_2641',
                    value = '-2*cw*FM1odd*complex(0,1)*sw',
-                   order = {'FM1odd':1,'NPBIS':1})
+                   order = {'FM1odd':1,'NP':1})
 
 GC_2642 = Coupling(name = 'GC_2642',
                    value = '4*cw*FM2*complex(0,1)*sw',
@@ -10579,103 +10579,103 @@ GC_2642 = Coupling(name = 'GC_2642',
 
 GC_2643 = Coupling(name = 'GC_2643',
                    value = '-(FM2odd*sw)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_2644 = Coupling(name = 'GC_2644',
                    value = '-(FM2odd*complex(0,1)*sw)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_2645 = Coupling(name = 'GC_2645',
                    value = 'FM2odd*sw',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_2646 = Coupling(name = 'GC_2646',
                    value = '-(cw*FM2odd*complex(0,1)*sw)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_2647 = Coupling(name = 'GC_2647',
                    value = 'cw*FM2odd*complex(0,1)*sw',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_2648 = Coupling(name = 'GC_2648',
                    value = '-(ee*FM2odd*complex(0,1)*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2649 = Coupling(name = 'GC_2649',
                    value = 'ee*FM2odd*complex(0,1)*sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2650 = Coupling(name = 'GC_2650',
                    value = '(ee*FM2odd*sw)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2651 = Coupling(name = 'GC_2651',
                    value = '-0.5*(cw*ee*FM2odd*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2652 = Coupling(name = 'GC_2652',
                    value = '-(cw*ee*FM2odd*complex(0,1)*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2653 = Coupling(name = 'GC_2653',
                    value = 'cw*ee*FM2odd*complex(0,1)*sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_2654 = Coupling(name = 'GC_2654',
                    value = '-0.5*(ee**2*FM2odd*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2655 = Coupling(name = 'GC_2655',
                    value = '(ee**2*FM2odd*complex(0,1)*sw)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2656 = Coupling(name = 'GC_2656',
                    value = '-(ee**2*FM2odd*complex(0,1)*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2657 = Coupling(name = 'GC_2657',
                    value = '(ee**2*FM2odd*sw)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2658 = Coupling(name = 'GC_2658',
                    value = '-0.5*(ee**2*FM2odd*sw)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2659 = Coupling(name = 'GC_2659',
                    value = '-0.5*(ee**2*FM2odd*complex(0,1)*sw)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2660 = Coupling(name = 'GC_2660',
                    value = '(ee**2*FM2odd*complex(0,1)*sw)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2661 = Coupling(name = 'GC_2661',
                    value = '-2*cw*ee**2*FM2odd*complex(0,1)*sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2662 = Coupling(name = 'GC_2662',
                    value = '2*cw*ee**2*FM2odd*complex(0,1)*sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_2663 = Coupling(name = 'GC_2663',
                    value = '-0.5*(ee**3*FM2odd*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2664 = Coupling(name = 'GC_2664',
                    value = '-0.5*(ee**3*FM2odd*complex(0,1)*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2665 = Coupling(name = 'GC_2665',
                    value = '(ee**3*FM2odd*complex(0,1)*sw)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2666 = Coupling(name = 'GC_2666',
                    value = '-0.5*(ee**3*FM2odd*complex(0,1)*sw)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2667 = Coupling(name = 'GC_2667',
                    value = '(ee**3*FM2odd*complex(0,1)*sw)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_2668 = Coupling(name = 'GC_2668',
                    value = 'cw*FM3*complex(0,1)*sw',
@@ -10719,47 +10719,47 @@ GC_2677 = Coupling(name = 'GC_2677',
 
 GC_2678 = Coupling(name = 'GC_2678',
                    value = '-0.5*(FM3odd*sw)',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_2679 = Coupling(name = 'GC_2679',
                    value = '(FM3odd*complex(0,1)*sw)/2.',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_2680 = Coupling(name = 'GC_2680',
                    value = '(FM3odd*sw)/2.',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_2681 = Coupling(name = 'GC_2681',
                    value = '-0.25*(ee*FM3odd*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_2682 = Coupling(name = 'GC_2682',
                    value = '-0.25*(ee*FM3odd*complex(0,1)*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_2683 = Coupling(name = 'GC_2683',
                    value = '(ee*FM3odd*complex(0,1)*sw)/4.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_2684 = Coupling(name = 'GC_2684',
                    value = '-0.25*(ee**2*FM3odd*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2685 = Coupling(name = 'GC_2685',
                    value = '(ee**2*FM3odd*complex(0,1)*sw)/4.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2686 = Coupling(name = 'GC_2686',
                    value = '(ee**2*FM3odd*sw)/4.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2687 = Coupling(name = 'GC_2687',
                    value = '-0.25*(ee**2*FM3odd*sw)/cw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2688 = Coupling(name = 'GC_2688',
                    value = '(ee**2*FM3odd*sw)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_2689 = Coupling(name = 'GC_2689',
                    value = '-(FM4*sw)',
@@ -10851,87 +10851,87 @@ GC_2710 = Coupling(name = 'GC_2710',
 
 GC_2711 = Coupling(name = 'GC_2711',
                    value = '-0.5*(FM4odd*sw)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_2712 = Coupling(name = 'GC_2712',
                    value = '-0.5*(FM4odd*complex(0,1)*sw)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_2713 = Coupling(name = 'GC_2713',
                    value = '(FM4odd*sw)/2.',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_2714 = Coupling(name = 'GC_2714',
                    value = '-0.5*(cw*FM4odd*complex(0,1)*sw)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_2715 = Coupling(name = 'GC_2715',
                    value = '(cw*FM4odd*complex(0,1)*sw)/2.',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_2716 = Coupling(name = 'GC_2716',
                    value = '-0.25*(ee*FM4odd*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2717 = Coupling(name = 'GC_2717',
                    value = '-0.25*(ee*FM4odd*complex(0,1)*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2718 = Coupling(name = 'GC_2718',
                    value = '(ee*FM4odd*complex(0,1)*sw)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2719 = Coupling(name = 'GC_2719',
                    value = '-0.25*(cw*ee*FM4odd*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2720 = Coupling(name = 'GC_2720',
                    value = '-0.25*(cw*ee*FM4odd*complex(0,1)*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2721 = Coupling(name = 'GC_2721',
                    value = '(cw*ee*FM4odd*complex(0,1)*sw)/2.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_2722 = Coupling(name = 'GC_2722',
                    value = '-0.25*(ee**2*FM4odd*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2723 = Coupling(name = 'GC_2723',
                    value = '-0.25*(ee**2*FM4odd*complex(0,1)*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2724 = Coupling(name = 'GC_2724',
                    value = '(ee**2*FM4odd*complex(0,1)*sw)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2725 = Coupling(name = 'GC_2725',
                    value = '(ee**2*FM4odd*sw)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2726 = Coupling(name = 'GC_2726',
                    value = '-0.25*(ee**2*FM4odd*sw)/cw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2727 = Coupling(name = 'GC_2727',
                    value = '(ee**2*FM4odd*complex(0,1)*sw)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2728 = Coupling(name = 'GC_2728',
                    value = '(cw*ee**2*FM4odd*complex(0,1)*sw)/2.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2729 = Coupling(name = 'GC_2729',
                    value = '-(cw*ee**2*FM4odd*complex(0,1)*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_2730 = Coupling(name = 'GC_2730',
                    value = '-0.25*(ee**3*FM4odd*complex(0,1)*sw)/cw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_2731 = Coupling(name = 'GC_2731',
                    value = '(ee**3*FM4odd*complex(0,1)*sw)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_2732 = Coupling(name = 'GC_2732',
                    value = '-0.5*(FM5*sw)',
@@ -11023,139 +11023,139 @@ GC_2753 = Coupling(name = 'GC_2753',
 
 GC_2754 = Coupling(name = 'GC_2754',
                    value = '2*cw*FM5odd*complex(0,1)*sw',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_2755 = Coupling(name = 'GC_2755',
                    value = '-(ee*FM5odd*complex(0,1)*sw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_2756 = Coupling(name = 'GC_2756',
                    value = 'ee*FM5odd*complex(0,1)*sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_2757 = Coupling(name = 'GC_2757',
                    value = 'ee*FM5odd*sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_2758 = Coupling(name = 'GC_2758',
                    value = '-((ee*FM5odd*complex(0,1)*sw)/cw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_2759 = Coupling(name = 'GC_2759',
                    value = '2*cw*ee*FM5odd*complex(0,1)*sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_2760 = Coupling(name = 'GC_2760',
                    value = '-(ee**2*FM5odd*sw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2761 = Coupling(name = 'GC_2761',
                    value = '-(ee**2*FM5odd*complex(0,1)*sw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2762 = Coupling(name = 'GC_2762',
                    value = 'ee**2*FM5odd*complex(0,1)*sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2763 = Coupling(name = 'GC_2763',
                    value = 'ee**2*FM5odd*sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2764 = Coupling(name = 'GC_2764',
                    value = '(2*ee**2*FM5odd*complex(0,1)*sw)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2765 = Coupling(name = 'GC_2765',
                    value = '2*cw*ee**2*FM5odd*complex(0,1)*sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2766 = Coupling(name = 'GC_2766',
                    value = '-4*cw*ee**2*FM5odd*complex(0,1)*sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_2767 = Coupling(name = 'GC_2767',
                    value = '(-4*ee**3*FM5odd*complex(0,1)*sw)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_2768 = Coupling(name = 'GC_2768',
                    value = '-0.5*(FM6odd*sw)',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_2769 = Coupling(name = 'GC_2769',
                    value = '-0.5*(FM6odd*complex(0,1)*sw)',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_2770 = Coupling(name = 'GC_2770',
                    value = '(FM6odd*sw)/2.',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_2771 = Coupling(name = 'GC_2771',
                    value = '-0.5*(ee*FM6odd*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2772 = Coupling(name = 'GC_2772',
                    value = '-0.25*(ee*FM6odd*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2773 = Coupling(name = 'GC_2773',
                    value = '-0.25*(ee*FM6odd*complex(0,1)*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2774 = Coupling(name = 'GC_2774',
                    value = '(ee*FM6odd*complex(0,1)*sw)/4.',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2775 = Coupling(name = 'GC_2775',
                    value = '-0.5*(ee*FM6odd*complex(0,1)*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2776 = Coupling(name = 'GC_2776',
                    value = '(ee*FM6odd*complex(0,1)*sw)/2.',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2777 = Coupling(name = 'GC_2777',
                    value = '-0.25*(ee*FM6odd*complex(0,1)*sw)/cw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2778 = Coupling(name = 'GC_2778',
                    value = '(ee*FM6odd*complex(0,1)*sw)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_2779 = Coupling(name = 'GC_2779',
                    value = '-0.5*(ee**2*FM6odd*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2780 = Coupling(name = 'GC_2780',
                    value = '-0.25*(ee**2*FM6odd*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2781 = Coupling(name = 'GC_2781',
                    value = '(ee**2*FM6odd*complex(0,1)*sw)/4.',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2782 = Coupling(name = 'GC_2782',
                    value = '(ee**2*FM6odd*complex(0,1)*sw)/2.',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2783 = Coupling(name = 'GC_2783',
                    value = '(ee**2*FM6odd*sw)/4.',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2784 = Coupling(name = 'GC_2784',
                    value = '(ee**2*FM6odd*sw)/2.',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2785 = Coupling(name = 'GC_2785',
                    value = '-0.25*(ee**2*FM6odd*complex(0,1)*sw)/cw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2786 = Coupling(name = 'GC_2786',
                    value = '(ee**2*FM6odd*complex(0,1)*sw)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_2787 = Coupling(name = 'GC_2787',
                    value = '(ee**3*FM6odd*complex(0,1)*sw)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_2788 = Coupling(name = 'GC_2788',
                    value = '(cw*FM7*complex(0,1)*sw)/4.',
@@ -11395,7 +11395,7 @@ GC_2846 = Coupling(name = 'GC_2846',
 
 GC_2847 = Coupling(name = 'GC_2847',
                    value = '8*cw**3*complex(0,1)*FT1odd*sw',
-                   order = {'FT1odd':1,'NPBIS':1})
+                   order = {'FT1odd':1,'NP':1})
 
 GC_2848 = Coupling(name = 'GC_2848',
                    value = 'cw*complex(0,1)*FT2*sw',
@@ -11415,31 +11415,31 @@ GC_2851 = Coupling(name = 'GC_2851',
 
 GC_2852 = Coupling(name = 'GC_2852',
                    value = '8*cw*complex(0,1)*FT2odd*sw',
-                   order = {'FT2odd':1,'NPBIS':1})
+                   order = {'FT2odd':1,'NP':1})
 
 GC_2853 = Coupling(name = 'GC_2853',
                    value = '-8*cw**3*complex(0,1)*FT2odd*sw',
-                   order = {'FT2odd':1,'NPBIS':1})
+                   order = {'FT2odd':1,'NP':1})
 
 GC_2854 = Coupling(name = 'GC_2854',
                    value = '8*cw**3*complex(0,1)*FT2odd*sw',
-                   order = {'FT2odd':1,'NPBIS':1})
+                   order = {'FT2odd':1,'NP':1})
 
 GC_2855 = Coupling(name = 'GC_2855',
                    value = '-8*cw*ee*complex(0,1)*FT2odd*sw',
-                   order = {'FT2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT2odd':1,'NP':1,'QED':1})
 
 GC_2856 = Coupling(name = 'GC_2856',
                    value = '8*cw*ee*complex(0,1)*FT2odd*sw',
-                   order = {'FT2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT2odd':1,'NP':1,'QED':1})
 
 GC_2857 = Coupling(name = 'GC_2857',
                    value = '-8*cw*ee**2*complex(0,1)*FT2odd*sw',
-                   order = {'FT2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT2odd':1,'NP':1,'QED':2})
 
 GC_2858 = Coupling(name = 'GC_2858',
                    value = '-16*cw*ee**2*complex(0,1)*FT2odd*sw',
-                   order = {'FT2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT2odd':1,'NP':1,'QED':2})
 
 GC_2859 = Coupling(name = 'GC_2859',
                    value = '2*cw*complex(0,1)*FT3*sw',
@@ -11459,23 +11459,23 @@ GC_2862 = Coupling(name = 'GC_2862',
 
 GC_2863 = Coupling(name = 'GC_2863',
                    value = '8*cw*complex(0,1)*FT3odd*sw',
-                   order = {'FT3odd':1,'NPBIS':1})
+                   order = {'FT3odd':1,'NP':1})
 
 GC_2864 = Coupling(name = 'GC_2864',
                    value = '-8*cw**3*complex(0,1)*FT3odd*sw',
-                   order = {'FT3odd':1,'NPBIS':1})
+                   order = {'FT3odd':1,'NP':1})
 
 GC_2865 = Coupling(name = 'GC_2865',
                    value = '8*cw**3*complex(0,1)*FT3odd*sw',
-                   order = {'FT3odd':1,'NPBIS':1})
+                   order = {'FT3odd':1,'NP':1})
 
 GC_2866 = Coupling(name = 'GC_2866',
                    value = '-16*cw*ee*complex(0,1)*FT3odd*sw',
-                   order = {'FT3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT3odd':1,'NP':1,'QED':1})
 
 GC_2867 = Coupling(name = 'GC_2867',
                    value = '16*cw*ee*complex(0,1)*FT3odd*sw',
-                   order = {'FT3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT3odd':1,'NP':1,'QED':1})
 
 GC_2868 = Coupling(name = 'GC_2868',
                    value = '-2*cw*complex(0,1)*FT4*sw',
@@ -11495,31 +11495,31 @@ GC_2871 = Coupling(name = 'GC_2871',
 
 GC_2872 = Coupling(name = 'GC_2872',
                    value = '-4*cw*complex(0,1)*FT4odd*sw',
-                   order = {'FT4odd':1,'NPBIS':1})
+                   order = {'FT4odd':1,'NP':1})
 
 GC_2873 = Coupling(name = 'GC_2873',
                    value = '4*cw**3*complex(0,1)*FT4odd*sw',
-                   order = {'FT4odd':1,'NPBIS':1})
+                   order = {'FT4odd':1,'NP':1})
 
 GC_2874 = Coupling(name = 'GC_2874',
                    value = '-8*cw**3*complex(0,1)*FT4odd*sw',
-                   order = {'FT4odd':1,'NPBIS':1})
+                   order = {'FT4odd':1,'NP':1})
 
 GC_2875 = Coupling(name = 'GC_2875',
                    value = '-4*cw*ee*complex(0,1)*FT4odd*sw',
-                   order = {'FT4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT4odd':1,'NP':1,'QED':1})
 
 GC_2876 = Coupling(name = 'GC_2876',
                    value = '-8*cw*ee*complex(0,1)*FT4odd*sw',
-                   order = {'FT4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT4odd':1,'NP':1,'QED':1})
 
 GC_2877 = Coupling(name = 'GC_2877',
                    value = '-4*cw*ee**2*complex(0,1)*FT4odd*sw',
-                   order = {'FT4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT4odd':1,'NP':1,'QED':2})
 
 GC_2878 = Coupling(name = 'GC_2878',
                    value = '4*cw*ee**2*complex(0,1)*FT4odd*sw',
-                   order = {'FT4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT4odd':1,'NP':1,'QED':2})
 
 GC_2879 = Coupling(name = 'GC_2879',
                    value = '-8*cw*complex(0,1)*FT5*sw',
@@ -11543,19 +11543,19 @@ GC_2883 = Coupling(name = 'GC_2883',
 
 GC_2884 = Coupling(name = 'GC_2884',
                    value = '-8*cw*complex(0,1)*FT5odd*sw',
-                   order = {'FT5odd':1,'NPBIS':1})
+                   order = {'FT5odd':1,'NP':1})
 
 GC_2885 = Coupling(name = 'GC_2885',
                    value = '-8*cw**3*complex(0,1)*FT5odd*sw',
-                   order = {'FT5odd':1,'NPBIS':1})
+                   order = {'FT5odd':1,'NP':1})
 
 GC_2886 = Coupling(name = 'GC_2886',
                    value = '16*cw*ee*complex(0,1)*FT5odd*sw',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT5odd':1,'NP':1,'QED':1})
 
 GC_2887 = Coupling(name = 'GC_2887',
                    value = '8*cw*ee**2*complex(0,1)*FT5odd*sw',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT5odd':1,'NP':1,'QED':2})
 
 GC_2888 = Coupling(name = 'GC_2888',
                    value = '-4*cw*complex(0,1)*FT6*sw',
@@ -11575,19 +11575,19 @@ GC_2891 = Coupling(name = 'GC_2891',
 
 GC_2892 = Coupling(name = 'GC_2892',
                    value = '-4*cw*complex(0,1)*FT6odd*sw',
-                   order = {'FT6odd':1,'NPBIS':1})
+                   order = {'FT6odd':1,'NP':1})
 
 GC_2893 = Coupling(name = 'GC_2893',
                    value = '-8*cw**3*complex(0,1)*FT6odd*sw',
-                   order = {'FT6odd':1,'NPBIS':1})
+                   order = {'FT6odd':1,'NP':1})
 
 GC_2894 = Coupling(name = 'GC_2894',
                    value = '8*cw*ee*complex(0,1)*FT6odd*sw',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT6odd':1,'NP':1,'QED':1})
 
 GC_2895 = Coupling(name = 'GC_2895',
                    value = '-8*cw*ee**2*complex(0,1)*FT6odd*sw',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT6odd':1,'NP':1,'QED':2})
 
 GC_2896 = Coupling(name = 'GC_2896',
                    value = '-(cw*complex(0,1)*FT7*sw)',
@@ -12011,7 +12011,7 @@ GC_3000 = Coupling(name = 'GC_3000',
 
 GC_3001 = Coupling(name = 'GC_3001',
                    value = '2*FM1odd*complex(0,1)*sw**2',
-                   order = {'FM1odd':1,'NPBIS':1})
+                   order = {'FM1odd':1,'NP':1})
 
 GC_3002 = Coupling(name = 'GC_3002',
                    value = '-4*FM2*complex(0,1)*sw**2',
@@ -12019,71 +12019,71 @@ GC_3002 = Coupling(name = 'GC_3002',
 
 GC_3003 = Coupling(name = 'GC_3003',
                    value = '-(FM2odd*complex(0,1)*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_3004 = Coupling(name = 'GC_3004',
                    value = 'FM2odd*complex(0,1)*sw**2',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_3005 = Coupling(name = 'GC_3005',
                    value = 'ee*FM2odd*complex(0,1)*sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3006 = Coupling(name = 'GC_3006',
                    value = '-0.5*(ee*FM2odd*sw**2)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3007 = Coupling(name = 'GC_3007',
                    value = '-0.5*(ee*FM2odd*complex(0,1)*sw**2)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3008 = Coupling(name = 'GC_3008',
                    value = '(ee*FM2odd*complex(0,1)*sw**2)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3009 = Coupling(name = 'GC_3009',
                    value = '(ee**2*FM2odd*complex(0,1)*sw**2)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3010 = Coupling(name = 'GC_3010',
                    value = '-(ee**2*FM2odd*complex(0,1)*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3011 = Coupling(name = 'GC_3011',
                    value = '-2*ee**2*FM2odd*complex(0,1)*sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3012 = Coupling(name = 'GC_3012',
                    value = '-0.5*(ee**2*FM2odd*sw**2)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3013 = Coupling(name = 'GC_3013',
                    value = '(ee**2*FM2odd*complex(0,1)*sw**2)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3014 = Coupling(name = 'GC_3014',
                    value = '(ee**2*FM2odd*sw**2)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3015 = Coupling(name = 'GC_3015',
                    value = '-0.5*(ee**3*FM2odd*complex(0,1)*sw**2)/cw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3016 = Coupling(name = 'GC_3016',
                    value = '(ee**3*FM2odd*complex(0,1)*sw**2)/(2.*cw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3017 = Coupling(name = 'GC_3017',
                    value = '-0.5*(ee**3*FM2odd*sw**2)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3018 = Coupling(name = 'GC_3018',
                    value = '-0.5*(ee**3*FM2odd*complex(0,1)*sw**2)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3019 = Coupling(name = 'GC_3019',
                    value = '(ee**3*FM2odd*complex(0,1)*sw**2)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3020 = Coupling(name = 'GC_3020',
                    value = '-(FM3*complex(0,1)*sw**2)',
@@ -12111,39 +12111,39 @@ GC_3025 = Coupling(name = 'GC_3025',
 
 GC_3026 = Coupling(name = 'GC_3026',
                    value = '-0.25*(ee*FM3odd*sw**2)/cw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_3027 = Coupling(name = 'GC_3027',
                    value = '-0.25*(ee*FM3odd*complex(0,1)*sw**2)/cw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_3028 = Coupling(name = 'GC_3028',
                    value = '(ee*FM3odd*complex(0,1)*sw**2)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_3029 = Coupling(name = 'GC_3029',
                    value = '-0.25*(ee**2*FM3odd*sw**2)/cw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_3030 = Coupling(name = 'GC_3030',
                    value = '-0.25*(ee**2*FM3odd*complex(0,1)*sw**2)/cw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_3031 = Coupling(name = 'GC_3031',
                    value = '(ee**2*FM3odd*sw**2)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_3032 = Coupling(name = 'GC_3032',
                    value = '-0.25*(ee**3*FM3odd*complex(0,1)*sw**2)/cw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_3033 = Coupling(name = 'GC_3033',
                    value = '(ee**3*FM3odd*complex(0,1)*sw**2)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_3034 = Coupling(name = 'GC_3034',
                    value = '(ee**3*FM3odd*sw**2)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_3035 = Coupling(name = 'GC_3035',
                    value = '-0.5*(ee*FM4*sw**2)/cw',
@@ -12191,51 +12191,51 @@ GC_3045 = Coupling(name = 'GC_3045',
 
 GC_3046 = Coupling(name = 'GC_3046',
                    value = '-0.5*(FM4odd*complex(0,1)*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_3047 = Coupling(name = 'GC_3047',
                    value = '(FM4odd*complex(0,1)*sw**2)/2.',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_3048 = Coupling(name = 'GC_3048',
                    value = '-0.25*(ee*FM4odd*complex(0,1)*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3049 = Coupling(name = 'GC_3049',
                    value = '-0.25*(ee*FM4odd*sw**2)/cw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3050 = Coupling(name = 'GC_3050',
                    value = '-0.25*(ee*FM4odd*complex(0,1)*sw**2)/cw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3051 = Coupling(name = 'GC_3051',
                    value = '(ee*FM4odd*complex(0,1)*sw**2)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3052 = Coupling(name = 'GC_3052',
                    value = '-0.25*(ee**2*FM4odd*complex(0,1)*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3053 = Coupling(name = 'GC_3053',
                    value = '(ee**2*FM4odd*complex(0,1)*sw**2)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3054 = Coupling(name = 'GC_3054',
                    value = '(ee**2*FM4odd*complex(0,1)*sw**2)/2.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3055 = Coupling(name = 'GC_3055',
                    value = '-0.25*(ee**2*FM4odd*sw**2)/cw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3056 = Coupling(name = 'GC_3056',
                    value = '(ee**2*FM4odd*complex(0,1)*sw**2)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3057 = Coupling(name = 'GC_3057',
                    value = '(ee**2*FM4odd*sw**2)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3058 = Coupling(name = 'GC_3058',
                    value = '-0.25*(ee*FM5*sw**2)/cw',
@@ -12283,67 +12283,67 @@ GC_3068 = Coupling(name = 'GC_3068',
 
 GC_3069 = Coupling(name = 'GC_3069',
                    value = '2*FM5odd*complex(0,1)*sw**2',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_3070 = Coupling(name = 'GC_3070',
                    value = '-(ee*FM5odd*complex(0,1)*sw**2)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_3071 = Coupling(name = 'GC_3071',
                    value = '2*ee*FM5odd*complex(0,1)*sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_3072 = Coupling(name = 'GC_3072',
                    value = '2*ee**2*FM5odd*complex(0,1)*sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3073 = Coupling(name = 'GC_3073',
                    value = '-4*ee**2*FM5odd*complex(0,1)*sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3074 = Coupling(name = 'GC_3074',
                    value = '-((ee**2*FM5odd*complex(0,1)*sw**2)/cw**2)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3075 = Coupling(name = 'GC_3075',
                    value = '-((ee**2*FM5odd*sw**2)/cw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3076 = Coupling(name = 'GC_3076',
                    value = '-((ee**2*FM5odd*complex(0,1)*sw**2)/cw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3077 = Coupling(name = 'GC_3077',
                    value = '(ee**2*FM5odd*sw**2)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3078 = Coupling(name = 'GC_3078',
                    value = '(2*ee**3*FM5odd*complex(0,1)*sw**2)/cw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_3079 = Coupling(name = 'GC_3079',
                    value = '-0.25*(ee*FM6odd*complex(0,1)*sw**2)/cw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_3080 = Coupling(name = 'GC_3080',
                    value = '(ee*FM6odd*complex(0,1)*sw**2)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_3081 = Coupling(name = 'GC_3081',
                    value = '(ee*FM6odd*sw**2)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_3082 = Coupling(name = 'GC_3082',
                    value = '-0.25*(ee**2*FM6odd*sw**2)/cw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_3083 = Coupling(name = 'GC_3083',
                    value = '-0.25*(ee**2*FM6odd*complex(0,1)*sw**2)/cw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_3084 = Coupling(name = 'GC_3084',
                    value = '(ee**2*FM6odd*sw**2)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_3085 = Coupling(name = 'GC_3085',
                    value = '(FM7*complex(0,1)*sw**2)/4.',
@@ -12407,7 +12407,7 @@ GC_3099 = Coupling(name = 'GC_3099',
 
 GC_3100 = Coupling(name = 'GC_3100',
                    value = '-8*cw**2*complex(0,1)*FT1odd*sw**2',
-                   order = {'FT1odd':1,'NPBIS':1})
+                   order = {'FT1odd':1,'NP':1})
 
 GC_3101 = Coupling(name = 'GC_3101',
                    value = 'complex(0,1)*FT2*sw**2',
@@ -12427,23 +12427,23 @@ GC_3104 = Coupling(name = 'GC_3104',
 
 GC_3105 = Coupling(name = 'GC_3105',
                    value = '-8*complex(0,1)*FT2odd*sw**2',
-                   order = {'FT2odd':1,'NPBIS':1})
+                   order = {'FT2odd':1,'NP':1})
 
 GC_3106 = Coupling(name = 'GC_3106',
                    value = '-8*cw**2*complex(0,1)*FT2odd*sw**2',
-                   order = {'FT2odd':1,'NPBIS':1})
+                   order = {'FT2odd':1,'NP':1})
 
 GC_3107 = Coupling(name = 'GC_3107',
                    value = '8*cw**2*complex(0,1)*FT2odd*sw**2',
-                   order = {'FT2odd':1,'NPBIS':1})
+                   order = {'FT2odd':1,'NP':1})
 
 GC_3108 = Coupling(name = 'GC_3108',
                    value = '8*ee*complex(0,1)*FT2odd*sw**2',
-                   order = {'FT2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT2odd':1,'NP':1,'QED':1})
 
 GC_3109 = Coupling(name = 'GC_3109',
                    value = '8*ee**2*complex(0,1)*FT2odd*sw**2',
-                   order = {'FT2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT2odd':1,'NP':1,'QED':2})
 
 GC_3110 = Coupling(name = 'GC_3110',
                    value = '2*complex(0,1)*FT3*sw**2',
@@ -12463,19 +12463,19 @@ GC_3113 = Coupling(name = 'GC_3113',
 
 GC_3114 = Coupling(name = 'GC_3114',
                    value = '-8*complex(0,1)*FT3odd*sw**2',
-                   order = {'FT3odd':1,'NPBIS':1})
+                   order = {'FT3odd':1,'NP':1})
 
 GC_3115 = Coupling(name = 'GC_3115',
                    value = '-8*cw**2*complex(0,1)*FT3odd*sw**2',
-                   order = {'FT3odd':1,'NPBIS':1})
+                   order = {'FT3odd':1,'NP':1})
 
 GC_3116 = Coupling(name = 'GC_3116',
                    value = '8*cw**2*complex(0,1)*FT3odd*sw**2',
-                   order = {'FT3odd':1,'NPBIS':1})
+                   order = {'FT3odd':1,'NP':1})
 
 GC_3117 = Coupling(name = 'GC_3117',
                    value = '16*ee*complex(0,1)*FT3odd*sw**2',
-                   order = {'FT3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT3odd':1,'NP':1,'QED':1})
 
 GC_3118 = Coupling(name = 'GC_3118',
                    value = '2*complex(0,1)*FT4*sw**2',
@@ -12499,23 +12499,23 @@ GC_3122 = Coupling(name = 'GC_3122',
 
 GC_3123 = Coupling(name = 'GC_3123',
                    value = '4*complex(0,1)*FT4odd*sw**2',
-                   order = {'FT4odd':1,'NPBIS':1})
+                   order = {'FT4odd':1,'NP':1})
 
 GC_3124 = Coupling(name = 'GC_3124',
                    value = '-8*cw**2*complex(0,1)*FT4odd*sw**2',
-                   order = {'FT4odd':1,'NPBIS':1})
+                   order = {'FT4odd':1,'NP':1})
 
 GC_3125 = Coupling(name = 'GC_3125',
                    value = '8*cw**2*complex(0,1)*FT4odd*sw**2',
-                   order = {'FT4odd':1,'NPBIS':1})
+                   order = {'FT4odd':1,'NP':1})
 
 GC_3126 = Coupling(name = 'GC_3126',
                    value = '4*ee*complex(0,1)*FT4odd*sw**2',
-                   order = {'FT4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT4odd':1,'NP':1,'QED':1})
 
 GC_3127 = Coupling(name = 'GC_3127',
                    value = '4*ee**2*complex(0,1)*FT4odd*sw**2',
-                   order = {'FT4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT4odd':1,'NP':1,'QED':2})
 
 GC_3128 = Coupling(name = 'GC_3128',
                    value = '8*complex(0,1)*FT5*sw**2',
@@ -12539,19 +12539,19 @@ GC_3132 = Coupling(name = 'GC_3132',
 
 GC_3133 = Coupling(name = 'GC_3133',
                    value = '-8*complex(0,1)*FT5odd*sw**2',
-                   order = {'FT5odd':1,'NPBIS':1})
+                   order = {'FT5odd':1,'NP':1})
 
 GC_3134 = Coupling(name = 'GC_3134',
                    value = '-8*cw**2*complex(0,1)*FT5odd*sw**2',
-                   order = {'FT5odd':1,'NPBIS':1})
+                   order = {'FT5odd':1,'NP':1})
 
 GC_3135 = Coupling(name = 'GC_3135',
                    value = '16*ee*complex(0,1)*FT5odd*sw**2',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT5odd':1,'NP':1,'QED':1})
 
 GC_3136 = Coupling(name = 'GC_3136',
                    value = '8*ee**2*complex(0,1)*FT5odd*sw**2',
-                   order = {'FT5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT5odd':1,'NP':1,'QED':2})
 
 GC_3137 = Coupling(name = 'GC_3137',
                    value = '4*complex(0,1)*FT6*sw**2',
@@ -12575,19 +12575,19 @@ GC_3141 = Coupling(name = 'GC_3141',
 
 GC_3142 = Coupling(name = 'GC_3142',
                    value = '-4*complex(0,1)*FT6odd*sw**2',
-                   order = {'FT6odd':1,'NPBIS':1})
+                   order = {'FT6odd':1,'NP':1})
 
 GC_3143 = Coupling(name = 'GC_3143',
                    value = '-8*cw**2*complex(0,1)*FT6odd*sw**2',
-                   order = {'FT6odd':1,'NPBIS':1})
+                   order = {'FT6odd':1,'NP':1})
 
 GC_3144 = Coupling(name = 'GC_3144',
                    value = '16*ee*complex(0,1)*FT6odd*sw**2',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FT6odd':1,'NP':1,'QED':1})
 
 GC_3145 = Coupling(name = 'GC_3145',
                    value = '8*ee**2*complex(0,1)*FT6odd*sw**2',
-                   order = {'FT6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FT6odd':1,'NP':1,'QED':2})
 
 GC_3146 = Coupling(name = 'GC_3146',
                    value = 'complex(0,1)*FT7*sw**2',
@@ -12719,39 +12719,39 @@ GC_3177 = Coupling(name = 'GC_3177',
 
 GC_3178 = Coupling(name = 'GC_3178',
                    value = '-0.5*(ee*FM2odd*sw**3)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3179 = Coupling(name = 'GC_3179',
                    value = '-0.5*(ee*FM2odd*complex(0,1)*sw**3)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3180 = Coupling(name = 'GC_3180',
                    value = '-0.5*(ee**2*FM2odd*sw**3)/cw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3181 = Coupling(name = 'GC_3181',
                    value = '(ee**2*FM2odd*complex(0,1)*sw**3)/(2.*cw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3182 = Coupling(name = 'GC_3182',
                    value = '(ee**2*FM2odd*sw**3)/(2.*cw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3183 = Coupling(name = 'GC_3183',
                    value = '(ee**2*FM2odd*complex(0,1)*sw**3)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3184 = Coupling(name = 'GC_3184',
                    value = '-0.5*(ee**3*FM2odd*complex(0,1)*sw**3)/cw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3185 = Coupling(name = 'GC_3185',
                    value = '(ee**3*FM2odd*complex(0,1)*sw**3)/(2.*cw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3186 = Coupling(name = 'GC_3186',
                    value = '(ee**3*FM2odd*sw**3)/(2.*cw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3187 = Coupling(name = 'GC_3187',
                    value = '-0.5*(ee**2*FM3*complex(0,1)*sw**3)/cw',
@@ -12783,27 +12783,27 @@ GC_3193 = Coupling(name = 'GC_3193',
 
 GC_3194 = Coupling(name = 'GC_3194',
                    value = '-0.25*(ee*FM4odd*sw**3)/cw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3195 = Coupling(name = 'GC_3195',
                    value = '-0.25*(ee*FM4odd*complex(0,1)*sw**3)/cw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3196 = Coupling(name = 'GC_3196',
                    value = '-0.25*(ee**2*FM4odd*sw**3)/cw**2',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3197 = Coupling(name = 'GC_3197',
                    value = '(ee**2*FM4odd*complex(0,1)*sw**3)/(4.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3198 = Coupling(name = 'GC_3198',
                    value = '(ee**2*FM4odd*sw**3)/(4.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3199 = Coupling(name = 'GC_3199',
                    value = '-0.25*(ee**2*FM4odd*complex(0,1)*sw**3)/cw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3200 = Coupling(name = 'GC_3200',
                    value = '-0.25*(ee**2*FM5*sw**3)/cw**2',
@@ -12831,15 +12831,15 @@ GC_3205 = Coupling(name = 'GC_3205',
 
 GC_3206 = Coupling(name = 'GC_3206',
                    value = '-((ee*FM5odd*complex(0,1)*sw**3)/cw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_3207 = Coupling(name = 'GC_3207',
                    value = '-((ee**2*FM5odd*complex(0,1)*sw**3)/cw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3208 = Coupling(name = 'GC_3208',
                    value = '(2*ee**2*FM5odd*complex(0,1)*sw**3)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3209 = Coupling(name = 'GC_3209',
                    value = '-0.25*(ee*FM8*sw**3)/cw',
@@ -12855,7 +12855,7 @@ GC_3211 = Coupling(name = 'GC_3211',
 
 GC_3212 = Coupling(name = 'GC_3212',
                    value = '8*cw*complex(0,1)*FT1odd*sw**3',
-                   order = {'FT1odd':1,'NPBIS':1})
+                   order = {'FT1odd':1,'NP':1})
 
 GC_3213 = Coupling(name = 'GC_3213',
                    value = '2*cw*complex(0,1)*FT2*sw**3',
@@ -12863,11 +12863,11 @@ GC_3213 = Coupling(name = 'GC_3213',
 
 GC_3214 = Coupling(name = 'GC_3214',
                    value = '-8*cw*complex(0,1)*FT2odd*sw**3',
-                   order = {'FT2odd':1,'NPBIS':1})
+                   order = {'FT2odd':1,'NP':1})
 
 GC_3215 = Coupling(name = 'GC_3215',
                    value = '8*cw*complex(0,1)*FT2odd*sw**3',
-                   order = {'FT2odd':1,'NPBIS':1})
+                   order = {'FT2odd':1,'NP':1})
 
 GC_3216 = Coupling(name = 'GC_3216',
                    value = '2*cw*complex(0,1)*FT3*sw**3',
@@ -12875,27 +12875,27 @@ GC_3216 = Coupling(name = 'GC_3216',
 
 GC_3217 = Coupling(name = 'GC_3217',
                    value = '-8*cw*complex(0,1)*FT3odd*sw**3',
-                   order = {'FT3odd':1,'NPBIS':1})
+                   order = {'FT3odd':1,'NP':1})
 
 GC_3218 = Coupling(name = 'GC_3218',
                    value = '8*cw*complex(0,1)*FT3odd*sw**3',
-                   order = {'FT3odd':1,'NPBIS':1})
+                   order = {'FT3odd':1,'NP':1})
 
 GC_3219 = Coupling(name = 'GC_3219',
                    value = '-4*cw*complex(0,1)*FT4odd*sw**3',
-                   order = {'FT4odd':1,'NPBIS':1})
+                   order = {'FT4odd':1,'NP':1})
 
 GC_3220 = Coupling(name = 'GC_3220',
                    value = '-8*cw*complex(0,1)*FT4odd*sw**3',
-                   order = {'FT4odd':1,'NPBIS':1})
+                   order = {'FT4odd':1,'NP':1})
 
 GC_3221 = Coupling(name = 'GC_3221',
                    value = '-8*cw*complex(0,1)*FT5odd*sw**3',
-                   order = {'FT5odd':1,'NPBIS':1})
+                   order = {'FT5odd':1,'NP':1})
 
 GC_3222 = Coupling(name = 'GC_3222',
                    value = '-8*cw*complex(0,1)*FT6odd*sw**3',
-                   order = {'FT6odd':1,'NPBIS':1})
+                   order = {'FT6odd':1,'NP':1})
 
 GC_3223 = Coupling(name = 'GC_3223',
                    value = '-32*cw*complex(0,1)*FT8*sw**3',
@@ -12947,23 +12947,23 @@ GC_3234 = Coupling(name = 'GC_3234',
 
 GC_3235 = Coupling(name = 'GC_3235',
                    value = '-0.5*(ee**2*FM2odd*complex(0,1)*sw**4)/cw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3236 = Coupling(name = 'GC_3236',
                    value = '(ee**2*FM2odd*complex(0,1)*sw**4)/(2.*cw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3237 = Coupling(name = 'GC_3237',
                    value = '-0.25*(ee**2*FM4odd*complex(0,1)*sw**4)/cw**2',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3238 = Coupling(name = 'GC_3238',
                    value = '(ee**2*FM4odd*complex(0,1)*sw**4)/(4.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3239 = Coupling(name = 'GC_3239',
                    value = '-((ee**2*FM5odd*complex(0,1)*sw**4)/cw**2)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3240 = Coupling(name = 'GC_3240',
                    value = '8*complex(0,1)*FT0*sw**4',
@@ -12975,7 +12975,7 @@ GC_3241 = Coupling(name = 'GC_3241',
 
 GC_3242 = Coupling(name = 'GC_3242',
                    value = '-8*complex(0,1)*FT1odd*sw**4',
-                   order = {'FT1odd':1,'NPBIS':1})
+                   order = {'FT1odd':1,'NP':1})
 
 GC_3243 = Coupling(name = 'GC_3243',
                    value = '2*complex(0,1)*FT2*sw**4',
@@ -12983,7 +12983,7 @@ GC_3243 = Coupling(name = 'GC_3243',
 
 GC_3244 = Coupling(name = 'GC_3244',
                    value = '-8*complex(0,1)*FT2odd*sw**4',
-                   order = {'FT2odd':1,'NPBIS':1})
+                   order = {'FT2odd':1,'NP':1})
 
 GC_3245 = Coupling(name = 'GC_3245',
                    value = '2*complex(0,1)*FT3*sw**4',
@@ -12991,19 +12991,19 @@ GC_3245 = Coupling(name = 'GC_3245',
 
 GC_3246 = Coupling(name = 'GC_3246',
                    value = '-8*complex(0,1)*FT3odd*sw**4',
-                   order = {'FT3odd':1,'NPBIS':1})
+                   order = {'FT3odd':1,'NP':1})
 
 GC_3247 = Coupling(name = 'GC_3247',
                    value = '4*complex(0,1)*FT4odd*sw**4',
-                   order = {'FT4odd':1,'NPBIS':1})
+                   order = {'FT4odd':1,'NP':1})
 
 GC_3248 = Coupling(name = 'GC_3248',
                    value = '-8*complex(0,1)*FT5odd*sw**4',
-                   order = {'FT5odd':1,'NPBIS':1})
+                   order = {'FT5odd':1,'NP':1})
 
 GC_3249 = Coupling(name = 'GC_3249',
                    value = '-8*complex(0,1)*FT6odd*sw**4',
-                   order = {'FT6odd':1,'NPBIS':1})
+                   order = {'FT6odd':1,'NP':1})
 
 GC_3250 = Coupling(name = 'GC_3250',
                    value = '32*complex(0,1)*FT8*sw**4',
@@ -13259,15 +13259,15 @@ GC_3312 = Coupling(name = 'GC_3312',
 
 GC_3313 = Coupling(name = 'GC_3313',
                    value = '-0.5*(cw**2*ee**3*FM2odd*complex(0,1))/sw - (ee**3*FM2odd*complex(0,1)*sw)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3314 = Coupling(name = 'GC_3314',
                    value = '(cw**2*ee**3*FM2odd*complex(0,1))/(2.*sw) + (ee**3*FM2odd*complex(0,1)*sw)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3315 = Coupling(name = 'GC_3315',
                    value = '(cw**2*ee**3*FM2odd)/(2.*sw) + (ee**3*FM2odd*sw)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3316 = Coupling(name = 'GC_3316',
                    value = '(cw**3*ee*FM3)/(2.*sw) + (cw*ee*FM3*sw)/2.',
@@ -13275,35 +13275,35 @@ GC_3316 = Coupling(name = 'GC_3316',
 
 GC_3317 = Coupling(name = 'GC_3317',
                    value = '-0.25*(cw**2*ee**3*FM3odd)/sw - (ee**3*FM3odd*sw)/4.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_3318 = Coupling(name = 'GC_3318',
                    value = '-0.25*(cw**2*ee**3*FM3odd*complex(0,1))/sw - (ee**3*FM3odd*complex(0,1)*sw)/4.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_3319 = Coupling(name = 'GC_3319',
                    value = '(cw**2*ee**3*FM3odd*complex(0,1))/(4.*sw) + (ee**3*FM3odd*complex(0,1)*sw)/4.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_3320 = Coupling(name = 'GC_3320',
                    value = '-0.5*(cw**2*ee**3*FM3odd*complex(0,1))/sw - (ee**3*FM3odd*complex(0,1)*sw)/2.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_3321 = Coupling(name = 'GC_3321',
                    value = '(cw**2*ee**3*FM3odd*complex(0,1))/(2.*sw) + (ee**3*FM3odd*complex(0,1)*sw)/2.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_3322 = Coupling(name = 'GC_3322',
                    value = '(cw**2*ee**3*FM3odd)/(2.*sw) + (ee**3*FM3odd*sw)/2.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_3323 = Coupling(name = 'GC_3323',
                    value = '-0.5*(cw*ee**3*FM3odd)/sw - (ee**3*FM3odd*sw)/(2.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_3324 = Coupling(name = 'GC_3324',
                    value = '(cw*ee**3*FM3odd)/(2.*sw) + (ee**3*FM3odd*sw)/(2.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM3odd':1,'NP':1,'QED':3})
 
 GC_3325 = Coupling(name = 'GC_3325',
                    value = '-0.5*(cw**2*ee**3*FM4)/sw - (ee**3*FM4*sw)/2.',
@@ -13319,15 +13319,15 @@ GC_3327 = Coupling(name = 'GC_3327',
 
 GC_3328 = Coupling(name = 'GC_3328',
                    value = '-0.25*(cw**2*ee**3*FM4odd)/sw - (ee**3*FM4odd*sw)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_3329 = Coupling(name = 'GC_3329',
                    value = '-0.25*(cw**2*ee**3*FM4odd*complex(0,1))/sw - (ee**3*FM4odd*complex(0,1)*sw)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_3330 = Coupling(name = 'GC_3330',
                    value = '(cw**2*ee**3*FM4odd*complex(0,1))/(4.*sw) + (ee**3*FM4odd*complex(0,1)*sw)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_3331 = Coupling(name = 'GC_3331',
                    value = '-0.5*(cw**2*ee**3*FM5*complex(0,1))/sw - (ee**3*FM5*complex(0,1)*sw)/2.',
@@ -13343,43 +13343,43 @@ GC_3333 = Coupling(name = 'GC_3333',
 
 GC_3334 = Coupling(name = 'GC_3334',
                    value = '(cw*ee*FM5odd)/sw + (ee*FM5odd*sw)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_3335 = Coupling(name = 'GC_3335',
                    value = '(cw**3*ee*FM5odd*complex(0,1))/sw - cw*ee*FM5odd*complex(0,1)*sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_3336 = Coupling(name = 'GC_3336',
                    value = '(cw**3*ee*FM5odd)/sw + cw*ee*FM5odd*sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_3337 = Coupling(name = 'GC_3337',
                    value = '(-2*cw*ee**2*FM5odd)/sw - (2*ee**2*FM5odd*sw)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3338 = Coupling(name = 'GC_3338',
                    value = '(2*cw**3*ee**3*FM5odd*complex(0,1))/sw**3 - (4*cw*ee**3*FM5odd*complex(0,1))/sw + (2*ee**3*FM5odd*complex(0,1)*sw)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_3339 = Coupling(name = 'GC_3339',
                    value = '(2*cw**3*ee**3*FM5odd*complex(0,1))/sw**3 + (4*cw*ee**3*FM5odd*complex(0,1))/sw + (2*ee**3*FM5odd*complex(0,1)*sw)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_3340 = Coupling(name = 'GC_3340',
                    value = '-0.25*(cw**2*ee**3*FM6odd)/sw - (ee**3*FM6odd*sw)/4.',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_3341 = Coupling(name = 'GC_3341',
                    value = '-0.25*(cw**2*ee**3*FM6odd*complex(0,1))/sw - (ee**3*FM6odd*complex(0,1)*sw)/4.',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_3342 = Coupling(name = 'GC_3342',
                    value = '(cw**2*ee**3*FM6odd*complex(0,1))/(4.*sw) + (ee**3*FM6odd*complex(0,1)*sw)/4.',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_3343 = Coupling(name = 'GC_3343',
                    value = '-0.25*(cw*ee**3*FM6odd*complex(0,1))/sw - (ee**3*FM6odd*complex(0,1)*sw)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_3344 = Coupling(name = 'GC_3344',
                    value = '(cw*ee**3*FM7*complex(0,1))/(8.*sw) + (ee**3*FM7*complex(0,1)*sw)/(8.*cw)',
@@ -13887,7 +13887,7 @@ GC_3469 = Coupling(name = 'GC_3469',
 
 GC_3470 = Coupling(name = 'GC_3470',
                    value = '-2*cw**2*ee**2*FM1odd*complex(0,1) - (cw**4*ee**2*FM1odd*complex(0,1))/sw**2 - ee**2*FM1odd*complex(0,1)*sw**2',
-                   order = {'FM1odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM1odd':1,'NP':1,'QED':2})
 
 GC_3471 = Coupling(name = 'GC_3471',
                    value = '4*cw**2*ee**2*FM2*complex(0,1) + (2*cw**4*ee**2*FM2*complex(0,1))/sw**2 + 2*ee**2*FM2*complex(0,1)*sw**2',
@@ -13895,27 +13895,27 @@ GC_3471 = Coupling(name = 'GC_3471',
 
 GC_3472 = Coupling(name = 'GC_3472',
                    value = '-0.5*(cw**2*ee*FM2odd) - (ee*FM2odd*sw**2)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3473 = Coupling(name = 'GC_3473',
                    value = '-0.5*(cw**2*ee*FM2odd*complex(0,1)) + (ee*FM2odd*complex(0,1)*sw**2)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3474 = Coupling(name = 'GC_3474',
                    value = '(cw**2*ee*FM2odd)/2. + (ee*FM2odd*sw**2)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3475 = Coupling(name = 'GC_3475',
                    value = '(cw**3*ee**3*FM2odd*complex(0,1))/(2.*sw**2) - (ee**3*FM2odd*complex(0,1)*sw**2)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3476 = Coupling(name = 'GC_3476',
                    value = '-0.5*(cw**3*ee**3*FM2odd*complex(0,1))/sw**2 + (ee**3*FM2odd*complex(0,1)*sw**2)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3477 = Coupling(name = 'GC_3477',
                    value = '-0.5*(cw**3*ee**3*FM2odd)/sw**2 + (ee**3*FM2odd*sw**2)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM2odd':1,'NP':1,'QED':3})
 
 GC_3478 = Coupling(name = 'GC_3478',
                    value = '-0.5*(cw**2*ee*FM3) - (ee*FM3*sw**2)/2.',
@@ -13927,15 +13927,15 @@ GC_3479 = Coupling(name = 'GC_3479',
 
 GC_3480 = Coupling(name = 'GC_3480',
                    value = '-0.5*(cw**2*FM3odd) - (FM3odd*sw**2)/2.',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_3481 = Coupling(name = 'GC_3481',
                    value = '(cw**2*FM3odd*complex(0,1))/2. + (FM3odd*complex(0,1)*sw**2)/2.',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_3482 = Coupling(name = 'GC_3482',
                    value = '-0.5*(cw**2*ee*FM3odd) - (ee*FM3odd*sw**2)/2.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_3483 = Coupling(name = 'GC_3483',
                    value = 'cw**2*FM4*complex(0,1) - FM4*complex(0,1)*sw**2',
@@ -13983,35 +13983,35 @@ GC_3493 = Coupling(name = 'GC_3493',
 
 GC_3494 = Coupling(name = 'GC_3494',
                    value = '-0.25*(cw**2*ee*FM4odd) - (ee*FM4odd*sw**2)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3495 = Coupling(name = 'GC_3495',
                    value = '-0.25*(cw**2*ee*FM4odd*complex(0,1)) + (ee*FM4odd*complex(0,1)*sw**2)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3496 = Coupling(name = 'GC_3496',
                    value = '(cw**2*ee*FM4odd)/4. + (ee*FM4odd*sw**2)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3497 = Coupling(name = 'GC_3497',
                    value = '-(ee**3*FM4odd*complex(0,1)) - (3*cw**2*ee**3*FM4odd*complex(0,1))/(4.*sw**2) - (ee**3*FM4odd*complex(0,1)*sw**2)/(4.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_3498 = Coupling(name = 'GC_3498',
                    value = '-(ee**3*FM4odd*complex(0,1)) + (3*cw**2*ee**3*FM4odd*complex(0,1))/(4.*sw**2) + (ee**3*FM4odd*complex(0,1)*sw**2)/(4.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_3499 = Coupling(name = 'GC_3499',
                    value = '-0.25*(cw*ee**3*FM4odd*complex(0,1)) - (ee**3*FM4odd*complex(0,1)*sw**2)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_3500 = Coupling(name = 'GC_3500',
                    value = '(cw*ee**3*FM4odd*complex(0,1))/4. + (ee**3*FM4odd*complex(0,1)*sw**2)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_3501 = Coupling(name = 'GC_3501',
                    value = '(cw*ee**3*FM4odd)/4. + (ee**3*FM4odd*sw**2)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_3502 = Coupling(name = 'GC_3502',
                    value = '(cw**2*FM5*complex(0,1))/2. - (FM5*complex(0,1)*sw**2)/2.',
@@ -14059,35 +14059,35 @@ GC_3512 = Coupling(name = 'GC_3512',
 
 GC_3513 = Coupling(name = 'GC_3513',
                    value = 'cw**2*ee*FM5odd + ee*FM5odd*sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_3514 = Coupling(name = 'GC_3514',
                    value = '-2*cw**2*ee**2*FM5odd*complex(0,1) - (cw**4*ee**2*FM5odd*complex(0,1))/sw**2 - ee**2*FM5odd*complex(0,1)*sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3515 = Coupling(name = 'GC_3515',
                    value = '2*cw**2*ee**2*FM5odd*complex(0,1) - (cw**4*ee**2*FM5odd*complex(0,1))/sw**2 - ee**2*FM5odd*complex(0,1)*sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3516 = Coupling(name = 'GC_3516',
                    value = '-2*ee**2*FM5odd*complex(0,1) - (ee**2*FM5odd*complex(0,1)*sw**2)/cw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3517 = Coupling(name = 'GC_3517',
                    value = '4*ee**3*FM5odd*complex(0,1) + (2*cw**2*ee**3*FM5odd*complex(0,1))/sw**2 + (2*ee**3*FM5odd*complex(0,1)*sw**2)/cw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM5odd':1,'NP':1,'QED':3})
 
 GC_3518 = Coupling(name = 'GC_3518',
                    value = '-0.25*(cw*ee**3*FM6odd) - (ee**3*FM6odd*sw**2)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_3519 = Coupling(name = 'GC_3519',
                    value = '-0.25*(cw*ee**3*FM6odd*complex(0,1)) - (ee**3*FM6odd*complex(0,1)*sw**2)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_3520 = Coupling(name = 'GC_3520',
                    value = '(cw*ee**3*FM6odd*complex(0,1))/4. + (ee**3*FM6odd*complex(0,1)*sw**2)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM6odd':1,'NP':1,'QED':3})
 
 GC_3521 = Coupling(name = 'GC_3521',
                    value = '-0.25*(cw**2*ee**2*FM7*complex(0,1)) - (cw**4*ee**2*FM7*complex(0,1))/(8.*sw**2) - (ee**2*FM7*complex(0,1)*sw**2)/8.',
@@ -14475,7 +14475,7 @@ GC_3616 = Coupling(name = 'GC_3616',
 
 GC_3617 = Coupling(name = 'GC_3617',
                    value = '(cw**3*ee**2*FM1odd*complex(0,1))/sw + 2*cw*ee**2*FM1odd*complex(0,1)*sw + (ee**2*FM1odd*complex(0,1)*sw**3)/cw',
-                   order = {'FM1odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM1odd':1,'NP':1,'QED':2})
 
 GC_3618 = Coupling(name = 'GC_3618',
                    value = '(-2*cw**3*ee**2*FM2*complex(0,1))/sw - 4*cw*ee**2*FM2*complex(0,1)*sw - (2*ee**2*FM2*complex(0,1)*sw**3)/cw',
@@ -14483,15 +14483,15 @@ GC_3618 = Coupling(name = 'GC_3618',
 
 GC_3619 = Coupling(name = 'GC_3619',
                    value = '-0.5*(cw**3*ee**2*FM2odd*complex(0,1))/sw - cw*ee**2*FM2odd*complex(0,1)*sw - (ee**2*FM2odd*complex(0,1)*sw**3)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3620 = Coupling(name = 'GC_3620',
                    value = '(cw**3*ee**2*FM2odd*complex(0,1))/(2.*sw) - cw*ee**2*FM2odd*complex(0,1)*sw + (ee**2*FM2odd*complex(0,1)*sw**3)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3621 = Coupling(name = 'GC_3621',
                    value = '(cw**3*ee**2*FM2odd*complex(0,1))/(2.*sw) + cw*ee**2*FM2odd*complex(0,1)*sw + (ee**2*FM2odd*complex(0,1)*sw**3)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3622 = Coupling(name = 'GC_3622',
                    value = '(cw*ee*FM3*complex(0,1)*sw)/2. - (ee*FM3*complex(0,1)*sw**3)/(2.*cw)',
@@ -14507,11 +14507,11 @@ GC_3624 = Coupling(name = 'GC_3624',
 
 GC_3625 = Coupling(name = 'GC_3625',
                    value = '-0.25*(cw**3*ee*FM3odd)/sw - (cw*ee*FM3odd*sw)/2. - (ee*FM3odd*sw**3)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_3626 = Coupling(name = 'GC_3626',
                    value = '-0.25*(cw**3*ee*FM3odd)/sw + (ee*FM3odd*sw**3)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_3627 = Coupling(name = 'GC_3627',
                    value = '(cw**3*ee*FM4)/(2.*sw) - (ee*FM4*sw**3)/(2.*cw)',
@@ -14539,27 +14539,27 @@ GC_3632 = Coupling(name = 'GC_3632',
 
 GC_3633 = Coupling(name = 'GC_3633',
                    value = '-0.25*(cw**3*ee**2*FM4odd*complex(0,1))/sw - (cw*ee**2*FM4odd*complex(0,1)*sw)/2. - (ee**2*FM4odd*complex(0,1)*sw**3)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3634 = Coupling(name = 'GC_3634',
                    value = '(cw**3*ee**2*FM4odd*complex(0,1))/(4.*sw) - (cw*ee**2*FM4odd*complex(0,1)*sw)/2. + (ee**2*FM4odd*complex(0,1)*sw**3)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3635 = Coupling(name = 'GC_3635',
                    value = '(cw**3*ee**2*FM4odd*complex(0,1))/(4.*sw) + (cw*ee**2*FM4odd*complex(0,1)*sw)/2. + (ee**2*FM4odd*complex(0,1)*sw**3)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_3636 = Coupling(name = 'GC_3636',
                    value = '-0.25*(ee**3*FM4odd*sw) - (ee**3*FM4odd*sw**3)/(4.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_3637 = Coupling(name = 'GC_3637',
                    value = '-0.25*(ee**3*FM4odd*complex(0,1)*sw) - (ee**3*FM4odd*complex(0,1)*sw**3)/(4.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_3638 = Coupling(name = 'GC_3638',
                    value = '(ee**3*FM4odd*complex(0,1)*sw)/4. + (ee**3*FM4odd*complex(0,1)*sw**3)/(4.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':3})
+                   order = {'FM4odd':1,'NP':1,'QED':3})
 
 GC_3639 = Coupling(name = 'GC_3639',
                    value = '(cw**3*ee*FM5)/(4.*sw) - (ee*FM5*sw**3)/(4.*cw)',
@@ -14587,11 +14587,11 @@ GC_3644 = Coupling(name = 'GC_3644',
 
 GC_3645 = Coupling(name = 'GC_3645',
                    value = 'cw*ee*FM5odd*sw + (ee*FM5odd*sw**3)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_3646 = Coupling(name = 'GC_3646',
                    value = '-((cw**3*ee**2*FM5odd*complex(0,1))/sw) - 2*cw*ee**2*FM5odd*complex(0,1)*sw - (ee**2*FM5odd*complex(0,1)*sw**3)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3647 = Coupling(name = 'GC_3647',
                    value = '-0.125*(cw**3*ee**2*FM7*complex(0,1))/sw - (cw*ee**2*FM7*complex(0,1)*sw)/4. - (ee**2*FM7*complex(0,1)*sw**3)/(8.*cw)',
@@ -14803,7 +14803,7 @@ GC_3698 = Coupling(name = 'GC_3698',
 
 GC_3699 = Coupling(name = 'GC_3699',
                    value = '-(cw**2*ee**2*FM1odd*complex(0,1)) - 2*ee**2*FM1odd*complex(0,1)*sw**2 - (ee**2*FM1odd*complex(0,1)*sw**4)/cw**2',
-                   order = {'FM1odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM1odd':1,'NP':1,'QED':2})
 
 GC_3700 = Coupling(name = 'GC_3700',
                    value = '2*cw**2*ee**2*FM2*complex(0,1) + 4*ee**2*FM2*complex(0,1)*sw**2 + (2*ee**2*FM2*complex(0,1)*sw**4)/cw**2',
@@ -14835,7 +14835,7 @@ GC_3706 = Coupling(name = 'GC_3706',
 
 GC_3707 = Coupling(name = 'GC_3707',
                    value = '-(cw**2*ee**2*FM5odd*complex(0,1)) - 2*ee**2*FM5odd*complex(0,1)*sw**2 - (ee**2*FM5odd*complex(0,1)*sw**4)/cw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3708 = Coupling(name = 'GC_3708',
                    value = '-0.125*(cw**2*ee**2*FM7*complex(0,1)) - (ee**2*FM7*complex(0,1)*sw**2)/4. - (ee**2*FM7*complex(0,1)*sw**4)/(8.*cw**2)',
@@ -15251,7 +15251,7 @@ GC_3810 = Coupling(name = 'GC_3810',
 
 GC_3811 = Coupling(name = 'GC_3811',
                    value = '-(ee**2*FM1odd*complex(0,1)*vev)',
-                   order = {'FM1odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM1odd':1,'NP':1,'QED':1})
 
 GC_3812 = Coupling(name = 'GC_3812',
                    value = '2*ee**2*FM2*complex(0,1)*vev',
@@ -15259,47 +15259,47 @@ GC_3812 = Coupling(name = 'GC_3812',
 
 GC_3813 = Coupling(name = 'GC_3813',
                    value = '-0.5*(ee*FM2odd*vev)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_3814 = Coupling(name = 'GC_3814',
                    value = '-0.5*(ee*FM2odd*complex(0,1)*vev)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_3815 = Coupling(name = 'GC_3815',
                    value = '-0.5*(cw*ee*FM2odd*vev)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_3816 = Coupling(name = 'GC_3816',
                    value = '(cw*ee*FM2odd*vev)/2.',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_3817 = Coupling(name = 'GC_3817',
                    value = '(ee**2*FM2odd*complex(0,1)*vev)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3818 = Coupling(name = 'GC_3818',
                    value = '(ee**2*FM2odd*vev)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3819 = Coupling(name = 'GC_3819',
                    value = '-0.5*(cw*ee**2*FM2odd*vev)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3820 = Coupling(name = 'GC_3820',
                    value = '(cw*ee**2*FM2odd*vev)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3821 = Coupling(name = 'GC_3821',
                    value = 'cw**2*ee**2*FM2odd*complex(0,1)*vev',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_3822 = Coupling(name = 'GC_3822',
                    value = '-0.5*(ee**3*FM2odd*complex(0,1)*vev)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3823 = Coupling(name = 'GC_3823',
                    value = '-0.5*(cw*ee**3*FM2odd*vev)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_3824 = Coupling(name = 'GC_3824',
                    value = '-0.5*(cw*ee*FM3*vev)',
@@ -15319,39 +15319,39 @@ GC_3827 = Coupling(name = 'GC_3827',
 
 GC_3828 = Coupling(name = 'GC_3828',
                    value = '-0.25*(ee*FM3odd*vev)',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_3829 = Coupling(name = 'GC_3829',
                    value = '-0.25*(ee*FM3odd*complex(0,1)*vev)',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_3830 = Coupling(name = 'GC_3830',
                    value = '-0.25*(ee**2*FM3odd*complex(0,1)*vev)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_3831 = Coupling(name = 'GC_3831',
                    value = '(ee**2*FM3odd*vev)/4.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_3832 = Coupling(name = 'GC_3832',
                    value = '-0.25*(cw*ee**2*FM3odd*complex(0,1)*vev)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_3833 = Coupling(name = 'GC_3833',
                    value = '(ee**3*FM3odd*complex(0,1)*vev)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_3834 = Coupling(name = 'GC_3834',
                    value = '(ee**3*FM3odd*complex(0,1)*vev)/(2.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_3835 = Coupling(name = 'GC_3835',
                    value = '-0.25*(cw*ee**3*FM3odd*complex(0,1)*vev)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_3836 = Coupling(name = 'GC_3836',
                    value = '(cw*ee**3*FM3odd*complex(0,1)*vev)/4.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_3837 = Coupling(name = 'GC_3837',
                    value = '-0.5*(ee*FM4*vev)',
@@ -15395,39 +15395,39 @@ GC_3846 = Coupling(name = 'GC_3846',
 
 GC_3847 = Coupling(name = 'GC_3847',
                    value = '-0.25*(ee*FM4odd*vev)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_3848 = Coupling(name = 'GC_3848',
                    value = '-0.25*(ee*FM4odd*complex(0,1)*vev)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_3849 = Coupling(name = 'GC_3849',
                    value = '-0.25*(cw*ee*FM4odd*vev)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_3850 = Coupling(name = 'GC_3850',
                    value = '(cw*ee*FM4odd*vev)/4.',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_3851 = Coupling(name = 'GC_3851',
                    value = '(ee**2*FM4odd*complex(0,1)*vev)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3852 = Coupling(name = 'GC_3852',
                    value = '(ee**2*FM4odd*vev)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3853 = Coupling(name = 'GC_3853',
                    value = '-0.25*(cw*ee**2*FM4odd*vev)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3854 = Coupling(name = 'GC_3854',
                    value = '(cw*ee**2*FM4odd*vev)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3855 = Coupling(name = 'GC_3855',
                    value = '(cw**2*ee**2*FM4odd*complex(0,1)*vev)/2.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_3856 = Coupling(name = 'GC_3856',
                    value = '-0.25*(ee*FM5*vev)',
@@ -15479,59 +15479,59 @@ GC_3867 = Coupling(name = 'GC_3867',
 
 GC_3868 = Coupling(name = 'GC_3868',
                    value = 'cw*ee*FM5odd*vev',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_3869 = Coupling(name = 'GC_3869',
                    value = '-(ee**2*FM5odd*complex(0,1)*vev)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_3870 = Coupling(name = 'GC_3870',
                    value = '-((ee**2*FM5odd*vev)/cw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_3871 = Coupling(name = 'GC_3871',
                    value = '(ee**2*FM5odd*vev)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_3872 = Coupling(name = 'GC_3872',
                    value = '-(cw*ee**2*FM5odd*vev)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_3873 = Coupling(name = 'GC_3873',
                    value = 'cw*ee**2*FM5odd*vev',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_3874 = Coupling(name = 'GC_3874',
                    value = '(-2*ee**3*FM5odd*vev)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3875 = Coupling(name = 'GC_3875',
                    value = '(2*ee**3*FM5odd*vev)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_3876 = Coupling(name = 'GC_3876',
                    value = '-0.25*(ee*FM6odd*vev)',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_3877 = Coupling(name = 'GC_3877',
                    value = '(ee*FM6odd*complex(0,1)*vev)/4.',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_3878 = Coupling(name = 'GC_3878',
                    value = '-0.25*(ee**2*FM6odd*vev)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_3879 = Coupling(name = 'GC_3879',
                    value = '-0.25*(ee**2*FM6odd*complex(0,1)*vev)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_3880 = Coupling(name = 'GC_3880',
                    value = '(ee**2*FM6odd*vev)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_3881 = Coupling(name = 'GC_3881',
                    value = '(ee**3*FM6odd*vev)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_3882 = Coupling(name = 'GC_3882',
                    value = '-0.125*(ee*FM7*complex(0,1)*vev)',
@@ -16411,19 +16411,19 @@ GC_4100 = Coupling(name = 'GC_4100',
 
 GC_4101 = Coupling(name = 'GC_4101',
                    value = '(cw*ee**3*FM2odd*complex(0,1)*vev)/(2.*sw**3)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4102 = Coupling(name = 'GC_4102',
                    value = '-((cw**2*ee**3*FM2odd*vev)/sw**3)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4103 = Coupling(name = 'GC_4103',
                    value = '-0.5*(cw**3*ee**3*FM2odd*complex(0,1)*vev)/sw**3',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4104 = Coupling(name = 'GC_4104',
                    value = '-0.5*(cw**4*ee**3*FM2odd*vev)/sw**3',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4105 = Coupling(name = 'GC_4105',
                    value = '-0.5*(cw*ee**3*FM4*complex(0,1)*vev)/sw**3',
@@ -16443,15 +16443,15 @@ GC_4108 = Coupling(name = 'GC_4108',
 
 GC_4109 = Coupling(name = 'GC_4109',
                    value = '(-3*cw**2*ee**3*FM4odd*vev)/(4.*sw**3)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_4110 = Coupling(name = 'GC_4110',
                    value = '(3*cw**2*ee**3*FM4odd*vev)/(4.*sw**3)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_4111 = Coupling(name = 'GC_4111',
                    value = '(3*cw**3*ee**3*FM4odd*complex(0,1)*vev)/(4.*sw**3)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_4112 = Coupling(name = 'GC_4112',
                    value = '-0.5*(cw*ee**3*FM5*complex(0,1)*vev)/sw**3',
@@ -16475,11 +16475,11 @@ GC_4116 = Coupling(name = 'GC_4116',
 
 GC_4117 = Coupling(name = 'GC_4117',
                    value = '(2*cw*ee**3*FM5odd*complex(0,1)*vev)/sw**3',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_4118 = Coupling(name = 'GC_4118',
                    value = '-0.5*(cw*ee**3*FM6odd*complex(0,1)*vev)/sw**3',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_4119 = Coupling(name = 'GC_4119',
                    value = '(cw*ee**3*FM7*complex(0,1)*vev)/(8.*sw**3)',
@@ -17347,7 +17347,7 @@ GC_4334 = Coupling(name = 'GC_4334',
 
 GC_4335 = Coupling(name = 'GC_4335',
                    value = '-((cw**2*ee**2*FM1odd*complex(0,1)*vev)/sw**2)',
-                   order = {'FM1odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM1odd':1,'NP':1,'QED':1})
 
 GC_4336 = Coupling(name = 'GC_4336',
                    value = '(2*cw**2*ee**2*FM2*complex(0,1)*vev)/sw**2',
@@ -17355,51 +17355,51 @@ GC_4336 = Coupling(name = 'GC_4336',
 
 GC_4337 = Coupling(name = 'GC_4337',
                    value = '-0.5*(cw*ee**2*FM2odd*vev)/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4338 = Coupling(name = 'GC_4338',
                    value = '(cw**2*ee**2*FM2odd*complex(0,1)*vev)/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4339 = Coupling(name = 'GC_4339',
                    value = '(cw**2*ee**2*FM2odd*vev)/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4340 = Coupling(name = 'GC_4340',
                    value = '-0.5*(cw**3*ee**2*FM2odd*vev)/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4341 = Coupling(name = 'GC_4341',
                    value = '(cw**3*ee**2*FM2odd*vev)/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4342 = Coupling(name = 'GC_4342',
                    value = '(cw**4*ee**2*FM2odd*complex(0,1)*vev)/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4343 = Coupling(name = 'GC_4343',
                    value = '-0.5*(ee**3*FM2odd*complex(0,1)*vev)/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4344 = Coupling(name = 'GC_4344',
                    value = '-((cw*ee**3*FM2odd*vev)/sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4345 = Coupling(name = 'GC_4345',
                    value = '-0.5*(cw*ee**3*FM2odd*vev)/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4346 = Coupling(name = 'GC_4346',
                    value = '(cw*ee**3*FM2odd*vev)/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4347 = Coupling(name = 'GC_4347',
                    value = '-0.5*(cw**2*ee**3*FM2odd*complex(0,1)*vev)/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4348 = Coupling(name = 'GC_4348',
                    value = '-0.5*(cw**3*ee**3*FM2odd*vev)/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4349 = Coupling(name = 'GC_4349',
                    value = '(cw**2*ee**2*FM3*complex(0,1)*vev)/(2.*sw**2)',
@@ -17407,35 +17407,35 @@ GC_4349 = Coupling(name = 'GC_4349',
 
 GC_4350 = Coupling(name = 'GC_4350',
                    value = '-0.25*(cw*ee**2*FM3odd*complex(0,1)*vev)/sw**2',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_4351 = Coupling(name = 'GC_4351',
                    value = '(cw*ee**2*FM3odd*complex(0,1)*vev)/(4.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_4352 = Coupling(name = 'GC_4352',
                    value = '(cw**2*ee**2*FM3odd*complex(0,1)*vev)/(4.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_4353 = Coupling(name = 'GC_4353',
                    value = '(cw**2*ee**2*FM3odd*vev)/(4.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_4354 = Coupling(name = 'GC_4354',
                    value = '-0.25*(cw**3*ee**2*FM3odd*complex(0,1)*vev)/sw**2',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_4355 = Coupling(name = 'GC_4355',
                    value = '-0.25*(cw*ee**3*FM3odd*complex(0,1)*vev)/sw**2',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_4356 = Coupling(name = 'GC_4356',
                    value = '-0.25*(cw**3*ee**3*FM3odd*complex(0,1)*vev)/sw**2',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_4357 = Coupling(name = 'GC_4357',
                    value = '(cw**3*ee**3*FM3odd*complex(0,1)*vev)/(4.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_4358 = Coupling(name = 'GC_4358',
                    value = '(cw*ee**2*FM4*vev)/(2.*sw**2)',
@@ -17483,35 +17483,35 @@ GC_4368 = Coupling(name = 'GC_4368',
 
 GC_4369 = Coupling(name = 'GC_4369',
                    value = '-0.5*(cw*ee**2*FM4odd*vev)/sw**2',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4370 = Coupling(name = 'GC_4370',
                    value = '(cw**2*ee**2*FM4odd*complex(0,1)*vev)/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4371 = Coupling(name = 'GC_4371',
                    value = '(cw**2*ee**2*FM4odd*vev)/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4372 = Coupling(name = 'GC_4372',
                    value = '-0.25*(cw**3*ee**2*FM4odd*vev)/sw**2',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4373 = Coupling(name = 'GC_4373',
                    value = '(cw**3*ee**2*FM4odd*vev)/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4374 = Coupling(name = 'GC_4374',
                    value = '(cw**4*ee**2*FM4odd*complex(0,1)*vev)/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4375 = Coupling(name = 'GC_4375',
                    value = '(-3*cw*ee**3*FM4odd*vev)/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_4376 = Coupling(name = 'GC_4376',
                    value = '(3*cw*ee**3*FM4odd*vev)/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_4377 = Coupling(name = 'GC_4377',
                    value = '-0.5*(cw*ee**2*FM5*vev)/sw**2',
@@ -17563,63 +17563,63 @@ GC_4388 = Coupling(name = 'GC_4388',
 
 GC_4389 = Coupling(name = 'GC_4389',
                    value = '-((ee**2*FM5odd*complex(0,1)*vev)/sw**2)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_4390 = Coupling(name = 'GC_4390',
                    value = '(-2*cw*ee**2*FM5odd*vev)/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_4391 = Coupling(name = 'GC_4391',
                    value = '-((cw**2*ee**2*FM5odd*complex(0,1)*vev)/sw**2)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_4392 = Coupling(name = 'GC_4392',
                    value = '(2*ee**3*FM5odd*complex(0,1)*vev)/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_4393 = Coupling(name = 'GC_4393',
                    value = '(-2*cw*ee**3*FM5odd*vev)/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_4394 = Coupling(name = 'GC_4394',
                    value = '(2*cw*ee**3*FM5odd*vev)/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_4395 = Coupling(name = 'GC_4395',
                    value = '-0.25*(ee**2*FM6odd*vev)/sw**2',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_4396 = Coupling(name = 'GC_4396',
                    value = '(ee**2*FM6odd*complex(0,1)*vev)/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_4397 = Coupling(name = 'GC_4397',
                    value = '-0.25*(cw*ee**2*FM6odd*vev)/sw**2',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_4398 = Coupling(name = 'GC_4398',
                    value = '(cw*ee**2*FM6odd*vev)/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_4399 = Coupling(name = 'GC_4399',
                    value = '-0.25*(cw**2*ee**2*FM6odd*vev)/sw**2',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_4400 = Coupling(name = 'GC_4400',
                    value = '-0.25*(cw**2*ee**2*FM6odd*complex(0,1)*vev)/sw**2',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_4401 = Coupling(name = 'GC_4401',
                    value = '(ee**3*FM6odd*complex(0,1)*vev)/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_4402 = Coupling(name = 'GC_4402',
                    value = '(cw*ee**3*FM6odd*vev)/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_4403 = Coupling(name = 'GC_4403',
                    value = '(cw*ee**3*FM6odd*vev)/(2.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_4404 = Coupling(name = 'GC_4404',
                    value = '(ee**2*FM7*complex(0,1)*vev)/(4.*sw**2)',
@@ -18547,7 +18547,7 @@ GC_4634 = Coupling(name = 'GC_4634',
 
 GC_4635 = Coupling(name = 'GC_4635',
                    value = '(cw*ee**2*FM1odd*complex(0,1)*vev)/sw',
-                   order = {'FM1odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM1odd':1,'NP':1,'QED':1})
 
 GC_4636 = Coupling(name = 'GC_4636',
                    value = '(-2*cw*ee**2*FM2*complex(0,1)*vev)/sw',
@@ -18555,63 +18555,63 @@ GC_4636 = Coupling(name = 'GC_4636',
 
 GC_4637 = Coupling(name = 'GC_4637',
                    value = '-0.5*(cw*ee*FM2odd*vev)/sw',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_4638 = Coupling(name = 'GC_4638',
                    value = '-0.5*(cw*ee*FM2odd*complex(0,1)*vev)/sw',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_4639 = Coupling(name = 'GC_4639',
                    value = '(cw**2*ee*FM2odd*vev)/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_4640 = Coupling(name = 'GC_4640',
                    value = '-0.5*(cw**3*ee*FM2odd*vev)/sw',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_4641 = Coupling(name = 'GC_4641',
                    value = '(ee**2*FM2odd*vev)/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4642 = Coupling(name = 'GC_4642',
                    value = '-0.5*(cw*ee**2*FM2odd*vev)/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4643 = Coupling(name = 'GC_4643',
                    value = '-0.5*(cw*ee**2*FM2odd*complex(0,1)*vev)/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4644 = Coupling(name = 'GC_4644',
                    value = '(cw*ee**2*FM2odd*complex(0,1)*vev)/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4645 = Coupling(name = 'GC_4645',
                    value = '(cw*ee**2*FM2odd*vev)/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4646 = Coupling(name = 'GC_4646',
                    value = '-0.5*(cw**2*ee**2*FM2odd*vev)/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4647 = Coupling(name = 'GC_4647',
                    value = '(cw**2*ee**2*FM2odd*vev)/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4648 = Coupling(name = 'GC_4648',
                    value = '-0.5*(ee**3*FM2odd*vev)/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4649 = Coupling(name = 'GC_4649',
                    value = '(ee**3*FM2odd*vev)/(2.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4650 = Coupling(name = 'GC_4650',
                    value = '-0.5*(cw*ee**3*FM2odd*complex(0,1)*vev)/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4651 = Coupling(name = 'GC_4651',
                    value = '-0.5*(cw**2*ee**3*FM2odd*vev)/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4652 = Coupling(name = 'GC_4652',
                    value = '(cw**2*ee*FM3*vev)/(2.*sw)',
@@ -18631,43 +18631,43 @@ GC_4655 = Coupling(name = 'GC_4655',
 
 GC_4656 = Coupling(name = 'GC_4656',
                    value = '-0.25*(cw*ee*FM3odd*vev)/sw',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_4657 = Coupling(name = 'GC_4657',
                    value = '-0.25*(cw*ee*FM3odd*complex(0,1)*vev)/sw',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_4658 = Coupling(name = 'GC_4658',
                    value = '(ee**2*FM3odd*complex(0,1)*vev)/(4.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_4659 = Coupling(name = 'GC_4659',
                    value = '-0.5*(ee**2*FM3odd*complex(0,1)*vev)/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_4660 = Coupling(name = 'GC_4660',
                    value = '-0.25*(cw*ee**2*FM3odd*vev)/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_4661 = Coupling(name = 'GC_4661',
                    value = '-0.25*(cw*ee**2*FM3odd*complex(0,1)*vev)/sw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_4662 = Coupling(name = 'GC_4662',
                    value = '(cw*ee**2*FM3odd*complex(0,1)*vev)/(2.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_4663 = Coupling(name = 'GC_4663',
                    value = '(cw*ee**2*FM3odd*vev)/(4.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_4664 = Coupling(name = 'GC_4664',
                    value = '(ee**3*FM3odd*complex(0,1)*vev)/(4.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_4665 = Coupling(name = 'GC_4665',
                    value = '(ee**3*FM3odd*complex(0,1)*vev)/(2.*sw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_4666 = Coupling(name = 'GC_4666',
                    value = '(cw*ee*FM4*complex(0,1)*vev)/(2.*sw)',
@@ -18739,59 +18739,59 @@ GC_4682 = Coupling(name = 'GC_4682',
 
 GC_4683 = Coupling(name = 'GC_4683',
                    value = '-0.25*(cw*ee*FM4odd*vev)/sw',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_4684 = Coupling(name = 'GC_4684',
                    value = '(cw*ee*FM4odd*complex(0,1)*vev)/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_4685 = Coupling(name = 'GC_4685',
                    value = '-0.25*(cw**2*ee*FM4odd*vev)/sw',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_4686 = Coupling(name = 'GC_4686',
                    value = '-0.25*(cw**3*ee*FM4odd*vev)/sw',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_4687 = Coupling(name = 'GC_4687',
                    value = '(ee**2*FM4odd*vev)/(2.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4688 = Coupling(name = 'GC_4688',
                    value = '-0.25*(cw*ee**2*FM4odd*vev)/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4689 = Coupling(name = 'GC_4689',
                    value = '-0.25*(cw*ee**2*FM4odd*complex(0,1)*vev)/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4690 = Coupling(name = 'GC_4690',
                    value = '(cw*ee**2*FM4odd*complex(0,1)*vev)/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4691 = Coupling(name = 'GC_4691',
                    value = '(cw*ee**2*FM4odd*vev)/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4692 = Coupling(name = 'GC_4692',
                    value = '-0.25*(cw**2*ee**2*FM4odd*vev)/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4693 = Coupling(name = 'GC_4693',
                    value = '(cw**2*ee**2*FM4odd*vev)/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4694 = Coupling(name = 'GC_4694',
                    value = '(-3*ee**3*FM4odd*vev)/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_4695 = Coupling(name = 'GC_4695',
                    value = '(3*ee**3*FM4odd*vev)/(4.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_4696 = Coupling(name = 'GC_4696',
                    value = '(cw*ee**3*FM4odd*complex(0,1)*vev)/sw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_4697 = Coupling(name = 'GC_4697',
                    value = '-0.25*(cw*ee*FM5*complex(0,1)*vev)/sw',
@@ -18859,75 +18859,75 @@ GC_4712 = Coupling(name = 'GC_4712',
 
 GC_4713 = Coupling(name = 'GC_4713',
                    value = '(ee*FM5odd*vev)/sw',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_4714 = Coupling(name = 'GC_4714',
                    value = '(cw**2*ee*FM5odd*vev)/sw',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_4715 = Coupling(name = 'GC_4715',
                    value = '(-2*ee**2*FM5odd*vev)/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_4716 = Coupling(name = 'GC_4716',
                    value = '-((cw*ee**2*FM5odd*complex(0,1)*vev)/sw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_4717 = Coupling(name = 'GC_4717',
                    value = '-((cw**2*ee**2*FM5odd*vev)/sw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_4718 = Coupling(name = 'GC_4718',
                    value = '(cw**2*ee**2*FM5odd*vev)/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_4719 = Coupling(name = 'GC_4719',
                    value = '(-2*ee**3*FM5odd*vev)/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_4720 = Coupling(name = 'GC_4720',
                    value = '(2*ee**3*FM5odd*vev)/sw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_4721 = Coupling(name = 'GC_4721',
                    value = '-0.25*(ee*FM6odd*vev)/sw',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_4722 = Coupling(name = 'GC_4722',
                    value = '(ee*FM6odd*vev)/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_4723 = Coupling(name = 'GC_4723',
                    value = '(cw*ee*FM6odd*complex(0,1)*vev)/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_4724 = Coupling(name = 'GC_4724',
                    value = '(cw*ee*FM6odd*vev)/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_4725 = Coupling(name = 'GC_4725',
                    value = '-0.25*(ee**2*FM6odd*vev)/sw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_4726 = Coupling(name = 'GC_4726',
                    value = '(ee**2*FM6odd*vev)/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_4727 = Coupling(name = 'GC_4727',
                    value = '(cw*ee**2*FM6odd*complex(0,1)*vev)/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_4728 = Coupling(name = 'GC_4728',
                    value = '(cw*ee**2*FM6odd*vev)/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_4729 = Coupling(name = 'GC_4729',
                    value = '-0.25*(ee**3*FM6odd*vev)/sw',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_4730 = Coupling(name = 'GC_4730',
                    value = '-0.25*(ee**3*FM6odd*complex(0,1)*vev)/(cw*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_4731 = Coupling(name = 'GC_4731',
                    value = '-0.125*(cw*ee*FM7*complex(0,1)*vev)/sw',
@@ -19463,35 +19463,35 @@ GC_4863 = Coupling(name = 'GC_4863',
 
 GC_4864 = Coupling(name = 'GC_4864',
                    value = '(ee*FM2odd*sw*vev)/2.',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_4865 = Coupling(name = 'GC_4865',
                    value = '-0.5*(cw*ee*FM2odd*sw*vev)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_4866 = Coupling(name = 'GC_4866',
                    value = '-0.5*(ee**2*FM2odd*sw*vev)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4867 = Coupling(name = 'GC_4867',
                    value = '(ee**2*FM2odd*sw*vev)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4868 = Coupling(name = 'GC_4868',
                    value = '-0.5*(ee**2*FM2odd*sw*vev)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4869 = Coupling(name = 'GC_4869',
                    value = '(ee**2*FM2odd*complex(0,1)*sw*vev)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4870 = Coupling(name = 'GC_4870',
                    value = '-0.5*(ee**3*FM2odd*sw*vev)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4871 = Coupling(name = 'GC_4871',
                    value = '-0.5*(ee**3*FM2odd*complex(0,1)*sw*vev)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4872 = Coupling(name = 'GC_4872',
                    value = '(ee*FM3*sw*vev)/2.',
@@ -19507,7 +19507,7 @@ GC_4874 = Coupling(name = 'GC_4874',
 
 GC_4875 = Coupling(name = 'GC_4875',
                    value = '(ee**2*FM3odd*sw*vev)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_4876 = Coupling(name = 'GC_4876',
                    value = '(ee*FM4*sw*vev)/2.',
@@ -19539,31 +19539,31 @@ GC_4882 = Coupling(name = 'GC_4882',
 
 GC_4883 = Coupling(name = 'GC_4883',
                    value = '-0.25*(ee*FM4odd*sw*vev)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_4884 = Coupling(name = 'GC_4884',
                    value = '-0.25*(cw*ee*FM4odd*sw*vev)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_4885 = Coupling(name = 'GC_4885',
                    value = '-0.25*(ee**2*FM4odd*sw*vev)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4886 = Coupling(name = 'GC_4886',
                    value = '(ee**2*FM4odd*sw*vev)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4887 = Coupling(name = 'GC_4887',
                    value = '-0.25*(ee**2*FM4odd*sw*vev)/cw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4888 = Coupling(name = 'GC_4888',
                    value = '(ee**2*FM4odd*complex(0,1)*sw*vev)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4889 = Coupling(name = 'GC_4889',
                    value = '(ee**3*FM4odd*complex(0,1)*sw*vev)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_4890 = Coupling(name = 'GC_4890',
                    value = '(ee*FM5*sw*vev)/4.',
@@ -19595,23 +19595,23 @@ GC_4896 = Coupling(name = 'GC_4896',
 
 GC_4897 = Coupling(name = 'GC_4897',
                    value = 'ee*FM5odd*sw*vev',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_4898 = Coupling(name = 'GC_4898',
                    value = '-(ee**2*FM5odd*sw*vev)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_4899 = Coupling(name = 'GC_4899',
                    value = 'ee**2*FM5odd*sw*vev',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_4900 = Coupling(name = 'GC_4900',
                    value = '(ee*FM6odd*complex(0,1)*sw*vev)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_4901 = Coupling(name = 'GC_4901',
                    value = '(ee**2*FM6odd*complex(0,1)*sw*vev)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_4902 = Coupling(name = 'GC_4902',
                    value = '-0.125*(ee*FM7*complex(0,1)*sw*vev)/cw',
@@ -19799,27 +19799,27 @@ GC_4947 = Coupling(name = 'GC_4947',
 
 GC_4948 = Coupling(name = 'GC_4948',
                    value = '-0.5*(ee*FM2odd*sw**2*vev)/cw',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_4949 = Coupling(name = 'GC_4949',
                    value = '(ee**2*FM2odd*complex(0,1)*sw**2*vev)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4950 = Coupling(name = 'GC_4950',
                    value = '-0.5*(ee**2*FM2odd*sw**2*vev)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4951 = Coupling(name = 'GC_4951',
                    value = '(ee**2*FM2odd*sw**2*vev)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4952 = Coupling(name = 'GC_4952',
                    value = '(ee**3*FM2odd*complex(0,1)*sw**2*vev)/(2.*cw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4953 = Coupling(name = 'GC_4953',
                    value = '-0.5*(ee**3*FM2odd*sw**2*vev)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4954 = Coupling(name = 'GC_4954',
                    value = '-0.5*(ee**2*FM3*sw**2*vev)/cw',
@@ -19831,15 +19831,15 @@ GC_4955 = Coupling(name = 'GC_4955',
 
 GC_4956 = Coupling(name = 'GC_4956',
                    value = '-0.25*(ee**2*FM3odd*complex(0,1)*sw**2*vev)/cw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_4957 = Coupling(name = 'GC_4957',
                    value = '-0.25*(ee**3*FM3odd*complex(0,1)*sw**2*vev)/cw',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_4958 = Coupling(name = 'GC_4958',
                    value = '(ee**3*FM3odd*complex(0,1)*sw**2*vev)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_4959 = Coupling(name = 'GC_4959',
                    value = '-0.5*(ee*FM4*sw**2*vev)/cw',
@@ -19863,19 +19863,19 @@ GC_4963 = Coupling(name = 'GC_4963',
 
 GC_4964 = Coupling(name = 'GC_4964',
                    value = '-0.25*(ee*FM4odd*sw**2*vev)/cw',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_4965 = Coupling(name = 'GC_4965',
                    value = '(ee**2*FM4odd*complex(0,1)*sw**2*vev)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4966 = Coupling(name = 'GC_4966',
                    value = '-0.25*(ee**2*FM4odd*sw**2*vev)/cw',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4967 = Coupling(name = 'GC_4967',
                    value = '(ee**2*FM4odd*sw**2*vev)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4968 = Coupling(name = 'GC_4968',
                    value = '-0.25*(ee*FM5*sw**2*vev)/cw',
@@ -19899,11 +19899,11 @@ GC_4972 = Coupling(name = 'GC_4972',
 
 GC_4973 = Coupling(name = 'GC_4973',
                    value = '-((ee**2*FM5odd*sw**2*vev)/cw)',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_4974 = Coupling(name = 'GC_4974',
                    value = '(ee**2*FM5odd*sw**2*vev)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_4975 = Coupling(name = 'GC_4975',
                    value = '-0.125*(ee**2*FM7*complex(0,1)*sw**2*vev)/cw**2',
@@ -19947,19 +19947,19 @@ GC_4984 = Coupling(name = 'GC_4984',
 
 GC_4985 = Coupling(name = 'GC_4985',
                    value = '-0.5*(ee*FM2odd*sw**3*vev)/cw',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_4986 = Coupling(name = 'GC_4986',
                    value = '-0.5*(ee**2*FM2odd*sw**3*vev)/cw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4987 = Coupling(name = 'GC_4987',
                    value = '(ee**2*FM2odd*sw**3*vev)/(2.*cw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_4988 = Coupling(name = 'GC_4988',
                    value = '(ee**3*FM2odd*sw**3*vev)/(2.*cw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_4989 = Coupling(name = 'GC_4989',
                    value = '-0.5*(ee**2*FM4*sw**3*vev)/cw**2',
@@ -19975,15 +19975,15 @@ GC_4991 = Coupling(name = 'GC_4991',
 
 GC_4992 = Coupling(name = 'GC_4992',
                    value = '-0.25*(ee*FM4odd*sw**3*vev)/cw',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_4993 = Coupling(name = 'GC_4993',
                    value = '-0.25*(ee**2*FM4odd*sw**3*vev)/cw**2',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4994 = Coupling(name = 'GC_4994',
                    value = '(ee**2*FM4odd*sw**3*vev)/(4.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_4995 = Coupling(name = 'GC_4995',
                    value = '-0.25*(ee**2*FM5*sw**3*vev)/cw**2',
@@ -20003,11 +20003,11 @@ GC_4998 = Coupling(name = 'GC_4998',
 
 GC_4999 = Coupling(name = 'GC_4999',
                    value = '(ee**2*FM2odd*complex(0,1)*sw**4*vev)/(2.*cw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_5000 = Coupling(name = 'GC_5000',
                    value = '(ee**2*FM4odd*complex(0,1)*sw**4*vev)/(4.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_5001 = Coupling(name = 'GC_5001',
                    value = '(cM1*ee**2*complex(0,1)*vev**2)/4.',
@@ -20079,7 +20079,7 @@ GC_5017 = Coupling(name = 'GC_5017',
 
 GC_5018 = Coupling(name = 'GC_5018',
                    value = '-0.5*(ee**2*FM1odd*complex(0,1)*vev**2)',
-                   order = {'FM1odd':1,'NPBIS':1})
+                   order = {'FM1odd':1,'NP':1})
 
 GC_5019 = Coupling(name = 'GC_5019',
                    value = 'ee**2*FM2*complex(0,1)*vev**2',
@@ -20087,15 +20087,15 @@ GC_5019 = Coupling(name = 'GC_5019',
 
 GC_5020 = Coupling(name = 'GC_5020',
                    value = '-0.25*(ee**2*FM2odd*complex(0,1)*vev**2)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_5021 = Coupling(name = 'GC_5021',
                    value = '(cw**2*ee**2*FM2odd*complex(0,1)*vev**2)/2.',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_5022 = Coupling(name = 'GC_5022',
                    value = '-0.25*(ee**3*FM2odd*complex(0,1)*vev**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_5023 = Coupling(name = 'GC_5023',
                    value = '-0.25*(ee**2*FM3*complex(0,1)*vev**2)',
@@ -20111,11 +20111,11 @@ GC_5025 = Coupling(name = 'GC_5025',
 
 GC_5026 = Coupling(name = 'GC_5026',
                    value = '(ee**2*FM4odd*complex(0,1)*vev**2)/8.',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_5027 = Coupling(name = 'GC_5027',
                    value = '(cw**2*ee**2*FM4odd*complex(0,1)*vev**2)/4.',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_5028 = Coupling(name = 'GC_5028',
                    value = '(ee**2*FM5*complex(0,1)*vev**2)/8.',
@@ -20127,7 +20127,7 @@ GC_5029 = Coupling(name = 'GC_5029',
 
 GC_5030 = Coupling(name = 'GC_5030',
                    value = '-0.5*(ee**2*FM5odd*complex(0,1)*vev**2)',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_5031 = Coupling(name = 'GC_5031',
                    value = '-0.0625*(ee**2*FM7*complex(0,1)*vev**2)',
@@ -20551,11 +20551,11 @@ GC_5135 = Coupling(name = 'GC_5135',
 
 GC_5136 = Coupling(name = 'GC_5136',
                    value = '(cw*ee**3*FM2odd*complex(0,1)*vev**2)/(4.*sw**3)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_5137 = Coupling(name = 'GC_5137',
                    value = '-0.25*(cw**3*ee**3*FM2odd*complex(0,1)*vev**2)/sw**3',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_5138 = Coupling(name = 'GC_5138',
                    value = '-0.25*(cw*ee**3*FM4*complex(0,1)*vev**2)/sw**3',
@@ -20567,7 +20567,7 @@ GC_5139 = Coupling(name = 'GC_5139',
 
 GC_5140 = Coupling(name = 'GC_5140',
                    value = '(3*cw**3*ee**3*FM4odd*complex(0,1)*vev**2)/(8.*sw**3)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_5141 = Coupling(name = 'GC_5141',
                    value = '-0.25*(cw*ee**3*FM5*complex(0,1)*vev**2)/sw**3',
@@ -20579,7 +20579,7 @@ GC_5142 = Coupling(name = 'GC_5142',
 
 GC_5143 = Coupling(name = 'GC_5143',
                    value = '(cw*ee**3*FM5odd*complex(0,1)*vev**2)/sw**3',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_5144 = Coupling(name = 'GC_5144',
                    value = '(cw*ee**3*FM7*complex(0,1)*vev**2)/(16.*sw**3)',
@@ -20983,7 +20983,7 @@ GC_5243 = Coupling(name = 'GC_5243',
 
 GC_5244 = Coupling(name = 'GC_5244',
                    value = '-0.5*(cw**2*ee**2*FM1odd*complex(0,1)*vev**2)/sw**2',
-                   order = {'FM1odd':1,'NPBIS':1})
+                   order = {'FM1odd':1,'NP':1})
 
 GC_5245 = Coupling(name = 'GC_5245',
                    value = '(cw**2*ee**2*FM2*complex(0,1)*vev**2)/sw**2',
@@ -20991,19 +20991,19 @@ GC_5245 = Coupling(name = 'GC_5245',
 
 GC_5246 = Coupling(name = 'GC_5246',
                    value = '-0.25*(cw**2*ee**2*FM2odd*complex(0,1)*vev**2)/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_5247 = Coupling(name = 'GC_5247',
                    value = '(cw**4*ee**2*FM2odd*complex(0,1)*vev**2)/(4.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_5248 = Coupling(name = 'GC_5248',
                    value = '-0.25*(ee**3*FM2odd*complex(0,1)*vev**2)/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_5249 = Coupling(name = 'GC_5249',
                    value = '-0.25*(cw**2*ee**3*FM2odd*complex(0,1)*vev**2)/sw**2',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_5250 = Coupling(name = 'GC_5250',
                    value = '(cw**2*ee**2*FM3*complex(0,1)*vev**2)/(4.*sw**2)',
@@ -21023,11 +21023,11 @@ GC_5253 = Coupling(name = 'GC_5253',
 
 GC_5254 = Coupling(name = 'GC_5254',
                    value = '(cw**2*ee**2*FM4odd*complex(0,1)*vev**2)/(8.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_5255 = Coupling(name = 'GC_5255',
                    value = '(cw**4*ee**2*FM4odd*complex(0,1)*vev**2)/(8.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_5256 = Coupling(name = 'GC_5256',
                    value = '(cw**2*ee**2*FM5*complex(0,1)*vev**2)/(8.*sw**2)',
@@ -21043,23 +21043,23 @@ GC_5258 = Coupling(name = 'GC_5258',
 
 GC_5259 = Coupling(name = 'GC_5259',
                    value = '-0.5*(ee**2*FM5odd*complex(0,1)*vev**2)/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_5260 = Coupling(name = 'GC_5260',
                    value = '-0.5*(cw**2*ee**2*FM5odd*complex(0,1)*vev**2)/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_5261 = Coupling(name = 'GC_5261',
                    value = '(ee**3*FM5odd*complex(0,1)*vev**2)/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_5262 = Coupling(name = 'GC_5262',
                    value = '(ee**2*FM6odd*complex(0,1)*vev**2)/(8.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_5263 = Coupling(name = 'GC_5263',
                    value = '(ee**3*FM6odd*complex(0,1)*vev**2)/(8.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_5264 = Coupling(name = 'GC_5264',
                    value = '(ee**2*FM7*complex(0,1)*vev**2)/(8.*sw**2)',
@@ -21355,7 +21355,7 @@ GC_5336 = Coupling(name = 'GC_5336',
 
 GC_5337 = Coupling(name = 'GC_5337',
                    value = '(cw*ee**2*FM1odd*complex(0,1)*vev**2)/(2.*sw)',
-                   order = {'FM1odd':1,'NPBIS':1})
+                   order = {'FM1odd':1,'NP':1})
 
 GC_5338 = Coupling(name = 'GC_5338',
                    value = '-((cw*ee**2*FM2*complex(0,1)*vev**2)/sw)',
@@ -21363,15 +21363,15 @@ GC_5338 = Coupling(name = 'GC_5338',
 
 GC_5339 = Coupling(name = 'GC_5339',
                    value = '-0.25*(cw*ee**2*FM2odd*complex(0,1)*vev**2)/sw',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_5340 = Coupling(name = 'GC_5340',
                    value = '(cw*ee**2*FM2odd*complex(0,1)*vev**2)/(4.*sw)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_5341 = Coupling(name = 'GC_5341',
                    value = '-0.25*(cw*ee**3*FM2odd*complex(0,1)*vev**2)/sw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_5342 = Coupling(name = 'GC_5342',
                    value = '(cw*ee**2*FM3*complex(0,1)*vev**2)/(4.*sw)',
@@ -21391,15 +21391,15 @@ GC_5345 = Coupling(name = 'GC_5345',
 
 GC_5346 = Coupling(name = 'GC_5346',
                    value = '-0.125*(cw*ee**2*FM4odd*complex(0,1)*vev**2)/sw',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_5347 = Coupling(name = 'GC_5347',
                    value = '(cw*ee**2*FM4odd*complex(0,1)*vev**2)/(8.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_5348 = Coupling(name = 'GC_5348',
                    value = '(cw*ee**3*FM4odd*complex(0,1)*vev**2)/(2.*sw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_5349 = Coupling(name = 'GC_5349',
                    value = '(cw*ee**2*FM5*complex(0,1)*vev**2)/(8.*sw)',
@@ -21415,7 +21415,7 @@ GC_5351 = Coupling(name = 'GC_5351',
 
 GC_5352 = Coupling(name = 'GC_5352',
                    value = '-0.5*(cw*ee**2*FM5odd*complex(0,1)*vev**2)/sw',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_5353 = Coupling(name = 'GC_5353',
                    value = '(cw*ee**2*FM7*complex(0,1)*vev**2)/(16.*sw)',
@@ -21591,11 +21591,11 @@ GC_5395 = Coupling(name = 'GC_5395',
 
 GC_5396 = Coupling(name = 'GC_5396',
                    value = '(ee**2*FM2odd*complex(0,1)*sw*vev**2)/(4.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_5397 = Coupling(name = 'GC_5397',
                    value = '-0.25*(ee**3*FM2odd*complex(0,1)*sw*vev**2)/cw',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_5398 = Coupling(name = 'GC_5398',
                    value = '(ee**2*FM4*complex(0,1)*sw*vev**2)/(4.*cw)',
@@ -21607,11 +21607,11 @@ GC_5399 = Coupling(name = 'GC_5399',
 
 GC_5400 = Coupling(name = 'GC_5400',
                    value = '(ee**2*FM4odd*complex(0,1)*sw*vev**2)/(8.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_5401 = Coupling(name = 'GC_5401',
                    value = '(ee**3*FM4odd*complex(0,1)*sw*vev**2)/(8.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_5402 = Coupling(name = 'GC_5402',
                    value = '(ee**2*FM5*complex(0,1)*sw*vev**2)/(8.*cw)',
@@ -21687,11 +21687,11 @@ GC_5419 = Coupling(name = 'GC_5419',
 
 GC_5420 = Coupling(name = 'GC_5420',
                    value = '(ee**2*FM2odd*complex(0,1)*sw**2*vev**2)/4.',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_5421 = Coupling(name = 'GC_5421',
                    value = '(ee**3*FM2odd*complex(0,1)*sw**2*vev**2)/(4.*cw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_5422 = Coupling(name = 'GC_5422',
                    value = '-0.25*(ee**3*FM4*complex(0,1)*sw**2*vev**2)/cw**2',
@@ -21699,7 +21699,7 @@ GC_5422 = Coupling(name = 'GC_5422',
 
 GC_5423 = Coupling(name = 'GC_5423',
                    value = '(ee**2*FM4odd*complex(0,1)*sw**2*vev**2)/8.',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_5424 = Coupling(name = 'GC_5424',
                    value = '(ee**3*FM5*complex(0,1)*sw**2*vev**2)/(8.*cw**2)',
@@ -21723,11 +21723,11 @@ GC_5428 = Coupling(name = 'GC_5428',
 
 GC_5429 = Coupling(name = 'GC_5429',
                    value = '(ee**2*FM2odd*complex(0,1)*sw**4*vev**2)/(4.*cw**2)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_5430 = Coupling(name = 'GC_5430',
                    value = '(ee**2*FM4odd*complex(0,1)*sw**4*vev**2)/(8.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_5431 = Coupling(name = 'GC_5431',
                    value = '(cS1*ee**4*complex(0,1)*vev**3)/(2.*sw**4)',
@@ -22055,11 +22055,11 @@ GC_5511 = Coupling(name = 'GC_5511',
 
 GC_5512 = Coupling(name = 'GC_5512',
                    value = '(ee**3*FM2odd*complex(0,1)*vev)/2. + (cw**2*ee**3*FM2odd*complex(0,1)*vev)/(2.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_5513 = Coupling(name = 'GC_5513',
                    value = '-0.25*(ee**3*FM3odd*vev) - (cw**2*ee**3*FM3odd*vev)/(4.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_5514 = Coupling(name = 'GC_5514',
                    value = '-0.5*(ee**3*FM4*complex(0,1)*vev) - (cw**2*ee**3*FM4*complex(0,1)*vev)/(2.*sw**2)',
@@ -22067,7 +22067,7 @@ GC_5514 = Coupling(name = 'GC_5514',
 
 GC_5515 = Coupling(name = 'GC_5515',
                    value = '-0.25*(ee**3*FM4odd*complex(0,1)*vev) - (cw**2*ee**3*FM4odd*complex(0,1)*vev)/(4.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_5516 = Coupling(name = 'GC_5516',
                    value = '(ee**3*FM5*complex(0,1)*vev)/4. + (cw**2*ee**3*FM5*complex(0,1)*vev)/(4.*sw**2)',
@@ -22075,23 +22075,23 @@ GC_5516 = Coupling(name = 'GC_5516',
 
 GC_5517 = Coupling(name = 'GC_5517',
                    value = '-2*ee**2*FM5odd*vev - (2*cw**2*ee**2*FM5odd*vev)/sw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_5518 = Coupling(name = 'GC_5518',
                    value = '-0.25*(cw*ee**2*FM6odd*vev) - (cw**3*ee**2*FM6odd*vev)/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_5519 = Coupling(name = 'GC_5519',
                    value = '(cw*ee**2*FM6odd*vev)/4. + (cw**3*ee**2*FM6odd*vev)/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_5520 = Coupling(name = 'GC_5520',
                    value = '-0.5*(ee**3*FM6odd*complex(0,1)*vev) - (cw**2*ee**3*FM6odd*complex(0,1)*vev)/(2.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_5521 = Coupling(name = 'GC_5521',
                    value = '-0.25*(cw*ee**3*FM6odd*vev) - (cw**3*ee**3*FM6odd*vev)/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_5522 = Coupling(name = 'GC_5522',
                    value = '-0.25*(ee**4*FM7*complex(0,1)*vev) - (cw**4*ee**4*FM7*complex(0,1)*vev)/(4.*sw**4) - (cw**2*ee**4*FM7*complex(0,1)*vev)/(2.*sw**2)',
@@ -22251,7 +22251,7 @@ GC_5560 = Coupling(name = 'GC_5560',
 
 GC_5561 = Coupling(name = 'GC_5561',
                    value = '-0.5*(cw**3*ee**3*FM6odd*complex(0,1)*vev)/sw**3 - (cw*ee**3*FM6odd*complex(0,1)*vev)/(2.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_5562 = Coupling(name = 'GC_5562',
                    value = '-((cw*ee**4*FM9*vev)/sw**3) - (ee**4*FM9*vev)/(cw*sw)',
@@ -22507,7 +22507,7 @@ GC_5624 = Coupling(name = 'GC_5624',
 
 GC_5625 = Coupling(name = 'GC_5625',
                    value = '(cw**2*ee**3*FM2odd*vev)/(2.*sw) + (ee**3*FM2odd*sw*vev)/2.',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_5626 = Coupling(name = 'GC_5626',
                    value = '(cw**3*ee*FM3*vev)/(2.*sw) + (cw*ee*FM3*sw*vev)/2.',
@@ -22515,35 +22515,35 @@ GC_5626 = Coupling(name = 'GC_5626',
 
 GC_5627 = Coupling(name = 'GC_5627',
                    value = '-0.25*(cw**2*ee*FM3odd*complex(0,1)*vev)/sw - (ee*FM3odd*complex(0,1)*sw*vev)/4.',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_5628 = Coupling(name = 'GC_5628',
                    value = '(cw**2*ee*FM3odd*complex(0,1)*vev)/(4.*sw) + (ee*FM3odd*complex(0,1)*sw*vev)/4.',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_5629 = Coupling(name = 'GC_5629',
                    value = '(cw**2*ee**2*FM3odd*complex(0,1)*vev)/(4.*sw) + (ee**2*FM3odd*complex(0,1)*sw*vev)/4.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_5630 = Coupling(name = 'GC_5630',
                    value = '-0.25*(cw**2*ee**3*FM3odd*complex(0,1)*vev)/sw - (ee**3*FM3odd*complex(0,1)*sw*vev)/4.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_5631 = Coupling(name = 'GC_5631',
                    value = '(cw**2*ee**3*FM3odd*complex(0,1)*vev)/(4.*sw) + (ee**3*FM3odd*complex(0,1)*sw*vev)/4.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_5632 = Coupling(name = 'GC_5632',
                    value = '-0.5*(cw**2*ee**3*FM3odd*complex(0,1)*vev)/sw - (ee**3*FM3odd*complex(0,1)*sw*vev)/2.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_5633 = Coupling(name = 'GC_5633',
                    value = '(cw**2*ee**3*FM3odd*complex(0,1)*vev)/(2.*sw) + (ee**3*FM3odd*complex(0,1)*sw*vev)/2.',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_5634 = Coupling(name = 'GC_5634',
                    value = '-0.5*(cw*ee**3*FM3odd*vev)/sw - (ee**3*FM3odd*sw*vev)/(2.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM3odd':1,'NP':1,'QED':2})
 
 GC_5635 = Coupling(name = 'GC_5635',
                    value = '-0.5*(cw**2*ee**3*FM4*vev)/sw - (ee**3*FM4*sw*vev)/2.',
@@ -22551,7 +22551,7 @@ GC_5635 = Coupling(name = 'GC_5635',
 
 GC_5636 = Coupling(name = 'GC_5636',
                    value = '-0.25*(cw**2*ee**3*FM4odd*vev)/sw - (ee**3*FM4odd*sw*vev)/4.',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_5637 = Coupling(name = 'GC_5637',
                    value = '(cw**2*ee**3*FM5*vev)/(2.*sw) + (ee**3*FM5*sw*vev)/2.',
@@ -22559,39 +22559,39 @@ GC_5637 = Coupling(name = 'GC_5637',
 
 GC_5638 = Coupling(name = 'GC_5638',
                    value = '(cw*ee*FM5odd*vev)/sw + (ee*FM5odd*sw*vev)/cw',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_5639 = Coupling(name = 'GC_5639',
                    value = '(cw**3*ee*FM5odd*vev)/sw + cw*ee*FM5odd*sw*vev',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_5640 = Coupling(name = 'GC_5640',
                    value = '(-2*cw*ee**2*FM5odd*vev)/sw - (2*ee**2*FM5odd*sw*vev)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_5641 = Coupling(name = 'GC_5641',
                    value = '(2*cw**3*ee**3*FM5odd*complex(0,1)*vev)/sw**3 + (4*cw*ee**3*FM5odd*complex(0,1)*vev)/sw + (2*ee**3*FM5odd*complex(0,1)*sw*vev)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_5642 = Coupling(name = 'GC_5642',
                    value = '-0.25*(cw**2*ee*FM6odd*vev)/sw - (ee*FM6odd*sw*vev)/4.',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_5643 = Coupling(name = 'GC_5643',
                    value = '-0.25*(cw**2*ee**2*FM6odd*vev)/sw - (ee**2*FM6odd*sw*vev)/4.',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_5644 = Coupling(name = 'GC_5644',
                    value = '(cw**2*ee**2*FM6odd*vev)/(4.*sw) + (ee**2*FM6odd*sw*vev)/4.',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_5645 = Coupling(name = 'GC_5645',
                    value = '-0.25*(cw**2*ee**3*FM6odd*vev)/sw - (ee**3*FM6odd*sw*vev)/4.',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_5646 = Coupling(name = 'GC_5646',
                    value = '-0.25*(cw*ee**3*FM6odd*complex(0,1)*vev)/sw - (ee**3*FM6odd*complex(0,1)*sw*vev)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_5647 = Coupling(name = 'GC_5647',
                    value = '(cw*ee**3*FM7*complex(0,1)*vev)/(8.*sw) + (ee**3*FM7*complex(0,1)*sw*vev)/(8.*cw)',
@@ -22963,7 +22963,7 @@ GC_5738 = Coupling(name = 'GC_5738',
 
 GC_5739 = Coupling(name = 'GC_5739',
                    value = '-2*cw**2*ee**2*FM1odd*complex(0,1)*vev - (cw**4*ee**2*FM1odd*complex(0,1)*vev)/sw**2 - ee**2*FM1odd*complex(0,1)*sw**2*vev',
-                   order = {'FM1odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM1odd':1,'NP':1,'QED':1})
 
 GC_5740 = Coupling(name = 'GC_5740',
                    value = '4*cw**2*ee**2*FM2*complex(0,1)*vev + (2*cw**4*ee**2*FM2*complex(0,1)*vev)/sw**2 + 2*ee**2*FM2*complex(0,1)*sw**2*vev',
@@ -22971,15 +22971,15 @@ GC_5740 = Coupling(name = 'GC_5740',
 
 GC_5741 = Coupling(name = 'GC_5741',
                    value = '-0.5*(cw**2*ee*FM2odd*vev) - (ee*FM2odd*sw**2*vev)/2.',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_5742 = Coupling(name = 'GC_5742',
                    value = '(cw**2*ee*FM2odd*vev)/2. + (ee*FM2odd*sw**2*vev)/2.',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_5743 = Coupling(name = 'GC_5743',
                    value = '-0.5*(cw**3*ee**3*FM2odd*vev)/sw**2 + (ee**3*FM2odd*sw**2*vev)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM2odd':1,'NP':1,'QED':2})
 
 GC_5744 = Coupling(name = 'GC_5744',
                    value = '-0.5*(cw**2*ee*FM3*vev) - (ee*FM3*sw**2*vev)/2.',
@@ -22991,11 +22991,11 @@ GC_5745 = Coupling(name = 'GC_5745',
 
 GC_5746 = Coupling(name = 'GC_5746',
                    value = '-0.25*(cw*ee*FM3odd*complex(0,1)*vev) - (ee*FM3odd*complex(0,1)*sw**2*vev)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_5747 = Coupling(name = 'GC_5747',
                    value = '(cw*ee*FM3odd*complex(0,1)*vev)/4. + (ee*FM3odd*complex(0,1)*sw**2*vev)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_5748 = Coupling(name = 'GC_5748',
                    value = '-(cw**2*ee*FM4*vev) - ee*FM4*sw**2*vev',
@@ -23011,19 +23011,19 @@ GC_5750 = Coupling(name = 'GC_5750',
 
 GC_5751 = Coupling(name = 'GC_5751',
                    value = '-0.25*(cw**2*ee*FM4odd*vev) - (ee*FM4odd*sw**2*vev)/4.',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_5752 = Coupling(name = 'GC_5752',
                    value = '(cw**2*ee*FM4odd*vev)/4. + (ee*FM4odd*sw**2*vev)/4.',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_5753 = Coupling(name = 'GC_5753',
                    value = '-(ee**3*FM4odd*complex(0,1)*vev) - (3*cw**2*ee**3*FM4odd*complex(0,1)*vev)/(4.*sw**2) - (ee**3*FM4odd*complex(0,1)*sw**2*vev)/(4.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_5754 = Coupling(name = 'GC_5754',
                    value = '(cw*ee**3*FM4odd*vev)/4. + (ee**3*FM4odd*sw**2*vev)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_5755 = Coupling(name = 'GC_5755',
                    value = '-0.5*(cw**2*ee*FM5*vev) - (ee*FM5*sw**2*vev)/2.',
@@ -23039,35 +23039,35 @@ GC_5757 = Coupling(name = 'GC_5757',
 
 GC_5758 = Coupling(name = 'GC_5758',
                    value = 'cw**2*ee*FM5odd*vev + ee*FM5odd*sw**2*vev',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_5759 = Coupling(name = 'GC_5759',
                    value = '-2*cw**2*ee**2*FM5odd*complex(0,1)*vev - (cw**4*ee**2*FM5odd*complex(0,1)*vev)/sw**2 - ee**2*FM5odd*complex(0,1)*sw**2*vev',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_5760 = Coupling(name = 'GC_5760',
                    value = '-2*ee**2*FM5odd*complex(0,1)*vev - (ee**2*FM5odd*complex(0,1)*sw**2*vev)/cw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_5761 = Coupling(name = 'GC_5761',
                    value = '4*ee**3*FM5odd*complex(0,1)*vev + (2*cw**2*ee**3*FM5odd*complex(0,1)*vev)/sw**2 + (2*ee**3*FM5odd*complex(0,1)*sw**2*vev)/cw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM5odd':1,'NP':1,'QED':2})
 
 GC_5762 = Coupling(name = 'GC_5762',
                    value = '(cw*ee*FM6odd*vev)/4. + (ee*FM6odd*sw**2*vev)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_5763 = Coupling(name = 'GC_5763',
                    value = '-0.25*(cw*ee**2*FM6odd*vev) - (ee**2*FM6odd*sw**2*vev)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_5764 = Coupling(name = 'GC_5764',
                    value = '(cw*ee**2*FM6odd*vev)/4. + (ee**2*FM6odd*sw**2*vev)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_5765 = Coupling(name = 'GC_5765',
                    value = '-0.25*(cw*ee**3*FM6odd*vev) - (ee**3*FM6odd*sw**2*vev)/(4.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM6odd':1,'NP':1,'QED':2})
 
 GC_5766 = Coupling(name = 'GC_5766',
                    value = '-0.25*(cw**2*ee**2*FM7*complex(0,1)*vev) - (cw**4*ee**2*FM7*complex(0,1)*vev)/(8.*sw**2) - (ee**2*FM7*complex(0,1)*sw**2*vev)/8.',
@@ -23331,7 +23331,7 @@ GC_5830 = Coupling(name = 'GC_5830',
 
 GC_5831 = Coupling(name = 'GC_5831',
                    value = '(cw**3*ee**2*FM1odd*complex(0,1)*vev)/sw + 2*cw*ee**2*FM1odd*complex(0,1)*sw*vev + (ee**2*FM1odd*complex(0,1)*sw**3*vev)/cw',
-                   order = {'FM1odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM1odd':1,'NP':1,'QED':1})
 
 GC_5832 = Coupling(name = 'GC_5832',
                    value = '(-2*cw**3*ee**2*FM2*complex(0,1)*vev)/sw - 4*cw*ee**2*FM2*complex(0,1)*sw*vev - (2*ee**2*FM2*complex(0,1)*sw**3*vev)/cw',
@@ -23339,11 +23339,11 @@ GC_5832 = Coupling(name = 'GC_5832',
 
 GC_5833 = Coupling(name = 'GC_5833',
                    value = '-0.5*(cw**3*ee**2*FM2odd*complex(0,1)*vev)/sw - cw*ee**2*FM2odd*complex(0,1)*sw*vev - (ee**2*FM2odd*complex(0,1)*sw**3*vev)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_5834 = Coupling(name = 'GC_5834',
                    value = '(cw**3*ee**2*FM2odd*complex(0,1)*vev)/(2.*sw) + cw*ee**2*FM2odd*complex(0,1)*sw*vev + (ee**2*FM2odd*complex(0,1)*sw**3*vev)/(2.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_5835 = Coupling(name = 'GC_5835',
                    value = '(cw*ee*FM3*sw*vev)/2. + (ee*FM3*sw**3*vev)/(2.*cw)',
@@ -23355,7 +23355,7 @@ GC_5836 = Coupling(name = 'GC_5836',
 
 GC_5837 = Coupling(name = 'GC_5837',
                    value = '-0.25*(cw**3*ee*FM3odd*vev)/sw - (cw*ee*FM3odd*sw*vev)/2. - (ee*FM3odd*sw**3*vev)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_5838 = Coupling(name = 'GC_5838',
                    value = '(cw**3*ee*FM4*vev)/(2.*sw) - (ee*FM4*sw**3*vev)/(2.*cw)',
@@ -23371,15 +23371,15 @@ GC_5840 = Coupling(name = 'GC_5840',
 
 GC_5841 = Coupling(name = 'GC_5841',
                    value = '-0.25*(cw**3*ee**2*FM4odd*complex(0,1)*vev)/sw - (cw*ee**2*FM4odd*complex(0,1)*sw*vev)/2. - (ee**2*FM4odd*complex(0,1)*sw**3*vev)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_5842 = Coupling(name = 'GC_5842',
                    value = '(cw**3*ee**2*FM4odd*complex(0,1)*vev)/(4.*sw) + (cw*ee**2*FM4odd*complex(0,1)*sw*vev)/2. + (ee**2*FM4odd*complex(0,1)*sw**3*vev)/(4.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_5843 = Coupling(name = 'GC_5843',
                    value = '-0.25*(ee**3*FM4odd*sw*vev) - (ee**3*FM4odd*sw**3*vev)/(4.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':2})
+                   order = {'FM4odd':1,'NP':1,'QED':2})
 
 GC_5844 = Coupling(name = 'GC_5844',
                    value = '(cw**3*ee*FM5*vev)/(4.*sw) - (ee*FM5*sw**3*vev)/(4.*cw)',
@@ -23395,11 +23395,11 @@ GC_5846 = Coupling(name = 'GC_5846',
 
 GC_5847 = Coupling(name = 'GC_5847',
                    value = 'cw*ee*FM5odd*sw*vev + (ee*FM5odd*sw**3*vev)/cw',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_5848 = Coupling(name = 'GC_5848',
                    value = '-((cw**3*ee**2*FM5odd*complex(0,1)*vev)/sw) - 2*cw*ee**2*FM5odd*complex(0,1)*sw*vev - (ee**2*FM5odd*complex(0,1)*sw**3*vev)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_5849 = Coupling(name = 'GC_5849',
                    value = '-0.125*(cw**3*ee**2*FM7*complex(0,1)*vev)/sw - (cw*ee**2*FM7*complex(0,1)*sw*vev)/4. - (ee**2*FM7*complex(0,1)*sw**3*vev)/(8.*cw)',
@@ -23527,7 +23527,7 @@ GC_5879 = Coupling(name = 'GC_5879',
 
 GC_5880 = Coupling(name = 'GC_5880',
                    value = '-(cw**2*ee**2*FM1odd*complex(0,1)*vev) - 2*ee**2*FM1odd*complex(0,1)*sw**2*vev - (ee**2*FM1odd*complex(0,1)*sw**4*vev)/cw**2',
-                   order = {'FM1odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM1odd':1,'NP':1,'QED':1})
 
 GC_5881 = Coupling(name = 'GC_5881',
                    value = '2*cw**2*ee**2*FM2*complex(0,1)*vev + 4*ee**2*FM2*complex(0,1)*sw**2*vev + (2*ee**2*FM2*complex(0,1)*sw**4*vev)/cw**2',
@@ -23547,7 +23547,7 @@ GC_5884 = Coupling(name = 'GC_5884',
 
 GC_5885 = Coupling(name = 'GC_5885',
                    value = '-(cw**2*ee**2*FM5odd*complex(0,1)*vev) - 2*ee**2*FM5odd*complex(0,1)*sw**2*vev - (ee**2*FM5odd*complex(0,1)*sw**4*vev)/cw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_5886 = Coupling(name = 'GC_5886',
                    value = '-0.125*(cw**2*ee**2*FM7*complex(0,1)*vev) - (ee**2*FM7*complex(0,1)*sw**2*vev)/4. - (ee**2*FM7*complex(0,1)*sw**4*vev)/(8.*cw**2)',
@@ -23715,15 +23715,15 @@ GC_5926 = Coupling(name = 'GC_5926',
 
 GC_5927 = Coupling(name = 'GC_5927',
                    value = '(ee**3*FM2odd*complex(0,1)*vev**2)/4. + (cw**2*ee**3*FM2odd*complex(0,1)*vev**2)/(4.*sw**2)',
-                   order = {'FM2odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM2odd':1,'NP':1,'QED':1})
 
 GC_5928 = Coupling(name = 'GC_5928',
                    value = '(ee**2*FM3odd*vev**2)/8. + (cw**2*ee**2*FM3odd*vev**2)/(8.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_5929 = Coupling(name = 'GC_5929',
                    value = '-0.125*(ee**3*FM3odd*vev**2) - (cw**2*ee**3*FM3odd*vev**2)/(8.*sw**2)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_5930 = Coupling(name = 'GC_5930',
                    value = '-0.25*(ee**3*FM4*complex(0,1)*vev**2) - (cw**2*ee**3*FM4*complex(0,1)*vev**2)/(4.*sw**2)',
@@ -23731,7 +23731,7 @@ GC_5930 = Coupling(name = 'GC_5930',
 
 GC_5931 = Coupling(name = 'GC_5931',
                    value = '-0.125*(ee**3*FM4odd*complex(0,1)*vev**2) - (cw**2*ee**3*FM4odd*complex(0,1)*vev**2)/(8.*sw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_5932 = Coupling(name = 'GC_5932',
                    value = '(ee**3*FM5*complex(0,1)*vev**2)/8. + (cw**2*ee**3*FM5*complex(0,1)*vev**2)/(8.*sw**2)',
@@ -23739,11 +23739,11 @@ GC_5932 = Coupling(name = 'GC_5932',
 
 GC_5933 = Coupling(name = 'GC_5933',
                    value = '-0.125*(ee**2*FM6odd*complex(0,1)*vev**2) - (cw**2*ee**2*FM6odd*complex(0,1)*vev**2)/(8.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_5934 = Coupling(name = 'GC_5934',
                    value = '-0.25*(ee**3*FM6odd*complex(0,1)*vev**2) - (cw**2*ee**3*FM6odd*complex(0,1)*vev**2)/(4.*sw**2)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_5935 = Coupling(name = 'GC_5935',
                    value = '-0.125*(ee**4*FM7*complex(0,1)*vev**2) - (cw**4*ee**4*FM7*complex(0,1)*vev**2)/(8.*sw**4) - (cw**2*ee**4*FM7*complex(0,1)*vev**2)/(4.*sw**2)',
@@ -23879,11 +23879,11 @@ GC_5967 = Coupling(name = 'GC_5967',
 
 GC_5968 = Coupling(name = 'GC_5968',
                    value = '-0.25*(cw*ee**3*FM6odd*complex(0,1)*vev**2)/sw**3 - (ee**3*FM6odd*complex(0,1)*vev**2)/(8.*cw*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_5969 = Coupling(name = 'GC_5969',
                    value = '-0.25*(cw**3*ee**3*FM6odd*complex(0,1)*vev**2)/sw**3 - (cw*ee**3*FM6odd*complex(0,1)*vev**2)/(4.*sw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_5970 = Coupling(name = 'GC_5970',
                    value = '-0.5*(cw*ee**4*FM9*vev**2)/sw**3 - (ee**4*FM9*vev**2)/(2.*cw*sw)',
@@ -23999,23 +23999,23 @@ GC_5997 = Coupling(name = 'GC_5997',
 
 GC_5998 = Coupling(name = 'GC_5998',
                    value = '(cw*ee**2*FM3odd*vev**2)/(8.*sw) + (ee**2*FM3odd*sw*vev**2)/(8.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1})
+                   order = {'FM3odd':1,'NP':1})
 
 GC_5999 = Coupling(name = 'GC_5999',
                    value = '-0.25*(cw*ee**3*FM3odd*vev**2)/sw - (ee**3*FM3odd*sw*vev**2)/(4.*cw)',
-                   order = {'FM3odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM3odd':1,'NP':1,'QED':1})
 
 GC_6000 = Coupling(name = 'GC_6000',
                    value = '(cw**3*ee**3*FM5odd*complex(0,1)*vev**2)/sw**3 + (2*cw*ee**3*FM5odd*complex(0,1)*vev**2)/sw + (ee**3*FM5odd*complex(0,1)*sw*vev**2)/cw',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_6001 = Coupling(name = 'GC_6001',
                    value = '(cw*ee**2*FM6odd*complex(0,1)*vev**2)/(8.*sw) + (ee**2*FM6odd*complex(0,1)*sw*vev**2)/(8.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1})
+                   order = {'FM6odd':1,'NP':1})
 
 GC_6002 = Coupling(name = 'GC_6002',
                    value = '-0.125*(cw*ee**3*FM6odd*complex(0,1)*vev**2)/sw - (ee**3*FM6odd*complex(0,1)*sw*vev**2)/(8.*cw)',
-                   order = {'FM6odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM6odd':1,'NP':1,'QED':1})
 
 GC_6003 = Coupling(name = 'GC_6003',
                    value = '(cw*ee**3*FM7*complex(0,1)*vev**2)/(16.*sw) + (ee**3*FM7*complex(0,1)*sw*vev**2)/(16.*cw)',
@@ -24219,7 +24219,7 @@ GC_6052 = Coupling(name = 'GC_6052',
 
 GC_6053 = Coupling(name = 'GC_6053',
                    value = '-(cw**2*ee**2*FM1odd*complex(0,1)*vev**2) - (cw**4*ee**2*FM1odd*complex(0,1)*vev**2)/(2.*sw**2) - (ee**2*FM1odd*complex(0,1)*sw**2*vev**2)/2.',
-                   order = {'FM1odd':1,'NPBIS':1})
+                   order = {'FM1odd':1,'NP':1})
 
 GC_6054 = Coupling(name = 'GC_6054',
                    value = '2*cw**2*ee**2*FM2*complex(0,1)*vev**2 + (cw**4*ee**2*FM2*complex(0,1)*vev**2)/sw**2 + ee**2*FM2*complex(0,1)*sw**2*vev**2',
@@ -24231,19 +24231,19 @@ GC_6055 = Coupling(name = 'GC_6055',
 
 GC_6056 = Coupling(name = 'GC_6056',
                    value = '-0.5*(ee**3*FM4odd*complex(0,1)*vev**2) - (3*cw**2*ee**3*FM4odd*complex(0,1)*vev**2)/(8.*sw**2) - (ee**3*FM4odd*complex(0,1)*sw**2*vev**2)/(8.*cw**2)',
-                   order = {'FM4odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM4odd':1,'NP':1,'QED':1})
 
 GC_6057 = Coupling(name = 'GC_6057',
                    value = '-(cw**2*ee**2*FM5odd*complex(0,1)*vev**2) - (cw**4*ee**2*FM5odd*complex(0,1)*vev**2)/(2.*sw**2) - (ee**2*FM5odd*complex(0,1)*sw**2*vev**2)/2.',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_6058 = Coupling(name = 'GC_6058',
                    value = '-(ee**2*FM5odd*complex(0,1)*vev**2) - (ee**2*FM5odd*complex(0,1)*sw**2*vev**2)/(2.*cw**2)',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_6059 = Coupling(name = 'GC_6059',
                    value = '2*ee**3*FM5odd*complex(0,1)*vev**2 + (cw**2*ee**3*FM5odd*complex(0,1)*vev**2)/sw**2 + (ee**3*FM5odd*complex(0,1)*sw**2*vev**2)/cw**2',
-                   order = {'FM5odd':1,'NPBIS':1,'QED':1})
+                   order = {'FM5odd':1,'NP':1,'QED':1})
 
 GC_6060 = Coupling(name = 'GC_6060',
                    value = '-0.125*(cw**2*ee**2*FM7*complex(0,1)*vev**2) - (cw**4*ee**2*FM7*complex(0,1)*vev**2)/(16.*sw**2) - (ee**2*FM7*complex(0,1)*sw**2*vev**2)/16.',
@@ -24403,7 +24403,7 @@ GC_6098 = Coupling(name = 'GC_6098',
 
 GC_6099 = Coupling(name = 'GC_6099',
                    value = '(cw**3*ee**2*FM1odd*complex(0,1)*vev**2)/(2.*sw) + cw*ee**2*FM1odd*complex(0,1)*sw*vev**2 + (ee**2*FM1odd*complex(0,1)*sw**3*vev**2)/(2.*cw)',
-                   order = {'FM1odd':1,'NPBIS':1})
+                   order = {'FM1odd':1,'NP':1})
 
 GC_6100 = Coupling(name = 'GC_6100',
                    value = '-((cw**3*ee**2*FM2*complex(0,1)*vev**2)/sw) - 2*cw*ee**2*FM2*complex(0,1)*sw*vev**2 - (ee**2*FM2*complex(0,1)*sw**3*vev**2)/cw',
@@ -24411,11 +24411,11 @@ GC_6100 = Coupling(name = 'GC_6100',
 
 GC_6101 = Coupling(name = 'GC_6101',
                    value = '-0.25*(cw**3*ee**2*FM2odd*complex(0,1)*vev**2)/sw - (cw*ee**2*FM2odd*complex(0,1)*sw*vev**2)/2. - (ee**2*FM2odd*complex(0,1)*sw**3*vev**2)/(4.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_6102 = Coupling(name = 'GC_6102',
                    value = '(cw**3*ee**2*FM2odd*complex(0,1)*vev**2)/(4.*sw) + (cw*ee**2*FM2odd*complex(0,1)*sw*vev**2)/2. + (ee**2*FM2odd*complex(0,1)*sw**3*vev**2)/(4.*cw)',
-                   order = {'FM2odd':1,'NPBIS':1})
+                   order = {'FM2odd':1,'NP':1})
 
 GC_6103 = Coupling(name = 'GC_6103',
                    value = '-0.25*(cw**3*ee**2*FM3*complex(0,1)*vev**2)/sw - (cw*ee**2*FM3*complex(0,1)*sw*vev**2)/2. - (ee**2*FM3*complex(0,1)*sw**3*vev**2)/(4.*cw)',
@@ -24431,11 +24431,11 @@ GC_6105 = Coupling(name = 'GC_6105',
 
 GC_6106 = Coupling(name = 'GC_6106',
                    value = '-0.125*(cw**3*ee**2*FM4odd*complex(0,1)*vev**2)/sw - (cw*ee**2*FM4odd*complex(0,1)*sw*vev**2)/4. - (ee**2*FM4odd*complex(0,1)*sw**3*vev**2)/(8.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_6107 = Coupling(name = 'GC_6107',
                    value = '(cw**3*ee**2*FM4odd*complex(0,1)*vev**2)/(8.*sw) + (cw*ee**2*FM4odd*complex(0,1)*sw*vev**2)/4. + (ee**2*FM4odd*complex(0,1)*sw**3*vev**2)/(8.*cw)',
-                   order = {'FM4odd':1,'NPBIS':1})
+                   order = {'FM4odd':1,'NP':1})
 
 GC_6108 = Coupling(name = 'GC_6108',
                    value = '-0.25*(cw**3*ee**2*FM5*complex(0,1)*vev**2)/sw - (cw*ee**2*FM5*complex(0,1)*sw*vev**2)/2. - (ee**2*FM5*complex(0,1)*sw**3*vev**2)/(4.*cw)',
@@ -24447,7 +24447,7 @@ GC_6109 = Coupling(name = 'GC_6109',
 
 GC_6110 = Coupling(name = 'GC_6110',
                    value = '-0.5*(cw**3*ee**2*FM5odd*complex(0,1)*vev**2)/sw - cw*ee**2*FM5odd*complex(0,1)*sw*vev**2 - (ee**2*FM5odd*complex(0,1)*sw**3*vev**2)/(2.*cw)',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_6111 = Coupling(name = 'GC_6111',
                    value = '-0.0625*(cw**3*ee**2*FM7*complex(0,1)*vev**2)/sw - (cw*ee**2*FM7*complex(0,1)*sw*vev**2)/8. - (ee**2*FM7*complex(0,1)*sw**3*vev**2)/(16.*cw)',
@@ -24551,7 +24551,7 @@ GC_6135 = Coupling(name = 'GC_6135',
 
 GC_6136 = Coupling(name = 'GC_6136',
                    value = '-0.5*(cw**2*ee**2*FM1odd*complex(0,1)*vev**2) - ee**2*FM1odd*complex(0,1)*sw**2*vev**2 - (ee**2*FM1odd*complex(0,1)*sw**4*vev**2)/(2.*cw**2)',
-                   order = {'FM1odd':1,'NPBIS':1})
+                   order = {'FM1odd':1,'NP':1})
 
 GC_6137 = Coupling(name = 'GC_6137',
                    value = 'cw**2*ee**2*FM2*complex(0,1)*vev**2 + 2*ee**2*FM2*complex(0,1)*sw**2*vev**2 + (ee**2*FM2*complex(0,1)*sw**4*vev**2)/cw**2',
@@ -24571,7 +24571,7 @@ GC_6140 = Coupling(name = 'GC_6140',
 
 GC_6141 = Coupling(name = 'GC_6141',
                    value = '-0.5*(cw**2*ee**2*FM5odd*complex(0,1)*vev**2) - ee**2*FM5odd*complex(0,1)*sw**2*vev**2 - (ee**2*FM5odd*complex(0,1)*sw**4*vev**2)/(2.*cw**2)',
-                   order = {'FM5odd':1,'NPBIS':1})
+                   order = {'FM5odd':1,'NP':1})
 
 GC_6142 = Coupling(name = 'GC_6142',
                    value = '-0.0625*(cw**2*ee**2*FM7*complex(0,1)*vev**2) - (ee**2*FM7*complex(0,1)*sw**2*vev**2)/8. - (ee**2*FM7*complex(0,1)*sw**4*vev**2)/(16.*cw**2)',
